@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,700;1,500&family=Trispace:wght@400;500;600&display=swap');
+:root{
+    
+    /* Palette couleurs config*/
+    --confColorDark: rgb(7, 8, 6);
+    --confColorLight: rgb(213, 218, 230);
+    --confFont: monospace;
+
+
+    /* Palette de couleurs */
+    --colorDark: rgb(7, 8, 6);
+    --colorShadow: rgba(7, 8, 6, 0.507);
+    --colorMain: rgb(158, 161, 167);
+    --colorSec: rgb(126, 127, 129);
+    --colorLight: rgb(215, 218, 214);
+    --accentMain: rgb(80, 19, 19);
+    --accentSec: rgb(30, 59, 36);
+/*     --colorSuccess: rgb(12, 61, 22);
+    --colorKill: rgb(236, 44, 44); */
+
+    /* Taille de polices */
+    --fontSmlst: 14px;
+    --fontSmlr: 16px;
+    --fontSml: 18px;
+    --fontMed: 24px;
+    --fontLrg: 36px;
+    --fontLrger: 48px;
+    --fontLrgest: 96px;
+
+    /* Police */
+    --fontText: 'Barlow Semi Condensed', sans-serif;
+    --fontHead: 'Trispace', sans-serif;
+    --fontLyric: 'Assistant', monospace;
+
+    /* Espacement */
+    --gapSmlst: 5px;
+    --gapSmlr: 10px;
+    --gapSml: 15px;
+    --gapMed: 20px;
+    --gapLrg: 40px;
+    --gapHuge: 80px;
+
+
+    /* Effets */
+    --borderPanel: rgb(211, 211, 211) rgb(88, 88, 88) rgb(24, 24, 24) rgb(182, 182, 182);
+    --panelMain: rgb(218, 103, 103) rgb(61, 24, 24) rgb(27, 7, 7) rgb(136, 61, 61);
+    --panelSec: rgb(130, 185, 125) rgb(30, 58, 29) rgb(10, 22, 11) rgb(80, 128, 80);
+    --shadowStd: 2px 2px 2px var(--colorShadow);
+    --btnOutset: rgb(211, 211, 211) rgb(88, 88, 88) rgb(24, 24, 24) rgb(182, 182, 182);
+    --btnInset: rgb(24, 24, 24) rgb(182, 182, 182) rgb(211, 211, 211) rgb(88, 88, 88);
+
+}

@@ -1,0 +1,33 @@
+body>header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    gap: var(--gapLrg);
+    padding: var(--gapSmlr);
+    background-color: var(--confColorDark);
+    color: var(--confColorLight);
+}
+body>footer, body>header {
+    font-family: var(--confFont);
+}
+body>header>h1{
+    font-family: var(--confFont);
+    font-size: var(--fontSml);
+}
+body>header>p{
+    text-align: end;
+}
+body>footer{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--gapLrg);
+    padding: var(--gapSmlr);
+    background-color: var(--confColorDark);
+    color: var(--confColorLight);
+}
+body>footer>h4{
+    font-family: var(--confFont);
+    font-size: var(--fontSml);
+}
