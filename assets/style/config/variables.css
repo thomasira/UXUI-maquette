@@ -24,6 +24,11 @@
     --accentSec: rgb(30, 59, 36); */
     --colorSuccess: #0c3d16;
     --colorKill: #ec2c2c;
+    
+    /* Police */
+    --typeText: 'Barlow Semi Condensed', sans-serif;
+    --typeHead: 'Trispace', sans-serif;
+    --typeLyric: 'Assistant', monospace;
 
     /* Taille de polices */
     --fontxxs: clamp(12px, 1.5vw, 16px);
@@ -37,17 +42,18 @@
     --fontHuge: clamp(60px, 9.25vw, 96px);
     --fontHuger: clamp(80px, 11.5vw, 120px);
 
-    /* Police */
-    --typeText: 'Barlow Semi Condensed', sans-serif;
-    --typeHead: 'Trispace', sans-serif;
-    --typeLyric: 'Assistant', monospace;
-
     /* Espacement */
     --gapSafe: 6px;
     --gapxxs: clamp(6px, 1.25vw, 10px);
     --gapxs: clamp(8px, 1.5vw, 14px);
     --gaps: clamp(12px, 1.75vw, 16px);
-    --gapm: clamp(14px, 2vw, 20px);
+    --gapm: clamp(16px, 2.5vw, 24px);
+    --gapl: clamp(24px, 3.5vw, 32px);
+    --gapxl: clamp(32px, 5vw, 48px);
+    --gapxxl: clamp(48px, 8vw, 96px);
+    --gapHuge: clamp(84px, 10vw, 120px);
+
+
 
 
     /* Effets */

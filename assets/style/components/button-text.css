@@ -1,7 +1,8 @@
 .button-text{
     font-size: var(--fontxs);
     max-width: max-content;
+    padding:var(--gapxxs) var(--gaps);
     background-color: var(--colorSecL);
     border: 1px solid var(--colorSecD);
-/*     padding: var(--gapxxl); */
+    
 }
