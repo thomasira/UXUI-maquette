@@ -1,0 +1,7 @@
+.button-text{
+    font-size: var(--fontxs);
+    max-width: max-content;
+    background-color: var(--colorSecL);
+    border: 1px solid var(--colorSecD);
+/*     padding: var(--gapxxl); */
+}

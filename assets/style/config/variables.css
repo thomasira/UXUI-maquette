@@ -1,44 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,700;1,500&family=Trispace:wght@400;500;600&display=swap');
 :root{
     
-    /* Palette couleurs config*/
+    /* config*/
     --confColorDark: rgb(7, 8, 6);
     --confColorLight: rgb(213, 218, 230);
-    --confFont: monospace;
-
+    --confFont: sans-serif;
 
     /* Palette de couleurs */
-    --colorDark: rgb(7, 8, 6);
-    --colorShadow: rgba(7, 8, 6, 0.507);
-    --colorMain: rgb(158, 161, 167);
-    --colorSec: rgb(126, 127, 129);
-    --colorLight: rgb(215, 218, 214);
-    --accentMain: rgb(80, 19, 19);
-    --accentSec: rgb(30, 59, 36);
-/*     --colorSuccess: rgb(12, 61, 22);
-    --colorKill: rgb(236, 44, 44); */
+    --colorDark: #150D0D;
+    --colorLight: #FFFAE9;
+    --colorNeutral: #A6A29B;
+    --colorMain: #3C95D9;
+    --colorMainD: #31557E;
+    --colorMainL: #A0CCFF;
+    --colorSec: #E84B4B;
+    --colorSecD: #9A3131;
+    --colorSecL: #FFB7B7;
+    --colorComp: #F1D192;
+    --colorCompD: #DD960A;
+    --colorCompL: #FFF0D3;
+    
+/*     --accentMain: rgb(80, 19, 19);
+    --accentSec: rgb(30, 59, 36); */
+    --colorSuccess: #0c3d16;
+    --colorKill: #ec2c2c;
 
     /* Taille de polices */
-    --fontSmlst: 14px;
-    --fontSmlr: 16px;
-    --fontSml: 18px;
-    --fontMed: 24px;
-    --fontLrg: 36px;
-    --fontLrger: 48px;
-    --fontLrgest: 96px;
+    --fontxxs: clamp(12px, 1.5vw, 16px);
+    --fontText: clamp(16px, 1.75vw, 20px);
+    --fontxs: clamp(18px, 2.25vw, 24px);
+    --fonts: clamp(20px, 3vw, 28px);
+    --fontm: clamp(24px, 3.75vw, 32px);
+    --fontl: clamp(32px, 4.75vw, 40px);
+    --fontxl: clamp(38px, 6vw, 54px);
+    --fontxxl: clamp(50px, 7.5vw, 66px);
+    --fontHuge: clamp(60px, 9.25vw, 96px);
+    --fontHuger: clamp(80px, 11.5vw, 120px);
 
     /* Police */
-    --fontText: 'Barlow Semi Condensed', sans-serif;
-    --fontHead: 'Trispace', sans-serif;
-    --fontLyric: 'Assistant', monospace;
+    --typeText: 'Barlow Semi Condensed', sans-serif;
+    --typeHead: 'Trispace', sans-serif;
+    --typeLyric: 'Assistant', monospace;
 
     /* Espacement */
-    --gapSmlst: 5px;
-    --gapSmlr: 10px;
-    --gapSml: 15px;
-    --gapMed: 20px;
-    --gapLrg: 40px;
-    --gapHuge: 80px;
+    --gapSafe: 6px;
+    --gapxxs: clamp(6px, 1.25vw, 10px);
+    --gapxs: clamp(8px, 1.5vw, 14px);
+    --gaps: clamp(12px, 1.75vw, 16px);
+    --gapm: clamp(14px, 2vw, 20px);
 
 
     /* Effets */
