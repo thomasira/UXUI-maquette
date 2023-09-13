@@ -5,7 +5,7 @@ body{
 h1, h2, h3, h4, h5, h6{
     font-family: var(--fontHead);
 }
-p:first-of-type{
+/* p:first-of-type{
     font-size: var(--fontxxs);
 }
 p:nth-of-type(2){
@@ -34,9 +34,9 @@ h2{
 }
 h1{
     font-size: var(--fontHuger);
-}
+} */
 
-a:nth-of-type(3){
+/* a:nth-of-type(3){
     padding: var(--gaps);
 }
 a:nth-of-type(4){
@@ -53,4 +53,4 @@ a:nth-of-type(7){
 }
 a:nth-of-type(8){
     padding: var(--gapHuge);
-}
+} */

@@ -1,8 +1,32 @@
 .button-text{
+    background-color: var(--colorSec);
+    border-radius: .4em;
+    border: 1px solid var(--colorDark);
+    box-shadow: .075em .075em var(--colorDark);
+    color: var(--colorLight);
     font-size: var(--fontxs);
+    line-height: 1em;
     max-width: max-content;
-    padding:var(--gapxxs) var(--gaps);
-    background-color: var(--colorSecL);
-    border: 1px solid var(--colorSecD);
-    
+    padding: var(--gapxxs) var(--gapl);
+}
+
+/*variants couleurs*/
+.button-text.varM{
+    background-color: var(--colorMain);
+}
+.button-text.varN{
+    background-color: var(--colorNeutral);
+}
+.button-text.varD{
+    background-color: var(--colorLight);
+    color: var(--colorDark);
+}
+
+/* states */
+.button-text:hover{
+    filter: brightness(1.1);
+}
+.button-text:active{
+    box-shadow: inset .075em .075em var(--colorDark);
+    transform: translateX(1px) translateY(1px);
 }

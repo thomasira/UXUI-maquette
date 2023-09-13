@@ -44,7 +44,7 @@
 
     /* Espacement */
     --gapSafe: 6px;
-    --gapxxs: clamp(6px, 1.25vw, 10px);
+    --gapxxs: clamp(4px, 1vw, 8px);
     --gapxs: clamp(8px, 1.5vw, 14px);
     --gaps: clamp(12px, 1.75vw, 16px);
     --gapm: clamp(16px, 2.5vw, 24px);

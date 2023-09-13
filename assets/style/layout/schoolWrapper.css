@@ -10,8 +10,8 @@ body>header{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    gap: var(--gapLrg);
-    padding: var(--gapSmlr);
+    gap: var(--gapxl);
+    padding: var(--gapxxs);
     background-color: var(--confColorDark);
     color: var(--confColorLight);
 }
@@ -20,7 +20,7 @@ body>footer, body>header {
 }
 body>header>h1{
     font-family: var(--confFont);
-    font-size: var(--fontSml);
+    font-size: var(--fontxxs);
 }
 body>header>p{
     text-align: end;
@@ -31,11 +31,11 @@ body>footer{
     justify-content: space-between;
     align-items: center;
     gap: var(--gapLrg);
-    padding: var(--gapSmlr);
+    padding: var(--gapxxs);
     background-color: var(--confColorDark);
     color: var(--confColorLight);
 }
 body>footer>h4{
     font-family: var(--confFont);
-    font-size: var(--fontSml);
+    font-size: var(--fontxxs);
 }

@@ -1,7 +1,8 @@
 
 body>main{
-    background-color: var(--colorLight);
+    padding: var(--gapxxl);
     max-width: 1400px;
+    min-width: 100%;
     margin: auto;
 }
 body>main>header{
@@ -12,7 +13,7 @@ body>main>header{
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    padding: var(--gapSmlr);
+    padding: var(--gaps);
     gap: var(--gapLrg);
 }
 body>main>header>h2{
