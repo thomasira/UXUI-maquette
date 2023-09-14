@@ -10,6 +10,7 @@
     --colorDark: #150D0D;
     --colorLight: #FFFAE9;
     --colorNeutral: #A6A29B;
+    --colorNeutralL: #d4cfc7;
     --colorMain: #3C95D9;
     --colorMainD: #31557E;
     --colorMainL: #A0CCFF;
@@ -31,7 +32,7 @@
     --typeLyric: 'Assistant', monospace;
 
     /* Taille de polices */
-    --fontxxs: clamp(12px, 1.5vw, 16px);
+    --fontxxs: clamp(12px, 1.5vw, 14px);
     --fontText: clamp(16px, 1.75vw, 20px);
     --fontxs: clamp(18px, 2.25vw, 24px);
     --fonts: clamp(20px, 3vw, 28px);
@@ -44,7 +45,7 @@
 
     /* Espacement */
     --gapSafe: 6px;
-    --gapxxs: clamp(4px, 1vw, 8px);
+    --gapxxs: clamp(4px, 1vw, 6px);
     --gapxs: clamp(8px, 1.5vw, 14px);
     --gaps: clamp(12px, 1.75vw, 16px);
     --gapm: clamp(16px, 2.5vw, 24px);
@@ -52,9 +53,6 @@
     --gapxl: clamp(32px, 5vw, 48px);
     --gapxxl: clamp(48px, 8vw, 96px);
     --gapHuge: clamp(84px, 10vw, 120px);
-
-
-
 
     /* Effets */
     --borderPanel: rgb(211, 211, 211) rgb(88, 88, 88) rgb(24, 24, 24) rgb(182, 182, 182);

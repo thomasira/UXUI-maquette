@@ -22,6 +22,10 @@
     transform: translateX(6%) scale(1.1);
 }
 
+
+.button-icon:hover{
+    filter: brightness(1.1);
+}
 .button-icon:active{
     box-shadow: inset .075em .075em var(--colorDark);
 }

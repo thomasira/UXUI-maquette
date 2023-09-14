@@ -1,12 +1,23 @@
 
 .button-miser{
+    border-radius: .4em;
+    border: 1px solid var(--colorDark);
+    box-shadow: .075em .075em var(--colorDark);
     font-size: var(--fontxl);
     font-family: var(--typeHead);
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--colorCompL);
-    text-shadow:1px 0 0 rgb(0, 0, 0),0 1px 0 rgb(0, 0, 0),-1px 0 0 rgb(0, 0, 0),0 -1px 0 rgb(0, 0, 0);
+    color: var(--colorComp);
+    text-shadow: 1px 0 0 var(--colorDark),0 1px 0 var(--colorDark),-1px 0 0 var(--colorDark),0 -1px 0 var(--colorDark);
     background-color: var(--colorSec);
     max-width: max-content;
     padding: var(--gapxxs) var(--gapl);
+}
+
+.button-miser:hover{
+    filter: brightness(1.1);
+}
+.button-miser:active{
+    box-shadow: inset .075em .075em var(--colorDark);
+    transform: translateX(1px) translateY(1px);
 }

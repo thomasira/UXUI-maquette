@@ -1,0 +1,83 @@
+
+.box-filter{
+    border: 1px solid var(--colorDark);
+    border-radius: .6em;
+    box-shadow: .075em .075em var(--colorDark);
+    max-width:max-content ;
+    background-color: var(--colorNeutral);
+    overflow: hidden;
+}
+.box-filter h2{
+    font-size: var(--fontl);
+}
+.box-filter header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    gap: var(--gapm);
+    padding: var(--gapxs);
+    background-color: var(--colorNeutralL);
+}
+.box-filter header button{
+    font-size: var(--fontxxs);
+    flex: 1;
+    align-self: center;
+}
+.box-filter section{
+    padding: var(--gaps);
+}
+.box-filter section input[type='checkbox']{
+    margin-right: var(--gapxxs);
+    appearance: none;
+    width: 1em;
+    height: 1em;
+    border: 1px solid var(--colorDark);
+    border-radius: .2em;
+    background-color: var(--colorNeutralL);
+    box-shadow: .075em .075em var(--colorDark);
+}
+.box-filter input:hover{
+    cursor: pointer;
+}
+.box-filter section input[type='checkbox']:checked{
+    background-color: var(--colorSec);
+}
+.box-filter section>div{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 0 var(--gapxxs);
+    gap: var(--gapxxs);
+}
+.box-filter section label{
+    font-size: var(--fontxs);
+    font-family: var(--typeHead);
+}
+.box-filter section>div>span{
+    justify-self: end;
+    display: block;
+    transform: rotate(90deg);
+}
+.box-filter section span:hover{
+    cursor: pointer;
+}
+.box-filter aside{
+    display: flex;
+    flex-flow: row;
+    gap: var(--gaps);
+   
+}
+.box-filter aside button{
+    font-size: var(--fontText);
+}
+.box-filter section>*+aside{
+    margin-top: var(--gapxs);
+}
+
+.box-filter section>section{
+    padding: var(--gapxs);
+    border: 1px solid var(--colorDark);
+    border-radius: .6em;
+    box-shadow: inset .075em .075em var(--colorDark);
+
+}

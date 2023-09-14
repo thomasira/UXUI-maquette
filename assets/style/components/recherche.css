@@ -1,0 +1,32 @@
+
+.recherche label{
+    max-width: 300px;
+    gap: var(--gapxs);
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    background-color: var(--colorLight);
+    border-radius: 100px;
+    padding: var(--gapxxs) var(--gaps);
+}
+.recherche input{
+    width: 100%;
+    flex: 1;
+    background-color: var(--colorLight);
+    font-size: var(--fontxs);
+    outline: none;
+    border: none;
+}
+.recherche img{
+    height: 1.2em;
+}
+.recherche span{
+    display: block;
+    font-size: var(--fontl);
+    line-height: 0;
+    transform: translateY(-2px);
+}
+
+.recherche img:hover, .recherche span:hover{
+    cursor: pointer;
+}

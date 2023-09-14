@@ -17,13 +17,34 @@
 .button-text.varN{
     background-color: var(--colorNeutral);
 }
+.button-text.varNL{
+    background-color: var(--colorNeutralL);
+}
 .button-text.varD{
     background-color: var(--colorLight);
     color: var(--colorDark);
 }
 
+.button-text.tri{
+    border: none;
+    padding: var(--gapxxs) var(--gapxs);
+    color: var(--colorDark);
+    font-family: var(--typeHead);
+    border-radius: 100px;
+}
+.button-text.ital{
+    border: none;
+    padding: var(--gapxxs) var(--gaps);
+    color: var(--colorDark);
+    font-family: var(--typeText);
+    font-style: italic;
+    font-weight: 700;
+    border-radius: 100px;
+}
+
 /* states */
 .button-text:hover{
+    cursor: pointer;
     filter: brightness(1.1);
 }
 .button-text:active{
