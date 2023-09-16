@@ -1,27 +1,25 @@
-/* .card-lot, .card-lot *{
-    outline: 1px dashed red;
-} */
 
 .card-lot{
     background-color: var(--colorComp);
     padding: var(--gaps);
-    border-radius: .2em;
+    border-radius: .4em;
     border: 1px solid var(--colorDark);
     box-shadow: .075em .075em var(--colorDark);
     max-width: 800px;
     min-width: 320px;
+}
+.card-lot>*+*{
+    margin-top: var(--gaps);
 }
 .card-lot h3{
     font-size: var(--fontl);
     line-height: 1em;
 }
 .card-lot header strong{
+    display: block;
     line-height: 1.2em;
     font-size: var(--fonts);
     font-style: italic;
-}
-.card-lot section>*{
-    flex: 1;
 }
 .card-lot section:first-of-type img{
     margin: auto;
@@ -35,20 +33,31 @@
     object-fit: cover;
     overflow: hidden;
 }
+.card-lot section:first-of-type>div>*+*{
+    margin-top: var(--gapxs);
+}
 .card-lot section:first-of-type>div:first-of-type{
     flex: 1 0 250px;
 }
 .card-lot section:first-of-type>div:nth-of-type(2){
-    flex: 1 0 100px;
+    flex: 1 0 120px;
 }
+.card-lot section:first-of-type>div span{
+    display: block;
+}
+
 .card-lot section:first-of-type>div:nth-of-type(3){
-    flex: 1 1 200px;
+    flex: 1 1 150px;
 }
 .card-lot section{
     display: flex;
     flex-flow: row wrap;
     gap: var(--gaps);
     justify-content: center;
+}
+.card-lot section:last-of-type{
+    align-items: end;
+    gap: var(--gapxs);
 }
 .card-lot section:last-of-type>div{
     display: flex;
@@ -59,11 +68,32 @@
 .card-lot section:last-of-type>div:first-of-type>div{
     display: flex;
     flex-flow: row;
-    gap: var(--gapxs);
+    gap: var(--gaps);
 }
 .card-lot section:last-of-type>div:first-of-type{
-    flex:1;
+    flex:4;
 }
 .card-lot section:last-of-type>div:last-of-type{
-    flex:1;
+    flex:3;
+    justify-content: end;
+    text-align: end;
+}
+.card-lot section:last-of-type>div:last-of-type strong{
+    display: block;
+    padding: var(--gapxxs);
+    background-color: var(--colorLight);
+    font-family: var(--typeHead);
+    font-size: var(--fontm);
+    font-weight: 400;
+    border-radius: .2em;
+    border: 1px solid var(--colorDark);
+    box-shadow: inset .05em .05em var(--colorDark);
+}
+th{
+    font-size: var(--fonts);
+}
+td{
+    padding: 0;
+    text-align: center;
+    line-height: 1em;
 }

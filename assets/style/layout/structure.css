@@ -20,3 +20,8 @@ body>main>header>h2{
     font-size: var(--fontLrg);
     color: var(--colorLight);
 }
+@media screen and (max-width:450px) {
+    body>main{
+        padding: var(--gapxs);
+    }
+}

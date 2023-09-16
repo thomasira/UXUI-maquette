@@ -9,7 +9,7 @@
     font-family: var(--typeText);
     line-height: 1em;
     max-width: max-content;
-    padding: var(--gapxxs) var(--gapl);
+    padding: var(--gapTHxxs) var(--gapm);
 }
 
 /*variants couleurs*/
