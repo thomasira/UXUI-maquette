@@ -1,4 +1,69 @@
+/* .card-lot, .card-lot *{
+    outline: 1px dashed red;
+} */
 
 .card-lot{
     background-color: var(--colorComp);
+    padding: var(--gaps);
+    border-radius: .2em;
+    border: 1px solid var(--colorDark);
+    box-shadow: .075em .075em var(--colorDark);
+    max-width: 800px;
+    min-width: 320px;
+}
+.card-lot h3{
+    font-size: var(--fontl);
+    line-height: 1em;
+}
+.card-lot header strong{
+    line-height: 1.2em;
+    font-size: var(--fonts);
+    font-style: italic;
+}
+.card-lot section>*{
+    flex: 1;
+}
+.card-lot section:first-of-type img{
+    margin: auto;
+    width: 100%;
+    box-shadow: .075em .075em var(--colorDark);
+    max-width: 400px;
+    display: block;
+    aspect-ratio: 1/1;
+    border-radius: .3em;
+    border: 1px solid var(--colorDark);
+    object-fit: cover;
+    overflow: hidden;
+}
+.card-lot section:first-of-type>div:first-of-type{
+    flex: 1 0 250px;
+}
+.card-lot section:first-of-type>div:nth-of-type(2){
+    flex: 1 0 100px;
+}
+.card-lot section:first-of-type>div:nth-of-type(3){
+    flex: 1 1 200px;
+}
+.card-lot section{
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gaps);
+    justify-content: center;
+}
+.card-lot section:last-of-type>div{
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gapxs);
+    align-items: center;
+}
+.card-lot section:last-of-type>div:first-of-type>div{
+    display: flex;
+    flex-flow: row;
+    gap: var(--gapxs);
+}
+.card-lot section:last-of-type>div:first-of-type{
+    flex:1;
+}
+.card-lot section:last-of-type>div:last-of-type{
+    flex:1;
 }

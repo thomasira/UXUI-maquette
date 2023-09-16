@@ -1,6 +1,6 @@
 body{
     background-color: var(--colorMain);
 }
-main{
+body>main{
     background-color: var(--colorSecL);
 }

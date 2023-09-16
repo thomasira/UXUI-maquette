@@ -1,9 +1,9 @@
 
 .button-miser{
-    border-radius: .4em;
+    border-radius: .2em;
     border: 1px solid var(--colorDark);
     box-shadow: .075em .075em var(--colorDark);
-    font-size: var(--fontxl);
+    font-size: var(--fontl);
     font-family: var(--typeHead);
     font-weight: 600;
     text-transform: uppercase;
@@ -11,7 +11,7 @@
     text-shadow: 1px 0 0 var(--colorDark),0 1px 0 var(--colorDark),-1px 0 0 var(--colorDark),0 -1px 0 var(--colorDark);
     background-color: var(--colorSec);
     max-width: max-content;
-    padding: var(--gapxxs) var(--gapl);
+    padding: var(--gapTHxxs) var(--gapl);
 }
 
 .button-miser.thumb{

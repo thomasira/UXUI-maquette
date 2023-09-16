@@ -1,10 +1,12 @@
 .button-text{
+    display: block;
     background-color: var(--colorSec);
     border-radius: .4em;
     border: 1px solid var(--colorDark);
     box-shadow: .075em .075em var(--colorDark);
     color: var(--colorLight);
     font-size: var(--fontxs);
+    font-family: var(--typeText);
     line-height: 1em;
     max-width: max-content;
     padding: var(--gapxxs) var(--gapl);
@@ -19,9 +21,11 @@
 }
 .button-text.varNL{
     background-color: var(--colorNeutralL);
+    color: var(--colorDark);
 }
 .button-text.varC{
     background-color: var(--colorComp);
+    color: var(--colorDark);
 }
 .button-text.varD{
     background-color: var(--colorLight);
@@ -38,7 +42,6 @@
 .button-text.ital{
     border: none;
     padding: var(--gapTHxxs) var(--gaps);
-    color: var(--colorDark);
     font-family: var(--typeText);
     font-style: italic;
     font-weight: 700;
