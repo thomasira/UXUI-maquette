@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STAMPEE | maquette accueil</title>
     <link rel="stylesheet" href="assets/style/main.css">
+    <script type="module" src="./assets/script/main.js"></script>
 </head>
 <body>
     <header>
@@ -12,63 +13,90 @@
         <p>Stampee | maquette accueil</p>
     </header>
     <main>
+        <article class="thumb-lot">
+            <picture>
+                <img src="" alt="">
+                <button class="button-miser thumb">miser</button>
+            </picture>
+            <section>
+                <h3>SUPER lot des 6 timbres. collection germanique gothique</h3>
+                <div>
+                    <div>
+                        <p>temps restant</p>
+                        <span>00:45:56</span>
+                    </div>
+                    <div>
+                        <p>mise courante</p>
+                        <strong>8,435$</strong>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+
+
         <div>
             <form class="recherche">
                 <label>
                     <img src="./assets/icons/magnifier.svg" alt="loupe recherche" title="rechercher">
                     <input type="text" name="recherche">
-                    <span>+</span>
+                    <span title="plus d'option">+</span>
                 </label>
             </form>
         </div>
-        <div class="box-filter">
+
+        <aside class="box-filter">
             <header>
                 <h2>Filtres</h2>
                 <button class="button-text varN tri">reset</button>
             </header>
             <section>
                 <div>
-                    <div>
-                        <input type="checkbox" name="flora" value="1" id="flora">
-                        <label for="flora">flora</label>
+                    <div data-js-filtre>
+                        <div>
+                            <input type="checkbox" name="fauna" value="1" id="fauna">
+                            <label for="fauna">fauna</label>
+                        </div>
+                        <span data-js-trigger="open-filtre">&#709;</span>
                     </div>
-                    <span>&#10095;</span>
+                    <div data-js-subfiltre class="non-exist">
+                        <div>
+                            <input type="checkbox" name="mammifère" value="1" id="mammifère">
+                            <label for="mammifère">mammifère</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="insecte" value="1" id="insecte">
+                            <label for="insecte">insecte</label>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <div>
-                        <input type="checkbox" name="fauna" value="1" id="fauna">
-                        <label for="fauna">fauna</label>
+                        <div>
+                            <input type="checkbox" name="fauna" value="1" id="flora">
+                            <label for="fauna">flora</label>
+                        </div>
+                        <span>&#709;</span>
                     </div>
-                    <span>&#10095;</span>
-                </div>
-                <div>
-                    <div>
-                        <input type="checkbox" name="geographie" value="1" id="geographie">
-                        <label for="geographie">géographie</label>
-                    </div>
-                    <span>&#10095;</span>
-                    <div>
-                        <input type="checkbox" name="geographie" value="1" id="geographie">
-                        <label for="geographie">montagnes</label>
-                        <input type="checkbox" name="geographie" value="1" id="geographie">
-                        <label for="geographie">pays</label>
-                    </div>
+                    <div class="non-exist"></div>
                 </div>
 
                 <aside>
-                    <button class="button-text varNL ital">voir tout</button>
                     <button class="button-text varNL ital">info</button>
+                    <button class="button-text varC ital">GO</button>
                 </aside>
+
+
                 <section>
                     <div>
-                        <div>
-                            <input type="checkbox" name="categorie1" value="1" id="categorie1">
-                            <label for="categorie1">catégorie 1</label>
-                        </div>
+                        <input type="checkbox" name="categorie1" value="1" id="categorie1">
+                        <label for="categorie1">catégorie 1</label>
                     </div>
                 </section>
-        </section> 
-        </div>
+
+
+            </section> 
+        </aside>
 
         <div>
             <a href="#" class="button-icon bell"><picture><img src="./assets/icons/bell.svg" alt=""></picture></a>
@@ -79,16 +107,6 @@
             <a href="#" class="button-text varN">button neutre</a>
             <a href="#" class="button-text varD">button dark</a>
         </div>
-        <h1>fontHuger</h1>
-        <h2>fontHuge</h2>
-        <p>fontxxs</p>
-        <p>fontText</p>
-        <p>fontxs</p>
-        <p>fonts</p>
-        <p>fontm</p>
-        <p>fontl</p>
-        <p>fontxl</p>
-        <p>fontxxl</p>
     </main>
     <footer>
         <h4>12-09-2023</h4>

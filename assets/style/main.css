@@ -14,14 +14,13 @@
 @import url(./components/button-miser.css);
 @import url(./components/recherche.css);
 @import url(./components/box-filter.css);
-@import url(./components/panier-icon.css);
 
-@import url(./components/modals/book-modal.css);
-@import url(./components/modals/book-exit.css);
-@import url(./components/modals/panier-modal.css);
-@import url(./components/modals/pop-up.css);
+
 
 @import url(./states/invisible.css);
 @import url(./states/no-scroll.css);
 @import url(./states/non-exist.css);
 @import url(./states/selected.css);
+@import url(./states/no-height.css);
+@import url(./states/inverse.css);
+

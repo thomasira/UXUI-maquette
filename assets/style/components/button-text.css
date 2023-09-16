@@ -20,6 +20,9 @@
 .button-text.varNL{
     background-color: var(--colorNeutralL);
 }
+.button-text.varC{
+    background-color: var(--colorComp);
+}
 .button-text.varD{
     background-color: var(--colorLight);
     color: var(--colorDark);
@@ -27,14 +30,14 @@
 
 .button-text.tri{
     border: none;
-    padding: var(--gapxxs) var(--gapxs);
+    padding: var(--gapTHxxs) var(--gapxs);
     color: var(--colorDark);
     font-family: var(--typeHead);
     border-radius: 100px;
 }
 .button-text.ital{
     border: none;
-    padding: var(--gapxxs) var(--gaps);
+    padding: var(--gapTHxxs) var(--gaps);
     color: var(--colorDark);
     font-family: var(--typeText);
     font-style: italic;

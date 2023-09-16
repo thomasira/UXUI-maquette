@@ -14,7 +14,12 @@
     padding: var(--gapxxs) var(--gapl);
 }
 
+.button-miser.thumb{
+    font-size: var(--fontText);
+    padding: var(--gapTHxxs) var(--gaps);;
+}
 .button-miser:hover{
+    cursor: pointer;
     filter: brightness(1.1);
 }
 .button-miser:active{
