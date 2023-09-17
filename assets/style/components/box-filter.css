@@ -6,9 +6,14 @@
     box-shadow: .075em .075em var(--colorDark);
     background-color: var(--colorNeutral);
     overflow: hidden;
+    max-width: 340px;
 }
 .box-filter h2{
-    font-size: var(--fontl);
+    font-size: var(--fontm);
+}
+.box-filter span{
+    font-size: var(--fontSxs);
+    font-weight: 600;
 }
 .box-filter header{
     display: flex;
@@ -19,15 +24,14 @@
     background-color: var(--colorNeutralL);
 }
 .box-filter header button{
-    font-size: var(--fontxxs);
     flex: 1;
     align-self: center;
 }
-.box-filter>form{
+.box-filter form{
     padding: var(--gaps);
 }
 .box-filter label{
-    font-size: var(--fontText);
+    font-size: var(--fontSxs);
 }
 .box-filter form input[type='checkbox']{
     margin-right: var(--gapxxs);

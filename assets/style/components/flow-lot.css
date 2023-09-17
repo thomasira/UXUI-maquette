@@ -1,0 +1,6 @@
+
+.flow-lot{
+    display: flex;
+    flex-flow: column;
+    gap: var(--gapm);
+}

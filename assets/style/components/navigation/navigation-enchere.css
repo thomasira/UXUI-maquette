@@ -1,0 +1,17 @@
+
+.navigation-enchere{
+    display: flex;
+    background-color: var(--colorDark);
+    flex-flow: row;
+    gap: var(--gapxs);
+}
+.navigation-enchere button{
+    border: none;
+    background: none;
+    font-family: var(--typeHead);
+    color: var(--colorLight);
+    padding: var(--gapxs);
+}
+.navigation-enchere button.selected{
+    color: var(--colorMainL);
+}

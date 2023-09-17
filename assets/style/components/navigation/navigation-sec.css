@@ -3,8 +3,13 @@
     display: flex;
     flex-flow: row;
     background-color: var(--colorMainD);
+    padding: var(--gapxs);
+    justify-content: center;
 }
 .navigation-sec a{
     color: var(--colorLight);
-    padding: var(--gapxxs);
+    padding: 0 var(--gaps);
+}
+.navigation-sec a:not(:last-of-type){
+    border-right: 1px solid var(--colorLight);
 }

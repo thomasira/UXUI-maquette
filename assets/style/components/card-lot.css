@@ -1,5 +1,7 @@
 
 .card-lot{
+    margin-top: var(--gapl);
+    position: relative;
     background-color: var(--colorComp);
     padding: var(--gaps);
     border-radius: .4em;
@@ -7,6 +9,28 @@
     box-shadow: .075em .075em var(--colorDark);
     max-width: 800px;
     min-width: 320px;
+}
+.card-lot.en-vedette>div{
+    background-color: var(--colorMainL);
+}
+.card-lot>div{
+    border-radius:.4em .4em  0 0;
+    border: 1px solid var(--colorDark);
+    position: absolute;
+    background-color: var(--colorSecL);
+    bottom: 100%;
+    padding: var(--gapTHxxs) var(--gapxxs);
+}
+.card-lot>div p{
+    font-family: var(--typeHead);
+    font-weight: 600;
+}
+.card-lot section{
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gaps);
+    justify-content: center;
+    row-gap: var(--gapxl);
 }
 .card-lot>*+*{
     margin-top: var(--gaps);
@@ -52,12 +76,7 @@
 .card-lot section:first-of-type>div:nth-of-type(3){
     flex: 1 1 150px;
 }
-.card-lot section{
-    display: flex;
-    flex-flow: row wrap;
-    gap: var(--gaps);
-    justify-content: center;
-}
+
 .card-lot section:last-of-type{
     align-items: end;
     gap: var(--gapxs);
@@ -74,10 +93,11 @@
     gap: var(--gaps);
 }
 .card-lot section:last-of-type>div:first-of-type{
-    flex:4;
+    row-gap: var(--gapl);
+    flex: 4; 
 }
 .card-lot section:last-of-type>div:last-of-type{
-    flex:3;
+    flex: 3;
     justify-content: end;
     text-align: end;
 }
@@ -101,4 +121,10 @@ td{
     padding: 0;
     text-align: center;
     line-height: .8em;
+}
+
+@media screen and (min-width:620px){
+    .card-lot section:last-of-type>div:first-of-type>div{
+        order:2;
+    }
 }

@@ -18,6 +18,9 @@
     font-size: var(--fontText);
     padding: var(--gapTHxxs) var(--gaps);;
 }
+.button-miser.main{
+    background-color: var(--colorMainD);
+}
 .button-miser:hover{
     cursor: pointer;
     filter: brightness(1.1);

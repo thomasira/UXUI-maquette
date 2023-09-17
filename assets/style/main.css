@@ -11,6 +11,8 @@
 
 @import url(./components/navigation/navigation-main.css);
 @import url(./components/navigation/navigation-sec.css);
+@import url(./components/navigation/navigation-enchere.css);
+
 
 
 @import url(./components/button-text.css);
@@ -20,6 +22,8 @@
 @import url(./components/box-filter.css);
 @import url(./components/card-lot.css);
 @import url(./components/entete.css);
+@import url(./components/flow-lot.css);
+
 
 
 @import url(./states/invisible.css);
