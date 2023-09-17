@@ -1,0 +1,10 @@
+
+.navigation-sec{
+    display: flex;
+    flex-flow: row;
+    background-color: var(--colorMainD);
+}
+.navigation-sec a{
+    color: var(--colorLight);
+    padding: var(--gapxxs);
+}

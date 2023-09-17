@@ -1,17 +1,17 @@
 
-.hero-entete{
+.entete{
     margin: auto;
     max-width: 1400px;
-    padding:  var(--gapl);
+    padding:  var(--gapxxl) var(--gapl);
 }
-.hero-entete div{
+.entete div{
     max-width: max-content;
 }
-.hero-entete p{
+.entete p{
     display: none;
     font-size: var(--fonts);
 }
-.hero-entete img{
+.entete img{
     margin-top: var(--gapxxs);
     display: block;
     width: 100%;

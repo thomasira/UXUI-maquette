@@ -1,9 +1,9 @@
 
 .box-filter{
+    margin: auto;
     border: 1px solid var(--colorDark);
     border-radius: .6em;
     box-shadow: .075em .075em var(--colorDark);
-    max-width:max-content ;
     background-color: var(--colorNeutral);
     overflow: hidden;
 }
@@ -25,6 +25,9 @@
 }
 .box-filter>form{
     padding: var(--gaps);
+}
+.box-filter label{
+    font-size: var(--fontText);
 }
 .box-filter form input[type='checkbox']{
     margin-right: var(--gapxxs);
