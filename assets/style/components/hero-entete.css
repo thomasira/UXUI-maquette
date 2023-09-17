@@ -4,10 +4,20 @@
     min-height: 30vh;
     display: flex;
     flex-flow: row;
-    background-image: url(../../img/stamps1.jpg);
+    align-items: center;
     background-size: cover;
     background-position: center;
 }
-.hero-entete div{
+.hero-entete>div{
     position: absolute;
+}
+.hero-entete div>div{
+    margin-left: var(--gapm);
+}
+.hero-entete p{
+    font-size: var(--fontm);
+}
+.hero-entete img{
+    display: block;
+    width: 100%;
 }
