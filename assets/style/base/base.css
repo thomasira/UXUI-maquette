@@ -2,5 +2,5 @@ body{
     background-color: var(--colorMain);
 }
 body>main{
-    background-color: var(--colorSecL);
+    background-color: var(--colorLight);
 }
