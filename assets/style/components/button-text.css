@@ -20,8 +20,8 @@
     background-color: var(--colorNeutral);
 }
 .button-text.varNL{
-    background-color: var(--colorNeutralL);
     color: var(--colorDark);
+    background-color: var(--colorNeutralL);
 }
 .button-text.varC{
     background-color: var(--colorComp);
@@ -32,21 +32,7 @@
     color: var(--colorDark);
 }
 
-.button-text.tri{
-    border: none;
-    padding: var(--gapTHxxs) var(--gapxs);
-    color: var(--colorDark);
-    font-family: var(--typeHead);
-    border-radius: 100px;
-}
-.button-text.ital{
-    border: none;
-    padding: var(--gapTHxxs) var(--gaps);
-    font-family: var(--typeText);
-    font-style: italic;
-    font-weight: 700;
-    border-radius: 100px;
-}
+
 
 /* states */
 .button-text:hover{

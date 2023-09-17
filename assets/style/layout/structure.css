@@ -1,9 +1,21 @@
 
 body>main>main{
+    display: flex;
+    flex-flow: row wrap;
     padding: var(--gapxxl);
+    gap: var(--gapm);
     max-width: 1400px;
-    min-width: 100%;
     margin: auto;
+}
+body>main>main>div{
+    position: relative;
+    flex: 1 0 30%;
+}
+body>main>main aside{
+    position:absolute;
+}
+body>main>main>section{
+    flex:0 1 2;
 }
 body>main>main>*+*{
     margin-top: var(--gapl);

@@ -23,9 +23,11 @@
     padding: var(--gapxs);
     background-color: var(--colorNeutralL);
 }
-.box-filter header button{
-    flex: 1;
-    align-self: center;
+.box-filter header>div{
+    display: flex;
+    flex-flow: row;
+    gap: var(--gapxs);
+    align-items: start;
 }
 .box-filter form{
     padding: var(--gaps);

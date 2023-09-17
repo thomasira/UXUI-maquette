@@ -1,0 +1,15 @@
+
+.navigation-icon{
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    top: var(--gapHuge);
+    right: 0;
+    gap: var(--gapxs);
+    z-index: 1;
+}
+.navigation-icon button{
+    display: block;
+    width: 50px;
+    height: 50px;
+}

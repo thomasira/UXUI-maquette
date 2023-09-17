@@ -12,12 +12,16 @@
 @import url(./components/navigation/navigation-main.css);
 @import url(./components/navigation/navigation-sec.css);
 @import url(./components/navigation/navigation-enchere.css);
+@import url(./components/navigation/navigation-enchere.css);
+@import url(./components/navigation/navigation-icon.css);
+
 
 
 
 @import url(./components/button-text.css);
 @import url(./components/button-icon.css);
 @import url(./components/button-miser.css);
+@import url(./components/button-filter.css);
 @import url(./components/recherche.css);
 @import url(./components/box-filter.css);
 @import url(./components/card-lot.css);
