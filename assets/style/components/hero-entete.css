@@ -1,23 +1,18 @@
 
 .hero-entete{
-    position: relative;
-    min-height: 30vh;
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
+    margin: auto;
+    max-width: 1400px;
+    padding:  var(--gapl);
 }
-.hero-entete>div{
-    position: absolute;
-}
-.hero-entete div>div{
-    margin-left: var(--gapm);
+.hero-entete div{
+    max-width: max-content;
 }
 .hero-entete p{
-    font-size: var(--fontm);
+    display: none;
+    font-size: var(--fonts);
 }
 .hero-entete img{
+    margin-top: var(--gapxxs);
     display: block;
     width: 100%;
 }

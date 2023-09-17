@@ -1,0 +1,31 @@
+
+.navigation-main{
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+}
+.navigation-main>div{
+    background-color: var(--colorDark);
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.navigation-main>div:last-of-type{
+    padding: var(--gaps);
+    display: flex;
+    flex-flow: row;
+    gap: var(--gaps);
+    align-items: center;
+}
+.navigation-main a{
+    font-family: var(--typeHead);
+    color: var(--colorLight);
+    font-size: var(--fontxs);
+    padding: var(--gapxs) var(--gaps);
+}
+.navigation-main a:first-of-type{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--colorComp);
+}

@@ -4,11 +4,11 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
     font-family: var(--typeHead);
-    font-weight: 500;
+    font-weight: 600;
 }
 p{
     font-size: var(--typeText);
 }
 h2{
-    font-size: var(--fontxxl);
+    font-size: var(--fontxl);
 }

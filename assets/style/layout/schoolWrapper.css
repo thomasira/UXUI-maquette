@@ -10,19 +10,21 @@ body>header{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    gap: var(--gapxl);
-    padding: var(--gapxxs);
-    background-color: var(--confColorDark);
-    color: var(--confColorLight);
+    gap: var(--gaps);
+    padding: var(--gapTHxxs);
+    background-color: var(--confColorLight);
+    color: var(--confColorDark);
 }
 body>footer, body>header {
     font-family: var(--confFont);
 }
-body>header>h1{
-    font-family: var(--confFont);
-    font-size: var(--fontxxs);
+body>header h1{
+    font-family: var(--confType);
+    font-size: var(--confFont);
 }
-body>header>p{
+body>header p, body>footer p{
+    font-family: var(--confType);
+    font-size: var(--confFont);
     text-align: end;
 }
 body>footer{
@@ -32,10 +34,10 @@ body>footer{
     align-items: center;
     gap: var(--gapLrg);
     padding: var(--gapxxs);
-    background-color: var(--confColorDark);
-    color: var(--confColorLight);
+    background-color: var(--confColorLight);
+    color: var(--confColorDark);
 }
-body>footer>h4{
-    font-family: var(--confFont);
-    font-size: var(--fontxxs);
+body>footer h4{
+    font-family: var(--confType);
+    font-size: var(--confFont);
 }
