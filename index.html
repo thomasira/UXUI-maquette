@@ -13,135 +13,65 @@
         <p>Stampee | maquette accueil</p>
     </header>
     <main>
-        <article class="card-lot">
-            <section>
-                <div>
-                    <header>
-                        <h3>Orcas</h3>
-                        <strong>1990-CCCP</strong>
-                    </header>
-                    <main>
-                        <p>lot de 3 timbres. Items rares de la série océan de l'union soviétique. Impression spéciale. Étampé en Yougoslavie.</p>
-                    </main>
-                </div>
-                <div>
-                    <p>condition: <strong>mint-2</strong></p>
-                    <p>étampé: <strong>oui</strong></p>
-                    <button class="button-text varNL">voir plus</button>
-                    <button class="button-text varNL">vendeur</button>
-                    <span>👁 345</span>
-                </div>
-                <div>
-                    <img src="./assets/img/stamp_whale.jpg" alt="stamp-whale" title="voir: stamp-whale">
-                </div>
-
-            </section>
-            <section>
-                <div>
-                    <button class="button-miser">miser</button>
+        <header class="hero-entete">
+            <!-- <img src="./assets/img/stamps1.jpg" alt="stamps"> -->
+            <div>
+                <h2>Les enchères</h2>
+            </div>
+        </header>
+        <main>
+            <aside class="box-filter">
+                <header>
+                    <h2>Filtres</h2>
+                    <button class="button-text varN tri">reset</button>
+                </header>
+                <form>
                     <div>
-                        <button class="button-icon bell"><picture><img src="./assets/icons/bell.svg" alt=""></picture></button>
-                        <button class="button-icon heart"><picture><img src="./assets/icons/heart.svg" alt=""></picture></button>
-                        <button class="button-icon"><picture><img src="./assets/icons/star.svg" alt=""></picture></button>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <p>temps restant</p>
-                        <table>
-                            <thead>
-                                <th>00</th>
-                                <th>:45</th>
-                                <th>:56</th>
-                            </thead>
-                            <tr>
-                                <td>h</td>
-                                <td>m</td>
-                                <td>s</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div>
-                        <p>mise courante</p>
-                        <strong>8,456 <span>$</span></strong>
-                    </div>
-                </div>
-            </section>
-        </article>
-
-
-        <div>
-            <form class="recherche">
-                <label>
-                    <img src="./assets/icons/magnifier.svg" alt="loupe recherche" title="rechercher">
-                    <input type="text" name="recherche">
-                    <span title="plus d'option">+</span>
-                </label>
-            </form>
-        </div>
-
-        <aside class="box-filter">
-            <header>
-                <h2>Filtres</h2>
-                <button class="button-text varN tri">reset</button>
-            </header>
-            <section>
-                <div>
-                    <div data-js-filtre>
-                        <div>
-                            <input type="checkbox" name="fauna" value="1" id="fauna">
-                            <label for="fauna">fauna</label>
+                        <div data-js-filtre>
+                            <div>
+                                <input type="checkbox" name="fauna" value="1" id="fauna">
+                                <label for="fauna">fauna</label>
+                            </div>
+                            <span data-js-trigger="open-filtre">&#709;</span>
                         </div>
-                        <span data-js-trigger="open-filtre">&#709;</span>
-                    </div>
-                    <div data-js-subfiltre class="non-exist">
-                        <div>
-                            <input type="checkbox" name="mammifère" value="1" id="mammifère">
-                            <label for="mammifère">mammifère</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="insecte" value="1" id="insecte">
-                            <label for="insecte">insecte</label>
+                        <div data-js-subfiltre class="non-exist">
+                            <div>
+                                <input type="checkbox" name="mammifère" value="1" id="mammifère">
+                                <label for="mammifère">mammifère</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="insecte" value="1" id="insecte">
+                                <label for="insecte">insecte</label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div>
                     <div>
                         <div>
-                            <input type="checkbox" name="fauna" value="1" id="flora">
-                            <label for="fauna">flora</label>
+                            <div>
+                                <input type="checkbox" name="fauna" value="1" id="flora">
+                                <label for="fauna">flora</label>
+                            </div>
+                            <span>&#709;</span>
                         </div>
-                        <span>&#709;</span>
+                        <div class="non-exist"></div>
                     </div>
-                    <div class="non-exist"></div>
-                </div>
+    
+                    <aside>
+                        <button class="button-text varNL ital">info</button>
+                        <button class="button-text varC ital">GO</button>
+                    </aside>
+    
+                    <section>
+                        <div>
+                            <input type="checkbox" name="categorie1" value="1" id="categorie1">
+                            <label for="categorie1">catégorie 1</label>
+                        </div>
+                    </section>
+                </form> 
+            </aside>
+        </main>
 
-                <aside>
-                    <button class="button-text varNL ital">info</button>
-                    <button class="button-text varC ital">GO</button>
-                </aside>
 
-
-                <section>
-                    <div>
-                        <input type="checkbox" name="categorie1" value="1" id="categorie1">
-                        <label for="categorie1">catégorie 1</label>
-                    </div>
-                </section>
-
-
-            </section> 
-        </aside>
-
-        <div>
-            <a href="#" class="button-icon bell"><picture><img src="./assets/icons/bell.svg" alt=""></picture></a>
-            <a href="#" class="button-icon heart"><picture><img src="./assets/icons/heart.svg" alt=""></picture></a>
-            <a href="#" class="button-icon"><picture><img src="./assets/icons/star.svg" alt=""></picture></a>
-            <a href="#" class="button-miser">miser</a>
-            <a href="#" class="button-text varM">button var</a>
-            <a href="#" class="button-text varN">button neutre</a>
-            <a href="#" class="button-text varD">button dark</a>
-        </div>
     </main>
     <footer>
         <h4>12-09-2023</h4>

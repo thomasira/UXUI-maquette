@@ -42,6 +42,9 @@
 .card-lot section:first-of-type>div:nth-of-type(2){
     flex: 1 0 120px;
 }
+.card-lot section:first-of-type>div:nth-of-type(2) p{
+    font-style: italic;
+}
 .card-lot section:first-of-type>div span{
     display: block;
 }
@@ -90,10 +93,12 @@
     box-shadow: inset .05em .05em var(--colorDark);
 }
 th{
-    font-size: var(--fonts);
+    font-family: var(--typeHead);
+    font-size: var(--fontxs);
+    line-height: .8em;
 }
 td{
     padding: 0;
     text-align: center;
-    line-height: 1em;
+    line-height: .8em;
 }

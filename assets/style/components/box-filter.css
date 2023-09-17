@@ -23,10 +23,10 @@
     flex: 1;
     align-self: center;
 }
-.box-filter>section{
+.box-filter>form{
     padding: var(--gaps);
 }
-.box-filter section input[type='checkbox']{
+.box-filter form input[type='checkbox']{
     margin-right: var(--gapxxs);
     appearance: none;
     width: 1em;
@@ -39,36 +39,36 @@
 .box-filter input:hover{
     cursor: pointer;
 }
-.box-filter section input[type='checkbox']:checked{
+.box-filter form input[type='checkbox']:checked{
     background-color: var(--colorSec);
 }
-.box-filter section>div>div:first-of-type{
+.box-filter form>div>div:first-of-type{
     display: flex;
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
 }
-.box-filter section>div>div:last-of-type{
+.box-filter form>div>div:last-of-type{
     padding: var(--gapxs);
     background-color: var(--colorNeutralL);
     border: 1px solid var(--colorDark);
     border-radius: .6em;
     box-shadow:inset .075em .075em var(--colorDark);
 }
-.box-filter section span:hover{
+.box-filter form span:hover{
     cursor: pointer;
 }
-.box-filter section>section{
+.box-filter form>section{
     background-color: var(--colorNeutral);
     padding: var(--gapxs);
     border: 1px solid var(--colorDark);
     border-radius: .6em;
     box-shadow: inset .075em .075em var(--colorDark);
 }
-.box-filter>section>*+*{
+.box-filter>form>*+*{
     margin-top: var(--gaps);
 }
-.box-filter>section aside{
+.box-filter>form aside{
     display: flex;
     flex-flow: row;
     gap: var(--gapm);

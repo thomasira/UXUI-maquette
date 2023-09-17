@@ -1,0 +1,13 @@
+
+.hero-entete{
+    position: relative;
+    min-height: 30vh;
+    display: flex;
+    flex-flow: row;
+    background-image: url(../../img/stamps1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero-entete div{
+    position: absolute;
+}

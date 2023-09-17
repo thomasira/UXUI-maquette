@@ -21,6 +21,10 @@
 .button-icon.bell picture{
     transform: translateX(6%) scale(1.1);
 }
+
+.button-icon.light{
+    background-color: var(--colorLight);
+}
 .button-icon:hover{
     filter: brightness(1.1);
     cursor: pointer;

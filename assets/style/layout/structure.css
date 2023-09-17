@@ -1,27 +1,13 @@
 
-body>main{
+body>main>main{
     padding: var(--gapxxl);
     max-width: 1400px;
     min-width: 100%;
     margin: auto;
 }
-body>main>header{
-    background: linear-gradient(to left, #eee, #333);
-    border: 3px solid;
-    border-color: var(--btnOutset);
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--gaps);
-    gap: var(--gapLrg);
-}
-body>main>header>h2{
-    font-size: var(--fontLrg);
-    color: var(--colorLight);
-}
+
 @media screen and (max-width:450px) {
-    body>main{
+    body>main>main{
         padding: var(--gapxs);
     }
 }
