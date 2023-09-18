@@ -30,6 +30,7 @@
     align-items: start;
 }
 .box-filter form{
+    display: none;
     padding: var(--gaps);
 }
 .box-filter label{

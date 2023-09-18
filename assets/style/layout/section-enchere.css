@@ -23,13 +23,18 @@
 .section-enchere>div>section{
     flex: 3;
 }
-.section-enchere nav{
+.section-enchere nav>*+*{
+    margin-top: var(--gapxxs);
+}
+.section-enchere nav>div{
     display: flex;
-    background-color: var(--colorDark);
     flex-flow: row;
     gap: var(--gapxs);
 }
-.section-enchere nav button{
+.section-enchere nav>div:first-of-type{
+    background-color: var(--colorDark);
+}
+.section-enchere nav>div:first-of-type button{
     border: none;
     background: none;
     font-size: var(--fontText);
@@ -37,12 +42,25 @@
     color: var(--colorLight);
     padding:var(--gapTHxxs) var(--gapxs);
 }
-.section-enchere nav button.selected{
+.section-enchere nav>div:first-of-type button.selected{
     color: var(--colorMainL);
 }
-.section-enchere nav button:hover{
+.section-enchere nav>div button:hover{
     cursor: pointer;
 }
+.section-enchere nav h4{
+    font-family: var(--typeText);
+    font-size: var(--fontText);
+    font-weight: 400;
+}
+.section-enchere nav>div:last-of-type button{
+    padding: 0;
+    font-family: var(--typeText);
+    font-size: var(--fontText);
+    background: none;
+    border: none;
+}
+
 @media screen and (max-width:450px) {
     .section-enchere{
         padding: var(--gapxs);
