@@ -7,7 +7,7 @@
     background-color: var(--colorNeutral);
     overflow: hidden;
     max-width: 440px;
-    min-width: 300px;
+    min-width: 320px;
 }
 .box-filter h2{
     font-size: var(--fontm);
@@ -88,4 +88,13 @@
 }
 .box-filter input[type='checkbox']:checked{
     background-color: var(--colorSec);
+}
+
+@media screen and (min-width:750px) {
+    .box-filter>header span{
+        display: none;
+    }
+    .box-filter form{
+        display: block;
+    }
 }
