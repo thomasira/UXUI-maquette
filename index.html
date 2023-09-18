@@ -85,14 +85,15 @@
                         </header> 
                         <form>
                             <div>
-                                <div data-js-filtre>
+                                <div data-js-filtre="fauna">
                                     <div>
                                         <input type="checkbox" name="fauna" value="1" id="fauna">
                                         <label for="fauna">fauna</label>
                                     </div>
                                     <span data-js-trigger="open-filtre">&#709;</span>
                                 </div>
-                                <div data-js-subfiltre class="non-exist">
+                                
+                                <div data-js-subfiltre="fauna" class="non-exist">
                                     <div>
                                         <input type="checkbox" name="mammifère" value="1" id="mammifère">
                                         <label for="mammifère">mammifère</label>
@@ -102,11 +103,12 @@
                                         <label for="insecte">insecte</label>
                                     </div>
                                 </div>
+                                
                             </div>
                             <div>
                                 <div>
                                     <div>
-                                        <input type="checkbox" name="fauna" value="1" id="flora">
+                                        <input type="checkbox" name="flora" value="1" id="flora">
                                         <label for="flora">flora</label>
                                     </div>
                                     <span>&#709;</span>
@@ -120,7 +122,9 @@
                             <section>
                                 <div>
                                     <input type="checkbox" name="categorie1" value="1" id="categorie1">
-                                    <label for="categorie1">catégorie 1</label>
+                                    <label for="categorie1">mes catégorie 1</label>
+                                    <input type="checkbox" name="mesMises" value="1" id="mesMises">
+                                    <label for="mesMises">mes mises</label>
                                 </div>
                             </section>
                         </form>

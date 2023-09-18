@@ -1,6 +1,5 @@
 
 .recherche label{
-    max-width: 300px;
     gap: var(--gapxs);
     align-items: center;
     display: flex;

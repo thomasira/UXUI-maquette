@@ -2,17 +2,23 @@
 .navigation-main{
     background-color: var(--colorDark);
     display: flex;
+    justify-content: space-around;
     flex-flow: row wrap;
     align-items: center;
 }
 .navigation-main>div{
     background-color: var(--colorDark);
-    flex: 1;
     display: flex;
     flex-flow: row;
+}
+.navigation-main>div:first-of-type{
+    flex: 1 1 400px;
+    max-width: 500px;
     justify-content: space-between;
 }
 .navigation-main>div:last-of-type{
+    flex: 0 1 400px;
+    max-width: 420px;
     padding: var(--gaps);
     display: flex;
     flex-flow: row;

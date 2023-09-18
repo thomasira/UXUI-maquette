@@ -8,9 +8,9 @@
 .section-enchere>div{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     gap: var(--gapm);
     max-width: 1400px;
-    margin: auto;
 }
 .section-enchere>div>div{
     position: relative;
@@ -19,21 +19,20 @@
 .section-enchere>div aside{
     position: sticky;
     top: var(--gapl);
-    
 }
 .section-enchere>div>section{
     flex: 2;
 }
-
 .section-enchere nav{
     display: flex;
     background-color: var(--colorDark);
     flex-flow: row;
-    gap: var(--gapxs);
+    gap:var(--gapTHxxs) var(--gapxs);
 }
 .section-enchere nav button{
     border: none;
     background: none;
+    font-size: var(--fontText);
     font-family: var(--typeHead);
     color: var(--colorLight);
     padding: var(--gapxs);
