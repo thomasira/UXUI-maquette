@@ -4,3 +4,26 @@ body{
 body>main{
     background-color: var(--colorLight);
 }
+input[type='checkbox']{
+    margin-right: var(--gapxxs);
+    appearance: none;
+    width: 1.2em;
+    height: 1.2em;
+    border: var(--borderStd);
+    border-radius: .2em;
+    background-color: var(--colorNeutralL);
+    box-shadow: .075em .075em var(--colorDark);
+}
+input[type='checkbox']:hover{
+    cursor: pointer;
+}
+button{
+    display: block;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+button:hover{
+    cursor: pointer;
+}

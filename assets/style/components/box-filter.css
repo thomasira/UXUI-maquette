@@ -7,14 +7,16 @@
     background-color: var(--colorNeutral);
     overflow: hidden;
     max-width: 440px;
+    min-width: 300px;
 }
 .box-filter h2{
     font-size: var(--fontm);
 }
 .box-filter span{
-    font-size: var(--fontSxs);
     font-weight: 600;
 }
+
+/* header */
 .box-filter header{
     display: flex;
     flex-flow: row;
@@ -23,68 +25,67 @@
     padding: var(--gapxs);
     background-color: var(--colorNeutralL);
 }
-.box-filter header>div{
-    display: flex;
-    flex-flow: row;
-    gap: var(--gapxs);
-    align-items: start;
+.box-filter header span{
+    font-size: var(--fontm);
 }
+
+/* form */
 .box-filter form{
-    display: none;
     padding: var(--gaps);
 }
 .box-filter label{
-    font-size: var(--fontSxs);
+    font-size: var(--fontSs);
 }
-.box-filter form input[type='checkbox']{
-    margin-right: var(--gapxxs);
-    appearance: none;
-    width: 1em;
-    height: 1em;
-    border: 1px solid var(--colorDark);
-    border-radius: .2em;
-    background-color: var(--colorNeutralL);
-    box-shadow: .075em .075em var(--colorDark);
-}
-.box-filter input:hover{
-    cursor: pointer;
-}
-.box-filter form input[type='checkbox']:checked{
-    background-color: var(--colorSec);
-}
-.box-filter form>div>div:first-of-type{
+.box-filter section>div>div:first-of-type{
     display: flex;
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
 }
-.box-filter form>div>div:last-of-type{
+
+/* form sections*/
+.box-filter section:first-of-type>div>div:last-of-type{
     padding: var(--gapxs);
     background-color: var(--colorNeutralL);
     border: 1px solid var(--colorDark);
     border-radius: .6em;
-    box-shadow:inset .075em .075em var(--colorDark);
+    box-shadow: inset .075em .075em var(--colorDark);
 }
-.box-filter form span:hover{
-    cursor: pointer;
+.box-filter section:nth-of-type(2){
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    gap: var(--gaps);
+    align-items: center;
+    padding: var(--gapxs);
+    background-color: var(--colorNeutral);
+    border-radius: .4em;
+    border: var(--borderStd);
+    box-shadow: .075em .075em var(--colorDark);;
 }
-.box-filter form>section{
+.box-filter section:last-of-type{
     background-color: var(--colorNeutral);
     padding: var(--gapxs);
     border: 1px solid var(--colorDark);
     border-radius: .6em;
     box-shadow: inset .075em .075em var(--colorDark);
 }
-.box-filter section>div{
-    display: flex;
-    flex-flow: column;
-    gap: var(--gapxxs);
-}
-.box-filter>form>*+*{
+
+/* ryhtme */
+.box-filter form>*+*{
     margin-top: var(--gaps);
 }
-.box-filter>form aside{
-    display: flex;
-    flex-flow: row;
-    gap: var(--gapm);
+.box-filter section:not(:nth-of-type(2))>*+*{
+    margin-top: var(--gapxs);
+}
+.box-filter>form aside>*+*{
+    margin-top: var(--gapxs);
+}
+
+/* états */
+.box-filter span:hover{
+    cursor: pointer;
+}
+.box-filter input[type='checkbox']:checked{
+    background-color: var(--colorSec);
 }

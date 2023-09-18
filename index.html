@@ -86,7 +86,6 @@
                 </div>
             </nav>
 
-
             <div>
                 <div>
 
@@ -94,58 +93,73 @@
                     <aside class="box-filter">
                         <header>
                             <h2>Filtres</h2>
-                            <div>
-                                <button class="button-filter varTri">reset</button>
-                                <button class="button-filter varM">GO</button>
-                            </div>
+                            <span data-js-trigger="open-filtre">&#709;</span>
                         </header> 
                         <form>
-                            <div>
-                                <div data-js-filtre="fauna">
-                                    <div>
-                                        <input type="checkbox" name="fauna" value="1" id="fauna">
-                                        <label for="fauna">fauna</label>
-                                    </div>
-                                    <span data-js-trigger="open-filtre">&#709;</span>
-                                </div>
-                                
-                                <div data-js-subfiltre="fauna" class="non-exist">
-                                    <div>
-                                        <input type="checkbox" name="mammifère" value="1" id="mammifère">
-                                        <label for="mammifère">mammifère</label>
-                                    </div>
-                                    <div>
-                                        <input type="checkbox" name="insecte" value="1" id="insecte">
-                                        <label for="insecte">insecte</label>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <input type="checkbox" name="flora" value="1" id="flora">
-                                        <label for="flora">flora</label>
-                                    </div>
-                                    <span>&#709;</span>
-                                </div>
-                                <div class="non-exist"></div>
-                            </div>
-                            <aside>
-                                <button class="button-filter varN varS">INFO</button>
-                                <button class="button-filter varN varS">VOIR PLUS</button>
-                            </aside>
+                            <!-- les filtres et sous-filtres -->
                             <section>
                                 <div>
-                                    <div>
-                                        <input type="checkbox" name="categorie1" value="1" id="categorie1">
-                                        <label for="categorie1">mes catégorie 1</label>
+                                    <div data-js-filtre="fauna">
+                                        <div>
+                                            <input type="checkbox" name="fauna" value="1" id="fauna">
+                                            <label for="fauna">fauna</label>
+                                        </div>
+                                        <span data-js-trigger="open-filtre">&#709;</span>
                                     </div>
-                                    
-                                    <div>
-                                        <input type="checkbox" name="mesMises" value="1" id="mesMises">
-                                        <label for="mesMises">mes mises</label>
+                                
+                                    <div data-js-subfiltre="fauna" class="non-exist">
+                                        <div>
+                                            <input type="checkbox" name="mammifère" value="1" id="mammifère">
+                                            <label for="mammifère">mammifère</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="insecte" value="1" id="insecte">
+                                            <label for="insecte">insecte</label>
+                                        </div>
                                     </div>
+                                </div>
+
+                                <div>
+                                    <div data-js-filtre="flora">
+                                        <div>
+                                            <input type="checkbox" name="flora" value="1" id="flora">
+                                            <label for="flora">flora</label>
+                                        </div>
+                                        <span data-js-trigger="open-filtre">&#709;</span>
+                                    </div>
+                                
+                                    <div data-js-subfiltre="flora" class="non-exist">
+                                        <div>
+                                            <input type="checkbox" name="arbres" value="1" id="arbres">
+                                            <label for="arbres">arbres</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="fleurs" value="1" id="fleurs">
+                                            <label for="fleurs">fleurs</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            
+                            <!-- les boutons et config -->
+                            <section>
+                                <aside>
+                                    <button class="button-filter varTri">reset</button>
+                                    <button class="button-filter varN varS">INFO</button>
+                                </aside>
+                                <button class="button-filter varM varl">GO</button>
+                            </section>
+
+                            <!-- les filtres perso -->
+                            <section>
+                                <div>
+                                    <input type="checkbox" name="categorie1" value="1" id="categorie1">
+                                    <label for="categorie1">mes catégorie 1</label>
+                                </div>
+                                
+                                <div>
+                                    <input type="checkbox" name="mesMises" value="1" id="mesMises">
+                                    <label for="mesMises">mes mises</label>
                                 </div>
                             </section>
                         </form>

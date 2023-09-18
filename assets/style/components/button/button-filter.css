@@ -1,20 +1,20 @@
 
 .button-filter{
-    background-color: var(--colorNeutralD);
-    border: 1px solid var(--colorDark);
+    background-color: var(--colorNeutralL);
+    border: var(--borderStd);
     box-shadow: .075em .075em var(--colorDark);
     font-size: var(--fontxs);
     font-weight: 600;
-    font-family: var(--typeText);
     font-style: italic;
-    max-width: fit-content;
     padding: var(--gapTHxxs) var(--gaps);
     color: var(--colorDark);
     border-radius: 100px;
 }
-
 .button-filter.varM{
     background-color: var(--colorMain);
+}
+.button-filter.varl{
+    font-size: var(--fontl);
 }
 
 .button-filter.varTri{

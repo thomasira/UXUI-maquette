@@ -36,7 +36,7 @@
     /* Taille de polices */
     --fontxxs: clamp(12px, 1.5vw, 14px);
     --fontText: clamp(16px, 1.75vw, 20px);
-    --fontxs: clamp(18px, 2.25vw, 24px);
+    --fontxs: clamp(18px, 2.25vw, 22px);
     --fonts: clamp(20px, 3vw, 28px);
     --fontm: clamp(24px, 3.75vw, 32px);
     --fontl: clamp(32px, 4.75vw, 40px);
@@ -48,6 +48,7 @@
     /* Taille de police statique*/
     --fontSText: 16px;
     --fontSxs: 20px;
+    --fontSs: 22px;
 
     /* Espacement */
     --gapTHxxs: clamp(2px, .5vw, 4px);
@@ -62,11 +63,5 @@
     --gapHuge: clamp(84px, 10vw, 120px);
 
     /* Effets */
-    --borderPanel: rgb(211, 211, 211) rgb(88, 88, 88) rgb(24, 24, 24) rgb(182, 182, 182);
-    --panelMain: rgb(218, 103, 103) rgb(61, 24, 24) rgb(27, 7, 7) rgb(136, 61, 61);
-    --panelSec: rgb(130, 185, 125) rgb(30, 58, 29) rgb(10, 22, 11) rgb(80, 128, 80);
-    --shadowStd: 2px 2px 2px var(--colorShadow);
-    --btnOutset: rgb(211, 211, 211) rgb(88, 88, 88) rgb(24, 24, 24) rgb(182, 182, 182);
-    --btnInset: rgb(24, 24, 24) rgb(182, 182, 182) rgb(211, 211, 211) rgb(88, 88, 88);
-
+    --borderStd: 1px solid var(--colorDark);
 }
