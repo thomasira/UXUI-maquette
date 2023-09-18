@@ -7,13 +7,12 @@
     font-family: var(--typeHead);
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--colorComp);
+    color: var(--colorCompL);
     text-shadow: 1px 0 0 var(--colorDark),0 1px 0 var(--colorDark),-1px 0 0 var(--colorDark),0 -1px 0 var(--colorDark);
     background-color: var(--colorSec);
     max-width: max-content;
     padding: var(--gapTHxxs) var(--gapl);
 }
-
 .button-miser.thumb{
     font-size: var(--fontText);
     padding: var(--gapTHxxs) var(--gaps);;

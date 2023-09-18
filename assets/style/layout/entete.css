@@ -1,0 +1,38 @@
+
+.entete{
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    max-width: 1400px;
+    padding:  var(--gapxxl) var(--gapl);
+}
+.entete>div{
+    flex: 2;
+}
+.entete>div div{
+    max-width: max-content;
+}
+.entete p{
+    display: none;
+    font-size: var(--fonts);
+}
+.entete div img{
+    margin-top: var(--gapxxs);
+    display: block;
+    width: 100%;
+}
+.entete aside{
+    flex: 1;
+}
+.entete aside img{
+    display: block;
+    margin: auto;
+    width: clamp(50px, 15vw, 200px);
+    transform: rotate(15deg);
+}
+@media screen and (max-width: 500px) {
+
+    .entete aside{
+        display: none;
+    }
+}

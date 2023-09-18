@@ -5,28 +5,24 @@
 @import url(./base/typo.css);
 @import url(./base/base.css);
 
-
 @import url(./layout/schoolWrapper.css);
 @import url(./layout/structure.css);
+@import url(./layout/section-enchere.css);
+@import url(./layout/footer.css);
+@import url(./layout/entete.css);
+@import url(./layout/flow/flow-lot.css);
 
 @import url(./components/navigation/navigation-main.css);
 @import url(./components/navigation/navigation-sec.css);
 @import url(./components/navigation/navigation-icon.css);
 
-@import url(./layout/section-enchere.css);
-
-
-@import url(./components/button-text.css);
-@import url(./components/button-icon.css);
-@import url(./components/button-miser.css);
-@import url(./components/button-filter.css);
+@import url(./components/button/button-text.css);
+@import url(./components/button/button-icon.css);
+@import url(./components/button/button-miser.css);
+@import url(./components/button/button-filter.css);
 @import url(./components/recherche.css);
 @import url(./components/box-filter.css);
 @import url(./components/card-lot.css);
-@import url(./components/entete.css);
-@import url(./components/flow-lot.css);
-
-
 
 @import url(./states/invisible.css);
 @import url(./states/no-scroll.css);
