@@ -71,8 +71,8 @@
 }
 .card-lot section:first-of-type>div span{
     display: block;
+    font-size: var(--fontxs);
 }
-
 .card-lot section:first-of-type>div:nth-of-type(3){
     flex: 1 1 150px;
 }

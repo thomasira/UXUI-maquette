@@ -13,7 +13,7 @@
     --colorNeutral: #A6A29B;
     --colorNeutralD: #8a8781;
     --colorNeutralL: #d4cfc7;
-    --colorMain: #3C95D9;
+    --colorMain: #5C95D9;
     --colorMainD: #31557E;
     --colorMainL: #A0CCFF;
     --colorSec: #E84B4B;
@@ -53,7 +53,7 @@
     /* Espacement */
     --gapTHxxs: clamp(2px, .5vw, 4px);
     --gapSafe: 6px;
-    --gapxxs: clamp(4px, 1vw, 6px);
+    --gapxxs: clamp(4px, 1vw, 8px);
     --gapxs: clamp(8px, 1.5vw, 14px);
     --gaps: clamp(12px, 1.75vw, 16px);
     --gapm: clamp(16px, 2.5vw, 24px);

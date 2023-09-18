@@ -1,15 +1,27 @@
 
 .navigation-icon{
     position: fixed;
-    display: none;
+    display: flex;
     flex-flow: column;
-    top: var(--gapHuge);
+    bottom: var(--gapl);
     right: 0;
     gap: var(--gapxs);
     z-index: 1;
 }
 .navigation-icon button{
+    border-radius: .4em 0 0 .4em;
+    border: var(--borderStd);
+    border-right: none;
+    box-shadow: 1px 1px var(--colorDark);
+    font-size: var(--fonts);
+    font-weight: 600;
     display: block;
-    width: 50px;
-    height: 50px;
+    padding: var(--gapxxs);
+    background-color: var(--colorNeutral);
+    width: 40px;
+    height: 40px;
+}
+.navigation-icon img{
+    width: 100%;
+    display: block;
 }

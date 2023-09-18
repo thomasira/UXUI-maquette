@@ -90,10 +90,10 @@
     background-color: var(--colorSec);
 }
 
-@media screen and (min-width:750px) {
-    .box-filter>header span{
+@media screen and (min-width:700px) {
+/*     .box-filter>header span{
         display: none;
-    }
+    } */
     .box-filter form{
         display: block;
     }
