@@ -1,0 +1,48 @@
+
+.section-enchere{
+    display: flex;
+    flex-flow: column;
+    gap: var(--gapl);
+    padding: var(--gapl);
+}
+.section-enchere>div{
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gapm);
+    max-width: 1400px;
+    margin: auto;
+}
+.section-enchere>div>div{
+    position: relative;
+    flex: 1;
+}
+.section-enchere>div aside{
+    position: sticky;
+    top: var(--gapl);
+    
+}
+.section-enchere>div>section{
+    flex: 2;
+}
+
+.section-enchere nav{
+    display: flex;
+    background-color: var(--colorDark);
+    flex-flow: row;
+    gap: var(--gapxs);
+}
+.section-enchere nav button{
+    border: none;
+    background: none;
+    font-family: var(--typeHead);
+    color: var(--colorLight);
+    padding: var(--gapxs);
+}
+.section-enchere nav button.selected{
+    color: var(--colorMainL);
+}
+@media screen and (max-width:450px) {
+    .section-enchere{
+        padding: var(--gapxs);
+    }
+}

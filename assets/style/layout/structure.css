@@ -1,28 +1,10 @@
-
 body>main>main{
-    display: flex;
-    flex-flow: row wrap;
-    padding: var(--gapxxl);
-    gap: var(--gapm);
     max-width: 1400px;
     margin: auto;
 }
-body>main>main>div{
-    position: relative;
-    flex: 1 0 30%;
-}
-body>main>main aside{
-    position:absolute;
-}
-body>main>main>section{
-    flex:0 1 2;
-}
-body>main>main>*+*{
-    margin-top: var(--gapl);
-}
 
 @media screen and (max-width:450px) {
-    body>main>main{
+    .section-enchere{
         padding: var(--gapxs);
     }
 }

@@ -6,7 +6,7 @@
     box-shadow: .075em .075em var(--colorDark);
     background-color: var(--colorNeutral);
     overflow: hidden;
-    max-width: 340px;
+    max-width: 440px;
 }
 .box-filter h2{
     font-size: var(--fontm);

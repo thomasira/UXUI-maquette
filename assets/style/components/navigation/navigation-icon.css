@@ -1,7 +1,7 @@
 
 .navigation-icon{
     position: fixed;
-    display: flex;
+    display: none;
     flex-flow: column;
     top: var(--gapHuge);
     right: 0;

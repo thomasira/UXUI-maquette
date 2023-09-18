@@ -7,8 +7,8 @@
     border-radius: .4em;
     border: 1px solid var(--colorDark);
     box-shadow: .075em .075em var(--colorDark);
-    max-width: 800px;
-    min-width: 320px;
+    max-width: 900px;
+    min-width: 340px;
 }
 .card-lot.en-vedette>div{
     background-color: var(--colorMainL);

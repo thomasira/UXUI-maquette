@@ -1,8 +1,9 @@
 
 .navigation-main{
+    background-color: var(--colorDark);
     display: flex;
-    flex-flow: column;
-    align-items: stretch;
+    flex-flow: row wrap;
+    align-items: center;
 }
 .navigation-main>div{
     background-color: var(--colorDark);
@@ -17,6 +18,10 @@
     flex-flow: row;
     gap: var(--gaps);
     align-items: center;
+}
+.navigation-main div>img{
+    height: 35px;
+    width: auto;
 }
 .navigation-main a{
     font-family: var(--typeHead);

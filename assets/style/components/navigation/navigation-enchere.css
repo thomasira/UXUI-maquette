@@ -1,5 +1,7 @@
 
 .navigation-enchere{
+    margin: 0 var(--gapl);
+    max-width: 1400px;
     display: flex;
     background-color: var(--colorDark);
     flex-flow: row;
