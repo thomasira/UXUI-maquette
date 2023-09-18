@@ -74,6 +74,11 @@
     border-radius: .6em;
     box-shadow: inset .075em .075em var(--colorDark);
 }
+.box-filter section>div{
+    display: flex;
+    flex-flow: column;
+    gap: var(--gapxxs);
+}
 .box-filter>form>*+*{
     margin-top: var(--gaps);
 }

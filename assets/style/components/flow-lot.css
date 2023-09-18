@@ -1,5 +1,6 @@
 
 .flow-lot{
+    max-width: max-content;
     display: flex;
     flex-flow: column;
     gap: var(--gapm);

@@ -19,28 +19,32 @@
         <!-- nav main -->
         <nav class="navigation-main">
             <div>
-                <a href="#">stampee</a>
-                <a href="#">enchère</a>
-                <a href="#">timbres</a>
-            </div>
-            <div>
-                <form class="recherche">
-                    <label>
-                        <img src="./assets/icons/magnifier.svg" alt="loupe recherche" title="rechercher">
-                        <input type="text" name="recherche">
-                        <span title="plus d'option">+</span>
-                    </label>
-                </form>
-                <img src="./assets/icons/profile.svg" alt="profile-icon">
+                <div>
+                    <a href="#">stampee</a>
+                    <a href="#">enchère</a>
+                    <a href="#">timbres</a>
+                </div>
+                <div>
+                    <form class="recherche">
+                        <label>
+                            <img src="./assets/icons/magnifier.svg" alt="loupe recherche" title="rechercher">
+                            <input type="text" name="recherche">
+                            <span title="plus d'option">+</span>
+                        </label>
+                    </form>
+                    <img src="./assets/icons/profile.svg" alt="profile-icon">
+                </div>
             </div>
         </nav>
 
         <!-- nav sec -->
         <nav class="navigation-sec">
-            <a href="#">Lord Stampee</a>
-            <a href="#">Actualités</a>
-            <a href="#">Aide</a>
-            <a href="#">Contact</a>
+            <div>
+                <a href="#">Lord Stampee</a>
+                <a href="#">Actualités</a>
+                <a href="#">Aide</a>
+                <a href="#">Contact</a>
+            </div>
         </nav>
 
         <!-- header -->
@@ -116,15 +120,20 @@
                                 <div class="non-exist"></div>
                             </div>
                             <aside>
-                                <button class="button-filter varNL">info</button>
-                                <button class="button-filter varNL">voir plus</button>
+                                <button class="button-filter varN varS">INFO</button>
+                                <button class="button-filter varN varS">VOIR PLUS</button>
                             </aside>
                             <section>
                                 <div>
-                                    <input type="checkbox" name="categorie1" value="1" id="categorie1">
-                                    <label for="categorie1">mes catégorie 1</label>
-                                    <input type="checkbox" name="mesMises" value="1" id="mesMises">
-                                    <label for="mesMises">mes mises</label>
+                                    <div>
+                                        <input type="checkbox" name="categorie1" value="1" id="categorie1">
+                                        <label for="categorie1">mes catégorie 1</label>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="checkbox" name="mesMises" value="1" id="mesMises">
+                                        <label for="mesMises">mes mises</label>
+                                    </div>
                                 </div>
                             </section>
                         </form>
@@ -172,7 +181,7 @@
                             </div>
                             <div>
                                 <div>
-                                    <p>temps restant</p>
+                                    <caption>temps restant</caption>
                                     <table>
                                         <thead>
                                             <th>00</th>

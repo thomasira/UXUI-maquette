@@ -1,12 +1,13 @@
 
 .button-filter{
+    background-color: var(--colorNeutralD);
+    border: 1px solid var(--colorDark);
     box-shadow: .075em .075em var(--colorDark);
     font-size: var(--fontxs);
     font-weight: 600;
     font-family: var(--typeText);
     font-style: italic;
     max-width: fit-content;
-    border: none;
     padding: var(--gapTHxxs) var(--gaps);
     color: var(--colorDark);
     border-radius: 100px;
@@ -20,9 +21,12 @@
     font-family: var(--typeHead);
     font-weight: 400;
     font-style: normal;
-    font-size: var(--fontxxs);
+    font-size: var(--fontSxxs);
 }
-
+.button-filter.varS{
+    font-size: var(--fontText);
+    font-weight: 400;
+}
 .button-filter:hover{
     cursor: pointer;
     filter: brightness(1.1);

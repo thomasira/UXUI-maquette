@@ -1,22 +1,25 @@
-
 .navigation-main{
     background-color: var(--colorDark);
+}
+.navigation-main>div{
+    margin: auto;
+    max-width: 1400px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-flow: row wrap;
     align-items: center;
 }
-.navigation-main>div{
+.navigation-main>div>div{
     background-color: var(--colorDark);
     display: flex;
     flex-flow: row;
 }
-.navigation-main>div:first-of-type{
+.navigation-main>div>div:first-of-type{
     flex: 1 1 400px;
     max-width: 500px;
     justify-content: space-between;
 }
-.navigation-main>div:last-of-type{
+.navigation-main>div>div:last-of-type{
     flex: 0 1 400px;
     max-width: 420px;
     padding: var(--gaps);
@@ -39,4 +42,7 @@
     text-transform: uppercase;
     font-weight: 500;
     color: var(--colorComp);
+}
+.navigation-main div>img:hover{
+    cursor: pointer;
 }

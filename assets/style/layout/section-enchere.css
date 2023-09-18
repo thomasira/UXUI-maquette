@@ -4,13 +4,13 @@
     flex-flow: column;
     gap: var(--gapl);
     padding: var(--gapl);
+    max-width: 1400px;
 }
 .section-enchere>div{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     gap: var(--gapm);
-    max-width: 1400px;
 }
 .section-enchere>div>div{
     position: relative;
@@ -21,13 +21,13 @@
     top: var(--gapl);
 }
 .section-enchere>div>section{
-    flex: 2;
+    flex: 3;
 }
 .section-enchere nav{
     display: flex;
     background-color: var(--colorDark);
     flex-flow: row;
-    gap:var(--gapTHxxs) var(--gapxs);
+    gap: var(--gapxs);
 }
 .section-enchere nav button{
     border: none;
@@ -35,7 +35,7 @@
     font-size: var(--fontText);
     font-family: var(--typeHead);
     color: var(--colorLight);
-    padding: var(--gapxs);
+    padding:var(--gapTHxxs) var(--gapxs);
 }
 .section-enchere nav button.selected{
     color: var(--colorMainL);

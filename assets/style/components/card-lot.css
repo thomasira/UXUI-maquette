@@ -61,10 +61,10 @@
     margin-top: var(--gapxs);
 }
 .card-lot section:first-of-type>div:first-of-type{
-    flex: 1 0 250px;
+    flex: 1 0 300px;
 }
 .card-lot section:first-of-type>div:nth-of-type(2){
-    flex: 1 0 120px;
+    flex: 0 1 140px;
 }
 .card-lot section:first-of-type>div:nth-of-type(2) p{
     font-style: italic;

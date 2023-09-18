@@ -1,10 +1,12 @@
-
 .navigation-sec{
+    background-color: var(--colorMainD);
+}
+.navigation-sec>div{
+    margin: auto;
+    max-width: 1400px;
     display: flex;
     flex-flow: row;
-    background-color: var(--colorMainD);
-    padding: var(--gapxs);
-    justify-content: center;
+    padding: var(--gaps);
 }
 .navigation-sec a{
     font-size: var(--fontText);
