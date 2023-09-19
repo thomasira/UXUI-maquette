@@ -1,6 +1,5 @@
 
 .card-lot{
-    margin-top: var(--gapl);
     position: relative;
     background-color: var(--colorComp);
     padding: var(--gaps);
@@ -9,6 +8,9 @@
     box-shadow: .075em .075em var(--colorDark);
     max-width: 900px;
     min-width: 340px;
+}
+.card-lot.en-vedette{  
+    margin-top: var(--gapl);
 }
 .card-lot.en-vedette>div{
     background-color: var(--colorMainL);
@@ -50,6 +52,7 @@
     width: 100%;
     box-shadow: .075em .075em var(--colorDark);
     max-width: 400px;
+    min-width: 160px;
     display: block;
     aspect-ratio: 1/1;
     border-radius: .3em;
@@ -64,7 +67,7 @@
     flex: 1 0 300px;
 }
 .card-lot section:first-of-type>div:nth-of-type(2){
-    flex: 0 1 140px;
+    flex: 0 0 140px;
 }
 .card-lot section:first-of-type>div:nth-of-type(2) p{
     font-style: italic;
@@ -72,6 +75,8 @@
 .card-lot section:first-of-type>div span{
     display: block;
     font-size: var(--fontxs);
+    font-family: var(--typeHead);
+    font-weight: 400;
 }
 .card-lot section:first-of-type>div:nth-of-type(3){
     flex: 1 1 150px;

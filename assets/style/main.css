@@ -30,4 +30,6 @@
 @import url(./states/selected.css);
 @import url(./states/no-height.css);
 @import url(./states/inverse.css);
+@import url(./states/inactive.css);
+
 
