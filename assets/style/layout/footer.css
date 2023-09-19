@@ -1,4 +1,17 @@
 
 main>footer{
-    
+    background-color: var(--colorDark);
+}
+main>footer>div{
+    margin: auto;
+    max-width: 1400px;
+    display: flex;
+    flex-flow: row wrap;
+}
+main>footer>div>*{
+    flex: 1;
+}
+
+main>footer sectionimg{
+    wi
 }
