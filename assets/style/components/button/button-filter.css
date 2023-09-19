@@ -2,21 +2,22 @@
 .button-filter{
     background-color: var(--colorNeutralL);
     border: var(--borderStd);
+    border-radius: 100px;
     box-shadow: .075em .075em var(--colorDark);
+    color: var(--colorDark);
     font-size: var(--fontxs);
     font-weight: 600;
     font-style: italic;
     padding: var(--gapTHxxs) var(--gaps);
-    color: var(--colorDark);
-    border-radius: 100px;
 }
+
+/* variants */
 .button-filter.varM{
     background-color: var(--colorMain);
 }
 .button-filter.varl{
     font-size: var(--fontl);
 }
-
 .button-filter.varTri{
     font-family: var(--typeHead);
     font-weight: 400;
@@ -27,6 +28,8 @@
     font-size: var(--fontText);
     font-weight: 400;
 }
+
+/* états */
 .button-filter:hover{
     cursor: pointer;
     filter: brightness(1.1);

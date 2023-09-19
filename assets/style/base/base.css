@@ -4,23 +4,23 @@ body{
 body>main{
     background-color: var(--colorLight);
 }
-input[type='checkbox']{
-    margin-right: var(--gapxxs);
+input[type='checkbox']{ 
     appearance: none;
-    width: 1.2em;
-    height: 1.2em;
+    background-color: var(--colorNeutralL);
     border: var(--borderStd);
     border-radius: .2em;
-    background-color: var(--colorNeutralL);
     box-shadow: .075em .075em var(--colorDark);
+    height: 1.2em;
+    margin-right: var(--gapxxs);
+    width: 1.2em; 
 }
 input[type='checkbox']:hover{
     cursor: pointer;
 }
 button{
-    display: block;
     background: none;
     border: none;
+    display: block;
     font-family: inherit;
     font-size: inherit;
 }

@@ -90,6 +90,7 @@
     background-color: var(--colorSec);
 }
 
+/* queries */
 @media screen and (min-width:700px) {
 
     .box-filter form{

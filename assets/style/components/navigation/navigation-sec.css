@@ -2,15 +2,15 @@
     background-color: var(--colorMainD);
 }
 .navigation-sec>div{
-    margin: auto;
-    max-width: 1400px;
     display: flex;
     flex-flow: row;
+    margin: auto;
+    max-width: 1400px;
     padding: var(--gaps);
 }
 .navigation-sec a{
-    font-size: var(--fontText);
     color: var(--colorLight);
+    font-size: var(--fontText);
     padding: 0 var(--gaps);
 }
 .navigation-sec a:not(:last-of-type){

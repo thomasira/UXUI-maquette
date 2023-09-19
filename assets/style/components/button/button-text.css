@@ -1,18 +1,18 @@
 .button-text{
-    display: block;
     background-color: var(--colorSec);
     border-radius: .4em;
     border: 1px solid var(--colorDark);
     box-shadow: .075em .075em var(--colorDark);
     color: var(--colorLight);
-    font-size: var(--fontxs);
+    display: block;
     font-family: var(--typeText);
+    font-size: var(--fontxs);
     line-height: 1em;
     max-width: max-content;
     padding: var(--gapTHxxs) var(--gapm);
 }
 
-/*variants couleurs*/
+/* variants */
 .button-text.varM{
     background-color: var(--colorMain);
 }
@@ -32,9 +32,7 @@
     color: var(--colorDark);
 }
 
-
-
-/* states */
+/* états */
 .button-text:hover{
     cursor: pointer;
     filter: brightness(1.1);

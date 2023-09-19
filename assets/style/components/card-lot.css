@@ -45,7 +45,7 @@
     font-size: var(--fonts);
     font-style: italic;
 }
-.card-lot section:first-of-type img{
+.card-lot section:first-of-type div>img{
     margin: auto;
     width: 100%;
     box-shadow: .075em .075em var(--colorDark);
@@ -112,12 +112,15 @@
     border: 1px solid var(--colorDark);
     box-shadow: inset .05em .05em var(--colorDark);
 }
-th{
+.card-lot span img{
+    width: 20px;
+}
+.card-lot th{
     font-family: var(--typeHead);
     font-size: var(--fontxs);
     line-height: .8em;
 }
-td{
+.card-lot td{
     padding: 0;
     text-align: center;
     line-height: .8em;
