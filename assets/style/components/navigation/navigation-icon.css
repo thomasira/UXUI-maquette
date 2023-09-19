@@ -2,26 +2,30 @@
 .navigation-icon{
     position: fixed;
     display: flex;
-    flex-flow: column;
-    bottom: var(--gapl);
-    right: 0;
+    flex-flow: row;
+    align-items: end;
+    bottom: 0;
+    right: var(--gapxs);
     gap: var(--gapxs);
     z-index: 1;
 }
 .navigation-icon button{
-    border-radius: .4em 0 0 .4em;
-    border: var(--borderStd);
-    border-right: none;
+    border-radius: .4em .4em 0 0;
+    border: 1px solid var(--colorLight);
+    border-bottom: none;
     box-shadow: 1px 1px var(--colorDark);
     font-size: var(--fonts);
     font-weight: 600;
     display: block;
     padding: var(--gapxxs);
-    background-color: var(--colorNeutral);
+    background-color: var(--colorDark);
     width: 40px;
     height: 40px;
 }
 .navigation-icon img{
     width: 100%;
     display: block;
+}
+.navigation-icon button:hover{
+    height:50px;
 }

@@ -1,8 +1,9 @@
 body{
+    background-color: var(--confColorLight);
     min-height: 100vh;
     display: flex;
     flex-flow: column;
-}
+}   
 body>main{
     flex: 1;
 }
@@ -36,6 +37,7 @@ body>footer{
     padding: var(--gapxxs);
     background-color: var(--confColorLight);
     color: var(--confColorDark);
+    margin-bottom: 40px;
 }
 body>footer h4{
     font-family: var(--confType);

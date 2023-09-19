@@ -25,7 +25,7 @@
     background-color: var(--colorLight);
 }
 .button-icon.light{
-    background-color: var(--colorLight);
+    background-color: var(--colorCompL);
 }
 .button-icon:hover{
     filter: brightness(1.1);
