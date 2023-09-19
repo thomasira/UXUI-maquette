@@ -30,9 +30,8 @@ body>header p, body>footer p{
 body>footer{
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
     align-items: center;
-    gap: var(--gapLrg);
+    gap: var(--gapl);
     padding: var(--gapxxs);
     background-color: var(--confColorLight);
     color: var(--confColorDark);
