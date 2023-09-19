@@ -9,12 +9,7 @@
     max-width: 900px;
     min-width: 340px;
 }
-.card-lot.en-vedette{  
-    margin-top: var(--gapl);
-}
-.card-lot.en-vedette>div{
-    background-color: var(--colorMainL);
-}
+
 .card-lot>div{
     border-radius:.4em .4em  0 0;
     border: 1px solid var(--colorDark);
@@ -47,7 +42,7 @@
     font-size: var(--fonts);
     font-style: italic;
 }
-.card-lot section:first-of-type div>img{
+.card-lot  div>img{
     margin: auto;
     width: 100%;
     box-shadow: .075em .075em var(--colorDark);
@@ -59,6 +54,9 @@
     border: 1px solid var(--colorDark);
     object-fit: cover;
     overflow: hidden;
+}
+.card-lot div>img:hover{
+    cursor: pointer;
 }
 .card-lot section:first-of-type>div>*+*{
     margin-top: var(--gapxs);
@@ -131,6 +129,14 @@
     line-height: .8em;
 }
 
+/* variants */
+.card-lot.en-vedette{  
+    margin-top: var(--gapl);
+}
+.card-lot.en-vedette>div{
+    color: var(--colorLight);
+    background-color: var(--colorSecD);
+}
 @media screen and (min-width:620px){
     .card-lot section:last-of-type>div:first-of-type>div{
         order:2;
