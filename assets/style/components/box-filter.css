@@ -91,9 +91,7 @@
 }
 
 @media screen and (min-width:700px) {
-/*     .box-filter>header span{
-        display: none;
-    } */
+
     .box-filter form{
         display: block;
     }

@@ -13,7 +13,7 @@
     max-width: max-content;
 }
 .entete p{
-    display: none;
+    margin-left: var(--gapxs);
     font-size: var(--fonts);
 }
 .entete div img{

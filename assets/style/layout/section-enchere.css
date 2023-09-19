@@ -13,9 +13,6 @@
     gap: var(--gapm);
 }
 .section-enchere>div>div{
-    position: sticky;
-    top: 0;
-    z-index: 1;
     flex: 1;
 }
 .section-enchere>div aside{
@@ -74,7 +71,6 @@
         position: relative;
     }
     .section-enchere>div>div header span{
-            display: none;
-        
+        display: none;
     }
 }
