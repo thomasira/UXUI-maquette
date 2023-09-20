@@ -2,16 +2,15 @@
 export class Stamp{
     constructor(el){
         this.el = el;
-        this.img.src = this.el.querySelector('[]')
+        this.elImg = this.el.querySelector('[data-js-image]');
         this.init();
     }
 
-/*     init() {
-        this.elFormOpen.addEventListener('click', () => this.openBoxFilter());
+    init() {
+        this.elImg.addEventListener('click', () => {
+            const event = new CustomEvent('ouvrirImage', {detail: this.elImg.src});
+            document.dispatchEvent(event);
+        })
     }
 
-    openBoxFilter() {
-        this.elForm.classList.toggle('non-exist');
-        this.elFormOpen.classList.toggle('inverse');
-    } */
 }

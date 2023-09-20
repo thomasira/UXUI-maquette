@@ -23,3 +23,10 @@
 .modal-image div>img:hover{
     cursor: pointer;
 }
+.modal-image span{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: var(--fontHuge);
+    color: var(--colorLight);
+}

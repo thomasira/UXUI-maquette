@@ -1,21 +1,32 @@
 import { Boxfilter } from "./BoxFilter.js";
 import { Stamp } from "./Stamp.js";
+import { ModalImg } from "./ModalImg.js";
+
 
 export class GestionnaireEnchere{
+    #stamps;
+    #modalImg;
+    #boxFilter;
 
-    constructor(el){
-        this.elBoxFilter = document.querySelector('[data-js-boxFilter]');
-        this.elStamps = document.querySelectorAll('[data-js-stamp]');
+    constructor(){
+        this.#stamps = [];
+        this.#boxFilter = new Boxfilter(document.querySelector('[data-js-boxFilter]'));
+        this.#modalImg = new ModalImg(document.querySelector('[data-js-modal="img"]'));
+
         this.init();
     }
 
     init() {
-        this.Boxfilter = new Boxfilter(this.elBoxFilter);
-        console.log(this.Boxfilter)
 
-        this.elStamps.forEach(stamp => {
-            new Stamp(stamp);
+        document.querySelectorAll('[data-js-stamp]').forEach(stamp => {
+            this.#stamps.push(new Stamp(stamp));
         });
+
+        document.addEventListener('ouvrirImage', (e) => {
+            this.#modalImg.ouvrirModal(e.detail);
+        });
+
+
     }
 
     openBoxFilter() {
