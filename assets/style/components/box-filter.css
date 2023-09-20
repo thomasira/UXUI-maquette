@@ -7,8 +7,7 @@
     margin: auto;
     max-width: 440px;
     min-width: 320px;
-    /* overflow: hidden; */
-
+    overflow: hidden;
 }
 .box-filter h2{
     font-size: var(--fontm);
@@ -25,6 +24,7 @@
     gap: var(--gapm);
     justify-content: space-between;
     padding: var(--gapxs);
+    border-bottom: var(--borderStd);
 }
 .box-filter header span{
     font-size: var(--fontm);
@@ -33,7 +33,20 @@
 /* form */
 .box-filter form{
     padding: var(--gaps);
+    max-height: 80vh;
+    overflow-y: scroll;
 }
+.box-filter form::-webkit-scrollbar{
+    width: 6px;
+}
+.box-filter form::-webkit-scrollbar-thumb {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: var(--colorNeutralD);
+    border-radius: 100px;
+}
+
 .box-filter label{
     font-size: var(--fontSs);
 }
