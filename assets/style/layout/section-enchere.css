@@ -79,6 +79,7 @@
     }
     .section-enchere>div>div{
         position: relative;
+        /* overflow-y: scroll; */
     }
     .section-enchere>div>div header span{
         display: none;

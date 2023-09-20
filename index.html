@@ -18,11 +18,11 @@
     <!-- les boîtes modales -->
     <div class="modal-cover non-exist" data-js-modal="cover">
         <div class="modal-image non-exist" data-js-modal="img">
-            <span>+</span>
+            <div><button class="button-icon exit"><img src="./assets/shapes/exit.svg" alt="bouton exit" data-js-trigger="exit"></button></div>
             <picture>
                 <img src="./assets/img/stamp_whale.jpg" alt="stamp-whale" data-js-img>
             </picture>
-            <div><img src="./assets/shapes/pagination.svg" alt="pagination"></div>
+            <div data-js-pagination><img src="./assets/shapes/pagination.svg" alt="pagination"></div>
         </div>
         <div class="recherche-filtre-modal">
 
@@ -205,7 +205,7 @@
                             <!-- les boutons et config -->
                             <section>
                                 <aside>
-                                    <button class="button-filter varTri">reset</button>
+                                    <button class="button-filter varTri" data-js-trigger="reset">reset</button>
                                     <button class="button-filter varTri">info</button>
                                 </aside>
                                 <button class="button-filter varM varl">GO</button>

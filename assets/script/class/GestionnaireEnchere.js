@@ -4,12 +4,11 @@ import { ModalImg } from "./ModalImg.js";
 
 
 export class GestionnaireEnchere{
-    #stamps;
+    #stamps = [];
     #modalImg;
     #boxFilter;
 
     constructor(){
-        this.#stamps = [];
         this.#boxFilter = new Boxfilter(document.querySelector('[data-js-boxFilter]'));
         this.#modalImg = new ModalImg(document.querySelector('[data-js-modal="img"]'));
 
@@ -25,8 +24,6 @@ export class GestionnaireEnchere{
         document.addEventListener('ouvrirImage', (e) => {
             this.#modalImg.ouvrirModal(e.detail);
         });
-
-
     }
 
     openBoxFilter() {

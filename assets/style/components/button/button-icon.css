@@ -26,6 +26,14 @@
 .button-icon.light{
     background-color: var(--colorCompL);
 }
+.button-icon.exit{
+    background-color: var(--colorCompL);
+}
+.button-icon.exit img{
+    height: clamp(20px, 3vw, 24px);
+    width: clamp(20px, 3vw, 24px);
+}
+
 
 /* états */
 .button-icon:hover{
@@ -34,4 +42,7 @@
 }
 .button-icon:active{
     box-shadow: inset .075em .075em var(--colorDark);
+}
+.button-icon:active {
+    transform: translateY(1px) translateX(1px);
 }

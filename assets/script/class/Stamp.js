@@ -12,5 +12,4 @@ export class Stamp{
             document.dispatchEvent(event);
         })
     }
-
 }
