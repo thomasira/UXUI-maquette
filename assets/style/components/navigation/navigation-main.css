@@ -45,6 +45,13 @@
 }
 
 /* états */
+
+.navigation-main a:hover{
+    color: var(--colorComp);
+}
 .navigation-main div>img:hover{
     cursor: pointer;
+}
+.navigation-main a:active{
+    transform: translateX(1px) translateY(1px);
 }

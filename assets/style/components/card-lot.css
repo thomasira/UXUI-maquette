@@ -136,7 +136,7 @@
     margin-top: var(--gapl);
 }
 .card-lot.tag>div{
-    background-color: var(--colorSecL);
+    background-color: var(--colorCompL);
     border: var(--borderStd);
     border-radius:.4em .4em 0 0;
     bottom: 100%;
@@ -148,11 +148,11 @@
     font-weight: 600;
 }
 .card-lot.en-vedette>div{
-    background-color: var(--colorSec);
+    background-color: var(--colorSecD);
     color: var(--colorLight);
 }
 .card-lot.a-venir>div{
-    background-color: var(--colorMain);
+    background-color: var(--colorMainD);
     color: var(--colorLight);
 }
 

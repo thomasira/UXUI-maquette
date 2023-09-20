@@ -1,0 +1,12 @@
+.modal-image{
+
+}
+.modal-image picture{
+    object-fit: cover;
+    width: 100%;
+    border: var(--borderStd);
+    border-radius: .4em;
+    display: block;
+    background-color: var(--colorCompL);
+    padding: var(--gapxl);
+}

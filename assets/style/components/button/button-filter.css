@@ -1,6 +1,6 @@
 
 .button-filter{
-    background-color: var(--colorNeutralL);
+    background-color: var(--colorNeutralD);
     border: var(--borderStd);
     border-radius: 100px;
     box-shadow: .075em .075em var(--colorDark);

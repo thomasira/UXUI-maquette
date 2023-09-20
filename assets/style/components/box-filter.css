@@ -64,7 +64,7 @@
     padding: var(--gapxs);
 }
 .box-filter section:last-of-type{
-    background-color: var(--colorNeutral);
+    background-color: var(--colorNeutralD);
     border: 1px solid var(--colorDark);
     border-radius: .6em;
     box-shadow: inset .075em .075em var(--colorDark);

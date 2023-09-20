@@ -1,5 +1,5 @@
 .button-text{
-    background-color: var(--colorSec);
+    background-color: var(--colorSecD);
     border-radius: .4em;
     border: 1px solid var(--colorDark);
     box-shadow: .075em .075em var(--colorDark);
@@ -13,8 +13,11 @@
 }
 
 /* variants */
+.button-text.varl{
+    font-size: var(--fonts);
+}
 .button-text.varM{
-    background-color: var(--colorMain);
+    background-color: var(--colorMainD);
 }
 .button-text.varN{
     background-color: var(--colorNeutral);

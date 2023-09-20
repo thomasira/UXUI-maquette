@@ -10,7 +10,6 @@
 @import url(./layout/section-enchere.css);
 @import url(./layout/footer.css);
 @import url(./layout/entete.css);
-@import url(./layout/flow/flow-lot.css);
 
 @import url(./components/navigation/navigation-main.css);
 @import url(./components/navigation/navigation-sec.css);
@@ -20,6 +19,12 @@
 @import url(./components/button/button-icon.css);
 @import url(./components/button/button-miser.css);
 @import url(./components/button/button-filter.css);
+
+@import url(./components/modal/modal-cover.css);
+@import url(./components/modal/modal-image.css);
+
+
+
 @import url(./components/recherche.css);
 @import url(./components/box-filter.css);
 @import url(./components/card-lot.css);

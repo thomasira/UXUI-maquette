@@ -16,3 +16,8 @@
 .navigation-sec a:not(:last-of-type){
     border-right: 1px solid var(--colorLight);
 }
+
+/* états */
+.navigation-sec a:active{
+    color: var(--colorSecL);
+}

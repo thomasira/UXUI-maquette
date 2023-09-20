@@ -1,5 +1,8 @@
 
-.cover{
+.modal-cover{
+    position: fixed;
+    background-color: var(--colorCover);
+    width: 100%;
     display: flex;
     flex-flow: row;
     align-items: center;

@@ -12,6 +12,7 @@
     background-color: var(--colorLight);
     border: none;
     flex: 1;
+    font-family: var(--typeText);
     font-size: var(--fontxs);
     outline: none;
     width: 100%;
