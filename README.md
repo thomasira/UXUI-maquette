@@ -4,6 +4,14 @@
 Thomas Aucoin-lo  
 e2395387
 
+## liens  
+
+**webdev**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette  
+
+**figma**: https://www.figma.com/proto/TojHhJMTOzK8Yy7I9FIPIG/Analyse-de-projet?type=design&node-id=29-460&t=j48LX1jvYfjnqQ12-1&scaling=scale-down-width&page-id=0%3A1&mode=design  
+
+**github**: https://github.com/thomasIRA/UXUI-maquette  
+
 ## Sur la structure HTML
 
 **ignorer le schoolWrapper*  
@@ -40,3 +48,27 @@ Les feuilles de styles sont organisées et préfixées selon leur type de module
 * les classes **states** et **modal** sont utilisées par les scripts.
 
 ## Sur les fonctionnalités
+
+**les fonctionnalités de la maquette courante sont superficielles et ne représentent pas nécessairement le produit final.* 
+
+### navigation
+
+> La navigation est toujours présente en haut de page *(tous les formats)* mais elle est simplifiée en version mobile, où le sous-menu n'est pas actif. En format mobile, des onglets sont présents en tout temps dans le bas de l'écran permettant d'ouvrir le menu et autres *(les onglets ne mènent à rien dans la version courante  du projet)*.
+
+### recherche
+
+> La barre de recherche fait parti de la navigation et est donc présente sur toutes les pages. Elle contient un module de recherche avancée accesible par l'icône ***+***. Elle est aussi accessible à partir des onglets d'écran en version mobile.  
+**la barre de recherche ne contient aucun module dans la version courante du projet*.
+
+### filtre
+
+> La boîte de filtre est toujours présente sur la page d'enchères. Elle est divisé en 2 sections, soit les filtres normaux, eux-mêmes contenant des sous-filtres et les filtres personnalisés. Les sous-filtres sont accessibles suivant un clic sur le filtre parent. En format écran large, elle suit le défilement de l'écran pour un accès facile. En format mobile, elle reste statique au haut de la page mais est accessible à partir des onglets de bas d'écran.  
+**Les filtres présents dans la version courante du projet sont à titre indicatif et ne représentent pas la version finale.*
+
+## Sur le js
+
+Un script minimal est présent pour activer les fonctionnalités demo.
+
+* boîte filtre  
+    * les targets ne sont pas au point, voir checkbox
+* image étampe

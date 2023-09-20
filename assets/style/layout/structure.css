@@ -42,6 +42,8 @@ body>main>div>section>article:last-of-type>div:nth-last-of-type(2){
 body>main>div>section>article:last-of-type a:hover{
     color: var(--colorLight);
 }
+
+/* queries */
 @media screen and (min-width: 500px) {
 
     body>main>div, body>main>main{
