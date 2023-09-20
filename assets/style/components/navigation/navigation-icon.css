@@ -32,4 +32,11 @@
     height:50px;
 }
 
-/*  */
+/* queries */
+
+@media screen and (min-width: 820px) {
+    
+    .navigation-icon{
+        display: none;
+    }
+}
