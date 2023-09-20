@@ -3,14 +3,14 @@
     display: flex;
     flex-flow: column;
     gap: var(--gapl);
-    padding: var(--gapxs);
     max-width: 1400px;
+    padding: var(--gapxs);
 }
 .section-enchere>div{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: column;
     gap: var(--gapm);
+    justify-content: space-between;
 }
 .section-enchere>div>div{
     flex: 1;
@@ -20,57 +20,65 @@
     top: var(--gapl);
 }
 .section-enchere>div>section{
+    display: flex;
     flex: 3;
-}
-.section-enchere nav>*+*{
-    margin-top: var(--gapxxs);
+    flex-flow: column;
+    gap: var(--gapm);
+    max-width: max-content;
 }
 .section-enchere nav>div{
     display: flex;
     flex-flow: row;
     gap: var(--gapxs);
 }
-.section-enchere nav>div:first-of-type{
-    background-color: var(--colorDark);
-}
-.section-enchere nav>div:first-of-type button{
-    border: none;
-    background: none;
-    font-size: var(--fontText);
-    font-family: var(--typeHead);
-    color: var(--colorLight);
-    padding:var(--gapTHxxs) var(--gapxs);
-}
-.section-enchere nav>div:first-of-type button.selected{
-    color: var(--colorMainL);
-}
-.section-enchere nav>div button:hover{
-    cursor: pointer;
-}
 .section-enchere nav h4{
     font-family: var(--typeText);
     font-size: var(--fontText);
     font-weight: 400;
 }
+.section-enchere nav>div:first-of-type{
+    background-color: var(--colorDark);
+}
+.section-enchere nav>div:first-of-type button{
+    color: var(--colorLight);
+    font-family: var(--typeHead);
+    font-size: var(--fontText);
+    padding: var(--gapTHxxs) var(--gapxs);
+}
+.section-enchere nav>div:first-of-type button.selected{
+    color: var(--colorMainL);
+}
 .section-enchere nav>div:last-of-type button{
-    padding: 0;
     font-family: var(--typeText);
     font-size: var(--fontText);
-    background: none;
-    border: none;
+    padding: 0 var(--gapxxs);
 }
 
+/* rythme */
+.section-enchere nav>*+*{
+    margin-top: var(--gapxxs);
+}
+
+/* queries */
 @media screen and (min-width: 500px) {
     .section-enchere{
         padding: var(--gapl);
     }
 }
-@media screen and (min-width: 710px) {
 
+@media screen and (min-width: 820px) {
+
+    .section-enchere>div{
+        flex-flow: row;
+    }
+    .section-enchere form{
+        display: block;
+    }
     .section-enchere>div>div{
         position: relative;
     }
     .section-enchere>div>div header span{
         display: none;
     }
+
 }

@@ -1,13 +1,13 @@
 
 .box-filter{
-    margin: auto;
-    border: 1px solid var(--colorDark);
+    background-color: var(--colorNeutral);
+    border: var(--borderStd);
     border-radius: .6em;
     box-shadow: .075em .075em var(--colorDark);
-    background-color: var(--colorNeutral);
-    overflow: hidden;
+    margin: auto;
     max-width: 440px;
     min-width: 320px;
+    overflow: hidden;
 }
 .box-filter h2{
     font-size: var(--fontm);
@@ -18,12 +18,12 @@
 
 /* header */
 .box-filter header{
+    background-color: var(--colorNeutralL);
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
     gap: var(--gapm);
+    justify-content: space-between;
     padding: var(--gapxs);
-    background-color: var(--colorNeutralL);
 }
 .box-filter header span{
     font-size: var(--fontm);
@@ -37,38 +37,38 @@
     font-size: var(--fontSs);
 }
 .box-filter section>div>div:first-of-type{
+    align-items: center;
     display: flex;
     flex-flow: row;
-    align-items: center;
     justify-content: space-between;
 }
 
 /* form sections*/
 .box-filter section:first-of-type>div>div:last-of-type{
-    padding: var(--gapxs);
     background-color: var(--colorNeutralL);
     border: 1px solid var(--colorDark);
     border-radius: .6em;
     box-shadow: inset .075em .075em var(--colorDark);
+    padding: var(--gapxs);
 }
 .box-filter section:nth-of-type(2){
+    align-items: center;
+    background-color: var(--colorNeutral);
+    border: var(--borderStd);
+    border-radius: .4em;
+    box-shadow: .075em .075em var(--colorDark);
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
     gap: var(--gaps);
-    align-items: center;
+    justify-content: space-between;
     padding: var(--gapxs);
-    background-color: var(--colorNeutral);
-    border-radius: .4em;
-    border: var(--borderStd);
-    box-shadow: .075em .075em var(--colorDark);;
 }
 .box-filter section:last-of-type{
     background-color: var(--colorNeutral);
-    padding: var(--gapxs);
     border: 1px solid var(--colorDark);
     border-radius: .6em;
     box-shadow: inset .075em .075em var(--colorDark);
+    padding: var(--gapxs);
 }
 
 /* ryhtme */
@@ -88,12 +88,4 @@
 }
 .box-filter input[type='checkbox']:checked{
     background-color: var(--colorSec);
-}
-
-/* queries */
-@media screen and (min-width:700px) {
-
-    .box-filter form{
-        display: block;
-    }
 }

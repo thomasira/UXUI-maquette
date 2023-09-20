@@ -9,26 +9,26 @@
 .entete>div{
     flex: 2;
 }
+.entete aside{
+    flex: 1;
+}
+.entete p{
+    font-size: var(--fonts);
+    margin-left: var(--gapxs);
+}
 .entete>div div{
     max-width: max-content;
 }
-.entete p{
-    margin-left: var(--gapxs);
-    font-size: var(--fonts);
-}
 .entete div img{
-    margin-top: var(--gapxxs);
     display: block;
+    margin-top: var(--gapxxs);
     width: 100%;
-}
-.entete aside{
-    flex: 1;
 }
 .entete aside img{
     display: block;
     margin: auto;
-    width: clamp(50px, 15vw, 200px);
     transform: rotate(15deg);
+    width: clamp(50px, 15vw, 200px);
 }
 @media screen and (max-width: 500px) {
 

@@ -1,40 +1,34 @@
 
 main>footer{
-    color: var(--colorLight);
     background-color: var(--colorDark);
+    color: var(--colorLight);
 }
 main>footer>div{
-    margin: auto;
-    max-width: 1400px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    padding: var(--gapl);
     gap: var(--gapl);
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1400px;
+    padding: var(--gapl);
 }
-main>footer>div>*{
-    flex: 1;
+main>footer section{
+    flex: 0 0 300px;
 }
-main>footer section>*+*{
-    margin-top: var(--gapxs);
+main>footer section img{
+    width: 100%;
 }
 main>footer section span{
     font-size: var(--fontxxs);
     font-style: italic;
-}
-main>footer section{
-    flex: 0 0 300px;
 }
 main>footer section:nth-of-type(2){
     flex: 0 0 150px;
 }
 main>footer section:nth-of-type(2)>div{
     display: grid;
-    grid-template-columns: repeat(3, 30px);
     gap: var(--gapxs);
-}
-main>footer section img{
-    width: 100%;
+    grid-template-columns: repeat(3, 30px);
 }
 main>footer section:last-of-type img{
     height: 50px;
@@ -43,4 +37,9 @@ main>footer section:last-of-type img{
 main>footer section:last-of-type img:last-of-type{
     height: 70px;
     width: max-content;
+}
+
+/* ryhtme */
+main>footer section>*+*{
+    margin-top: var(--gapxs);
 }

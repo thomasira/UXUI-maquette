@@ -1,20 +1,20 @@
 
 .recherche label{
-    gap: var(--gapxs);
     align-items: center;
-    display: flex;
-    flex-flow: row;
     background-color: var(--colorLight);
     border-radius: 100px;
+    display: flex;
+    flex-flow: row;
+    gap: var(--gapxs);
     padding: var(--gapxxs) var(--gaps);
 }
 .recherche input{
-    width: 100%;
-    flex: 1;
     background-color: var(--colorLight);
+    border: none;
+    flex: 1;
     font-size: var(--fontxs);
     outline: none;
-    border: none;
+    width: 100%;
 }
 .recherche img{
     height: 1.2em;
@@ -26,6 +26,7 @@
     transform: translateY(-2px);
 }
 
+/* états */
 .recherche img:hover, .recherche span:hover{
     cursor: pointer;
 }

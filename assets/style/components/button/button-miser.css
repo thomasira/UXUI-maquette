@@ -19,9 +19,7 @@
     font-size: var(--fontText);
     padding: var(--gapTHxxs) var(--gaps);;
 }
-/* .button-miser.main{
-    background-color: var(--colorMainD);
-} */
+
 
 /* états */
 .button-miser:hover{
