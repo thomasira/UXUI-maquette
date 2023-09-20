@@ -17,17 +17,19 @@ export class Boxfilter{
         this.elFormOpen.addEventListener('click', () => this.#toggleBoxFilter());
         this.elForm.addEventListener('submit', (e) => e.preventDefault());
         this.elFormReset.addEventListener('click', () => this.elForm.reset());
-        this.#initFiltres();
-        
+        this.#initFiltres();   
     }
 
     #initFiltres(){
-        this.el.querySelectorAll('[data-js-filtre]').forEach(elFilter => {
-            const elFilterToggle = elFilter.querySelector('[data-js-trigger="open-filtre"]');
-            const elSubfiltre = elFilter.querySelector('[data-js-subfiltre]');
+        const elFilters = this.el.querySelectorAll('[data-js-filtre]');
 
-            elFilterToggle.addEventListener('click', () => {
-                elSubfiltre.classList.toggle('non-exist');
+        elFilters.forEach(elFilter => {
+            const elFilterLabel = elFilter.querySelector('div:first-of-type');
+            const elFilterToggle = elFilter.querySelector('[data-js-trigger="open-filtre"]');
+            const elSubfilter = elFilter.querySelector('[data-js-subfiltre]');
+
+            elFilterLabel.addEventListener('click', (e) => {
+                elSubfilter.classList.toggle('non-exist');
                 elFilterToggle.classList.toggle('inverse');
             });
         });

@@ -50,7 +50,7 @@
     --fontSs: 22px;
 
     /* Espacement */
-    --gapTHxxs: clamp(2px, .5vw, 4px);
+    --gapTHxxs: clamp(3px, .5vw, 5px);
     --gapSafe: 6px;
     --gapxxs: clamp(4px, 1vw, 8px);
     --gapxs: clamp(8px, 1.5vw, 14px);

@@ -9,6 +9,9 @@ export class GestionnaireEnchere{
     #boxFilter;
 
     constructor(){
+        if (!GestionnaireEnchere.instance) GestionnaireEnchere.instance = this;
+        else throw new Error("impossible de dupliquer cette classe");
+
         this.#boxFilter = new Boxfilter(document.querySelector('[data-js-boxFilter]'));
         this.#modalImg = new ModalImg(document.querySelector('[data-js-modal="img"]'));
 
