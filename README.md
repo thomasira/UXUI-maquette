@@ -6,11 +6,14 @@ e2395387
 
 ## liens  
 
-**webdev**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette  
+**webdev**:   
+https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette  
 
-**figma**: https://www.figma.com/proto/TojHhJMTOzK8Yy7I9FIPIG/Analyse-de-projet?type=design&node-id=29-460&t=j48LX1jvYfjnqQ12-1&scaling=scale-down-width&page-id=0%3A1&mode=design  
+**figma**: 
+https://www.figma.com/proto/TojHhJMTOzK8Yy7I9FIPIG/Analyse-de-projet?type=design&node-id=29-460&t=j48LX1jvYfjnqQ12-1&scaling=scale-down-width&page-id=0%3A1&mode=design  
 
-**github**: https://github.com/thomasIRA/UXUI-maquette  
+**github**:  
+https://github.com/thomasIRA/UXUI-maquette  
 
 ## Sur la structure HTML
 
