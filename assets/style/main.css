@@ -28,6 +28,8 @@
 @import url(./components/recherche.css);
 @import url(./components/box-filter.css);
 @import url(./components/card-lot.css);
+@import url(./components/card-join.css);
+
 
 @import url(./states/invisible.css);
 @import url(./states/no-scroll.css);

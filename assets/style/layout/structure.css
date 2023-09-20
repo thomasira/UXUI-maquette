@@ -3,9 +3,48 @@ body>main>main{
     margin: auto;
     max-width: 1400px;
 }
+body>main>div, body>main>main{
+    padding: var(--gaps);
+}
+body>main>div{
+    background-color: var(--colorMainL);
+}
+body>main>div>section{
+    margin: auto;
+    max-width: 1400px;
+}
+body>main>div>section>article:last-of-type{
+    padding: var(--gapl);
+}
+body>main>div>section>article:last-of-type h3{
+    font-family: var(--typeText);
+    font-size: var(--fontm);
+}
+body>main>div>section>article:last-of-type p{
+    font-size: var(--fonts);
+}
+body>main>div>section>article:last-of-type a{
+    color: var(--colorSecD);
+    display: inline-block;
+    font-family: var(--fontText);
+    font-weight: 600;
+    font-style: italic;
+}
+body>main>div>section>article:last-of-type h3+*{
+    margin-top: var(--gapxxs);
+}
+body>main>div>section>article:last-of-type>*+*{
+    margin-top: var(--gapm);
+}
+body>main>div>section>article:last-of-type>div:nth-last-of-type(2){
+    text-align: end;
+}
+body>main>div>section>article:last-of-type a:hover{
+    color: var(--colorLight);
+}
+@media screen and (min-width: 500px) {
 
-@media screen and (max-width:460px) {
-    .section-enchere{
-        padding: var(--gapxs);
+    body>main>div, body>main>main{
+        padding: var(--gapl);
     }
 }

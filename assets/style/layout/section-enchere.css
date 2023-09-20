@@ -4,7 +4,7 @@
     flex-flow: column;
     gap: var(--gapl);
     max-width: 1400px;
-    padding: var(--gapl) var(--gapxs);
+    padding-bottom: var(--gapxl);
 }
 .section-enchere>button{
     margin: auto;
@@ -63,12 +63,6 @@
 }
 
 /* queries */
-@media screen and (min-width: 500px) {
-    .section-enchere{
-        padding: var(--gapl);
-    }
-}
-
 @media screen and (min-width: 820px) {
 
     .section-enchere>div{
