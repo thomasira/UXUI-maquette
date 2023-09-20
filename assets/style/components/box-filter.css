@@ -46,7 +46,6 @@
     background: var(--colorNeutralD);
     border-radius: 100px;
 }
-
 .box-filter label{
     font-size: var(--fontSs);
 }
