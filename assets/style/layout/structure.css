@@ -1,4 +1,7 @@
-
+body>main{
+    display: flex;
+    flex-flow: column;
+}
 body>main>main{
     margin: auto;
     max-width: 1400px;

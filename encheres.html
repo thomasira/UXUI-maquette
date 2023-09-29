@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thomas Aucoin-Lo">
+    <title>STAMPEE | maquette enchères</title>
+    <link rel="stylesheet" href="assets/style/main.css">
+    <script type="module" src="./assets/script/main.js"></script>
+</head>
+<body>
+
+    <!-- school wrapper header -->
+    <header>
+        <h1>MAQUETTE - UX/UI</h1>
+        <p>Stampee | maquette enchères</p>
+    </header>
+
+    <!-- les boîtes modales -->
+    <div class="modal-cover non-exist" data-js-modal="cover">
+        <div class="modal-image non-exist" data-js-modal="img">
+            <div><button class="button-icon exit"><img src="./assets/shapes/exit.svg" alt="bouton exit" data-js-trigger="exit"></button></div>
+            <picture>
+                <img src="./assets/img/stamp_whale.jpg" alt="stamp-whale" data-js-img>
+            </picture>
+            <div data-js-pagination><img src="./assets/shapes/pagination.svg" alt="pagination"></div>
+        </div>
+        <div class="recherche-filtre-modal">
+
+        </div>
+
+        <div class="menu-modal">
+            
+        </div>
+    </div>
+
+    <main>
+        <!-- nav main -->
+        <nav class="navigation-main">
+            <div>
+                <div>
+                    <a href="/">stampee</a>
+                    <a href="encheres.html">Enchères</a>
+                    <a href="#">Timbres</a>
+                </div>
+                <div>
+                    <form class="recherche">
+                        <label>
+                            <img src="./assets/icons/magnifier.svg" alt="loupe recherche" title="rechercher">
+                            <input type="text" name="recherche">
+                            <span title="plus d'option">+</span>
+                        </label>
+                    </form>
+                    <img src="./assets/icons/profile.svg" alt="profile-icon" title="profil">
+                </div>
+            </div>
+        </nav>
+
+        <!-- nav sec -->
+        <nav class="navigation-sec">
+            <div>
+                <div>
+                    <a href="#">Lord Stampee</a>
+                    <div>
+                        <a href="#">Bio</a>
+                        <a href="#">Historique</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">Actualités</a>
+                    <div>
+                        <a href="#">Philatélie</a>
+                        <a href="#">Tendance</a>
+                        <a href="#">Timbres</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">Aide</a>
+                    <div>
+                        <a href="#">Encan</a>
+                        <a href="#">Profil</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">Contact</a>
+                    <div>
+                        <a href="#">Angleterre</a>
+                        <a href="#">Canada</a>
+                        <a href="#">USA</a>
+                        <a href="#">Australie</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- header -->
+        <header class="entete">
+            <div>
+                <h2>Les enchères</h2>
+                <div>
+                    <p>Le portail où trouver les meilleurs timbres</p>
+                    <img src="./assets/shapes/edge.svg" alt="railway edge">
+                </div>
+            </div>
+            <aside><img src="./assets/shapes/train.svg" alt="train"></aside>
+        </header>
+
+        <!-- nav icon -->
+        <aside class="navigation-icon">
+            <button><img src="./assets/shapes/nav-icon/magnifier.svg" alt="recherche"></button>
+            <button><img src="./assets/shapes/nav-icon/burger.svg" alt="menu"></button>
+            <button><img src="./assets/shapes/nav-icon/profileS.svg" alt="profil"></button>
+        </aside>
+
+        <!-- section enchère -->
+        <main class="section-enchere">
+
+            <!-- nav enchère -->
+            <nav>
+                <div>
+                    <button class="selected">En cours</button>
+                    <button>À venir</button>
+                    <button>Passé</button>
+                    <button>Tout</button>
+                </div>
+                <div>
+                    <h4>Classer par: </h4>
+                    <button>Date</button>
+                    <button>Prix</button>
+                    <button class="selected">Nbr. de mises</button>
+                </div>
+            </nav>
+
+            <!-- section enchère et filtres -->
+            <div>
+
+                <div>
+                    <!-- box-filter -->
+                    <aside class="box-filter" data-js-boxFilter>
+                        <header>
+                            <h2>Filtres</h2>
+                            <span data-js-trigger="open-filtre" class="inverse">&#709;</span>
+                        </header> 
+                        <form>
+                            <!-- les filtres et sous-filtres -->
+                            <section>
+                                <div data-js-filtre="fauna">
+                                    <div>
+                                        <div>
+                                            <input type="checkbox" name="fauna" value="1" id="fauna">
+                                            <label for="fauna">fauna</label>
+                                        </div>
+                                        <span data-js-trigger="open-filtre">&#709;</span>
+                                    </div>
+                                    <div data-js-subfiltre class="non-exist">
+                                        <div>
+                                            <input type="checkbox" name="mammifère" value="1" id="mammifère">
+                                            <label for="mammifère">mammifère</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="insecte" value="1" id="insecte">
+                                            <label for="insecte">insecte</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div data-js-filtre="flora">
+                                    <div>
+                                        <div>
+                                            <input type="checkbox" name="flora" value="1" id="flora">
+                                            <label for="flora">flora</label>
+                                        </div>
+                                        <span data-js-trigger="open-filtre">&#709;</span>
+                                    </div>
+                                
+                                    <div data-js-subfiltre class="non-exist">
+                                        <div>
+                                            <input type="checkbox" name="arbres" value="1" id="arbres">
+                                            <label for="arbres">arbres</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="fleurs" value="1" id="fleurs">
+                                            <label for="fleurs">fleurs</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div data-js-filtre="paysage">
+                                    <div>
+                                        <div>
+                                            <input type="checkbox" name="paysage" value="1" id="paysage">
+                                            <label for="paysage">paysage</label>
+                                        </div>
+                                        <span data-js-trigger="open-filtre">&#709;</span>
+                                    </div>
+                                    <div data-js-subfiltre class="non-exist">
+                                        <div>
+                                            <input type="checkbox" name="montagne" value="1" id="montagne">
+                                            <label for="montagne">montagne</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="urbain" value="1" id="urbain">
+                                            <label for="urbain">urbain</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="rural" value="1" id="rural">
+                                            <label for="rural">rural</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div data-js-filtre="personnalite">
+                                    <div>
+                                        <div>
+                                            <input type="checkbox" name="personnalite" value="1" id="personnalite">
+                                            <label for="personnalite">personnalité</label>
+                                        </div>
+                                        <span data-js-trigger="open-filtre">&#709;</span>
+                                    </div>
+                                    <div data-js-subfiltre class="non-exist">
+                                        <div>
+                                            <input type="checkbox" name="rois-et-reines" value="1" id="rois-et-reines">
+                                            <label for="rois-et-reines">rois et reines</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" name="star-du-cinema" value="1" id="star-du-cinema">
+                                            <label for="star-du-cinema">star du cinema</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            
+                            <!-- les boutons et config -->
+                            <section>
+                                <aside>
+                                    <button class="button-filter varTri" data-js-trigger="reset">reset</button>
+                                    <button class="button-filter varTri">info</button>
+                                </aside>
+                                <button class="button-filter varM varl">GO</button>
+                            </section>
+
+                            <!-- les filtres perso -->
+                            <section>
+                                <h3>Mes filtres</h3>
+                                <div>
+                                    <input type="checkbox" name="categorie1" value="1" id="categorie1">
+                                    <label for="categorie1">catégorie 1</label>
+                                </div>
+                                
+                                <div>
+                                    <input type="checkbox" name="categorie2" value="1" id="categorie2">
+                                    <label for="categorie2">catégorie 2</label>
+                                </div>
+                                                                
+                                <div>
+                                    <input type="checkbox" name="mesMises" value="1" id="mesMises">
+                                    <label for="mesMises">mes mises</label>
+                                </div>
+                            </section>
+                        </form>
+                    </aside>                  
+                </div>
+
+                <!-- flow-lot -->
+                <section class="flow-lot">
+
+                    <!-- card-lots -->
+                    <article class="card-lot tag en-vedette"  data-js-stamp>
+                        <div>
+                            <p>En vedette</p>
+                        </div>
+                        <section>
+                            <div>
+                                <header>
+                                    <a href="enchere.html"><h3>Orcas</h3></a>
+                                    <strong>1990-CCCP</strong>
+                                </header>
+                                <main>
+                                    <p>lot de 3 timbres. Items rares de la série océan de l'union soviétique. Impression spéciale. Étampé en Yougoslavie.</p>
+                                </main>
+                            </div>
+                            <div>
+                                <p>condition: <strong>mint-2</strong></p>
+                                <p>étampé: <strong>oui</strong></p>
+                                <a class="button-text varNL" href="enchere.html">voir plus</a>
+                                <button class="button-text varNL">vendeur</button>
+                                <span>👁 345</span>
+                                <span><img src="./assets/shapes/mise.svg" alt="mise"> 46</span>
+                            </div>
+                            <div>
+                                <img src="./assets/img/stamp_whale.jpg" alt="stamp-whale" title="voir: stamp-whale" data-js-image>
+                            </div>
+                
+                        </section>
+                        <section>
+                            <div>
+                                <div>
+                                    <button class="button-icon bell light" aria-label="alert-button"><picture><img src="./assets/icons/bell.svg" alt=""></picture></button>
+                                    <button class="button-icon heart light" aria-label="like-button"><picture><img src="./assets/icons/heart.svg" alt=""></picture></button>
+                                    <button class="button-icon light" aria-label="star-button"><picture><img src="./assets/icons/star.svg" alt=""></picture></button>
+                                </div>
+                                <button class="button-miser">miser</button>
+                            </div>
+                            <div>
+                                <div>
+                                    <caption>temps restant</caption>
+                                    <table>
+                                        <thead>
+                                            <th>00</th>
+                                            <th>:45</th>
+                                            <th>:56</th>
+                                        </thead>
+                                        <tr>
+                                            <td>h</td>
+                                            <td>m</td>
+                                            <td>s</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div>
+                                    <p>mise courante</p>
+                                    <strong>8,456<span>$</span></strong>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                    <article class="card-lot tag a-venir" data-js-stamp>
+                        <div>
+                            <p>À venir</p>
+                        </div>
+                        <section>
+                            <div>
+                                <header>
+                                    <a href="enchere.html"><h3>Australia One penny</h3></a>
+                                    <strong>1956-AUS</strong>
+                                </header>
+                                <main>
+                                    <p>lot de 1 timbre. Collection privé de la fondation Timbres et dinosaures. Premier timbre de la compagnie Stamp Sydney intl. Hector Berlioz présente « l'étude fort négligée jusqu'à présent, de la nature du timbre, du caractère particulier et des facultés expressives de chacun d'eux.</p>
+                                </main>
+                            </div>
+                            <div>
+                                <p>condition: <strong>mint</strong></p>
+                                <p>étampé: <strong>oui</strong></p>
+                                <a href="enchere.html" class="button-text varNL">voir plus</a>
+                                <button class="button-text varNL">vendeur</button>
+                                <span>👁 51</span>
+                                <span><img src="./assets/shapes/mise.svg" alt="mise"> 0</span>
+                            </div>
+                            <div>
+                                <img src="https://imgs.search.brave.com/NC5044iEM3DasOiFz_BLZYXmmkouKgCcWOJ-IDOshpU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9k/L2RiLzE5MThud3Bh/Y2lmaWNpc2F1c3Ry/YWxpYUtHVjFkLmpw/Zw" alt="australia penny" title="voir: penny one" data-js-image>
+                            </div>
+                
+                        </section>
+                        <section>
+                            <div>
+                                <div>
+                                    <button class="button-icon bell light" aria-label="alert-button"><picture><img src="./assets/icons/bell.svg" alt=""></picture></button>
+                                    <button class="button-icon heart light" aria-label="like-button"><picture><img src="./assets/icons/heart.svg" alt=""></picture></button>
+                                    <button class="button-icon light" aria-label="star-button"><picture><img src="./assets/icons/star.svg" alt=""></picture></button>
+                                </div>
+                                <button class="button-miser inactive">miser</button>
+                            </div>
+                            <div>
+                                <div>
+                                    <caption>commence dans</caption>
+                                    <table>
+                                        <thead>
+                                            <th>05</th>
+                                            <th>:23</th>
+                                            <th>:02</th>
+                                        </thead>
+                                        <tr>
+                                            <td>h</td>
+                                            <td>m</td>
+                                            <td>s</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div>
+                                    <p>mise courante</p>
+                                    <strong>0,000<span>$</span></strong>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                    <article class="card-lot" data-js-stamp>
+                        <section>
+                            <div>
+                                <header>
+                                    <a href="enchere.html"><h3>Nippon clas.</h3></a>
+                                    <strong>1943-JAP</strong>
+                                </header>
+                                <main>
+                                    <p>En 1854, la Convention de Kanagawa, suivie d'un traité avec les Anglais signé à Yedo en 18581 marque un début d'ouverture du Japon aux relations internationales</p>
+                                </main>
+                            </div>
+                            <div>
+                                <p>condition: <strong>mint-3</strong></p>
+                                <p>étampé: <strong>non</strong></p>
+                                <a href="enchere.html" class="button-text varNL">voir plus</a>
+                                <button class="button-text varNL">vendeur</button>
+                                <span>👁 156</span>
+                                <span><img src="./assets/shapes/mise.svg" alt="mise"> 22</span>
+                            </div>
+                            <div>
+                                <img src="https://imgs.search.brave.com/7BdKFevrdBqkUDIiTihuWh5n2NkOYotZvB6mUaCKjqs/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2NlLzBm/LzI4L2NlMGYyOGU0/MTkzMjBmY2RhOGI4/YjNmODQ4MzQwMzA3/LmpwZw" alt="japanese stamp" title="voir: nippon étampe" data-js-image>
+                            </div>
+                
+                        </section>
+                        <section>
+                            <div>
+                                <div>
+                                    <button class="button-icon bell light" aria-label="alert-button"><picture><img src="./assets/icons/bell.svg" alt=""></picture></button>
+                                    <button class="button-icon heart light" aria-label="like-button"><picture><img src="./assets/icons/heart.svg" alt=""></picture></button>
+                                    <button class="button-icon light" aria-label="star-button"><picture><img src="./assets/icons/star.svg" alt=""></picture></button>
+                                </div>
+                                <button class="button-miser">miser</button>
+                            </div>
+                            <div>
+                                <div>
+                                    <caption>temps restant</caption>
+                                    <table>
+                                        <thead>
+                                            <th>13</th>
+                                            <th>:32</th>
+                                            <th>:06</th>
+                                        </thead>
+                                        <tr>
+                                            <td>h</td>
+                                            <td>m</td>
+                                            <td>s</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div>
+                                    <p>mise courante</p>
+                                    <strong>3,340<span>$</span></strong>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                    <article class="card-lot" data-js-stamp>
+                        <section>
+                            <div>
+                                <header>
+                                    <a href="enchere.html"><h3>Hasselback</h3></a>
+                                    <strong>1987-SWE</strong>
+                                </header>
+                                <main>
+                                    <p>Découvrez la recette traditionnelle des pommes de terre hasselback, une recette suédoise qui donne envie au premier coup d'oeil ! Et en plus, c'est très simple à faire.</p>
+                                </main>
+                            </div>
+                            <div>
+                                <p>condition: <strong>usagé</strong></p>
+                                <p>étampé: <strong>non</strong></p>
+                                <a href="enchere.html" class="button-text varNL">voir plus</a>
+                                <button class="button-text varNL">vendeur</button>
+                                <span>👁 87</span>
+                                <span><img src="./assets/shapes/mise.svg" alt="mise"> 43</span>
+                            </div>
+                            <div>
+                                <img src="https://imgs.search.brave.com/Hu0eOnLVhE0EvY7_ICNmqcQNEl8VPD4KOL0js0G1eNM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9k/L2RkL1N3ZWRpc2hf/c3RhbXBfMTg3N18y/MF8lQzMlOTZyZV9Q/T1NULjA1NDA3MC5q/cGc" alt="swedish stamp" title="voir: suede étampe" data-js-image>
+                            </div>
+                
+                        </section>
+                        <section>
+                            <div>
+                                <div>
+                                    <button class="button-icon bell light" aria-label="alert-button"><picture><img src="./assets/icons/bell.svg" alt=""></picture></button>
+                                    <button class="button-icon heart light" aria-label="like-button"><picture><img src="./assets/icons/heart.svg" alt=""></picture></button>
+                                    <button class="button-icon light" aria-label="star-button"><picture><img src="./assets/icons/star.svg" alt=""></picture></button>
+                                </div>
+                                <button class="button-miser">miser</button>
+                            </div>
+                            <div>
+                                <div>
+                                    <caption>temps restant</caption>
+                                    <table>
+                                        <thead>
+                                            <th>42</th>
+                                            <th>:52</th>
+                                            <th>:36</th>
+                                        </thead>
+                                        <tr>
+                                            <td>h</td>
+                                            <td>m</td>
+                                            <td>s</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div>
+                                    <p>mise courante</p>
+                                    <strong>1,883<span>$</span></strong>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+                    <article class="card-lot tag" data-js-stamp>
+                        <div>
+                            <p>Fini bientôt</p>
+                        </div>
+                        <section>
+                            <div>
+                                <header>
+                                    <a href="enchere.html"><h3>Fiji et tropiques</h3></a>
+                                    <strong>1943-FI</strong>
+                                </header>
+                                <main>
+                                    <p>Lots de 6 étampes de la collection îles tropicales de John Smith. Edoardo Chiossone avait proposé d'utiliser l'effigie de l'Empereur mais ceci était tabou.</p>
+                                </main>
+                            </div>
+                            <div>
+                                <p>condition: <strong>mint</strong></p>
+                                <p>étampé: <strong>non</strong></p>
+                                <a href="enchere.html" class="button-text varNL">voir plus</a>
+                                <button class="button-text varNL">vendeur</button>
+                                <span>👁 1211</span>
+                                <span><img src="./assets/shapes/mise.svg" alt="mise"> 443</span>
+                            </div>
+                            <div>
+                                <img src="https://imgs.search.brave.com/Z8yGOA0UJhWKfhgOxtQLPRk2n8e6jtL_M7_dDUI1Vvk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzlhL2Zj/LzVmLzlhZmM1ZjNh/NzljNjA0NWY4ZmVj/MjFjMTQyYWFjZTFm/LS1ncmFuZC1hcnQt/c3RhbXAtY29sbGVj/dGluZy5qcGc" alt="fiji stamp" title="voir: fiji étampe" data-js-image>
+                            </div>
+                
+                        </section>
+                        <section>
+                            <div>
+                                <div>
+                                    <button class="button-icon bell light" aria-label="alert-button"><picture><img src="./assets/icons/bell.svg" alt=""></picture></button>
+                                    <button class="button-icon heart light" aria-label="like-button"><picture><img src="./assets/icons/heart.svg" alt=""></picture></button>
+                                    <button class="button-icon light" aria-label="star-button"><picture><img src="./assets/icons/star.svg" alt=""></picture></button>
+                                </div>
+                                <button class="button-miser">miser</button>
+                            </div>
+                            <div>
+                                <div>
+                                    <caption>temps restant</caption>
+                                    <table>
+                                        <thead>
+                                            <th>00</th>
+                                            <th>:12</th>
+                                            <th>:11</th>
+                                        </thead>
+                                        <tr>
+                                            <td>h</td>
+                                            <td>m</td>
+                                            <td>s</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div>
+                                    <p>mise courante</p>
+                                    <strong>10,883<span>$</span></strong>
+                                </div>
+                            </div>
+                        </section>
+                    </article>
+
+                </section>
+                
+            </div>
+
+            <!-- bouton pour charger plus d'enchères  -->
+            <button class="button-text varM varl">voir plus</button>
+
+        </main>
+
+        <!-- section bas de page -->
+        <div>
+            <section>
+                <article class="card-join">
+                    <header>
+                        <h2>Joignez vous au club!</h2>
+                        <p>Être membre du club Stampee donne un accès privilégiés sur les enchères et plus encore!</p>
+                        <a href="#" class="button-text varl">Joindre</a>
+                    </header>
+                    <picture>
+                        <img src="./assets/shapes/postal-stamp.svg" alt="postal stamp">
+                    </picture>
+                </article>
+                <article>
+                    <div>
+                        <h3>Vous ne trouvez pas ce que vous cherchez?</h3>
+                        <p>faites une <a href="#">Recherche</a></p>
+                    </div>
+                    <div>
+                        <h3>Vous voulez en savoir plus sur la philatélie?</h3>
+                        <p>visitez notre page <a href="#">Actualités</a></p>
+                    </div>
+                    <div>
+                        <h3>Vous désirez en apprendre plus sur le fondateur?</h3>
+                        <p>lisez la bio de <a href="#">Lord Stampee</a></p>
+                    </div>
+                </article>
+            </section>
+        </div>
+        
+        <!-- footer -->
+        <footer>
+            <div>
+                    <section>
+                        <h3>Contactez-nous</h3>
+                        <p>Adresse: <span>28 rue de l'étampe, Min., USA, 1W3SD3</span></p>
+                        <p>Téléphone: <span>1-544-432-4222</span></p>
+                        <p>Email: <span>contact@lordstampee.com</span></p>
+                    </section>
+                    <section>
+                        <h3>Suivez-nous</h3>
+                        <div>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/facebook.svg" alt="facebook-icon"></a>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/x.svg" alt="x-icon"></a>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/instagram.svg" alt="instagram-icon"></a>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/threads.svg" alt="threads-icon"></a>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/tiktok.svg" alt="tiktok-icon"></a>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/courrier.svg" alt="courrier-icon"></a>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Merci à</h3>
+                        <img src="./assets/icons/external/maisonneuve.svg" alt="maisonneuve-icon">
+                        <img src="./assets/icons/external/rquebec.svg" alt="rquebec-icon">
+                    </section>
+                </div>
+            </div>
+
+        </footer>
+    </main>
+
+    <!-- school wrapper footer -->
+    <footer>
+        <h4>12-09-2023</h4>
+        <div>
+            <p>Thomas Aucoin-Lo</p>
+            <p>e2395387</p>
+        </div>
+    </footer> 
+</body>
+</html>

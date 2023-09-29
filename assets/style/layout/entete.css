@@ -5,6 +5,7 @@
     margin: auto;
     max-width: 1400px;
     padding:  var(--gapxxl) var(--gapl);
+    width: 100%;
 }
 .entete>div{
     flex: 2;
