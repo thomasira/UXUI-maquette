@@ -43,7 +43,7 @@
     display: block;
     width: 10px;
     height: 10px;
-    background: var(--colorNeutralD);
+    background: var(--colorLight);
     border-radius: 100px;
 }
 .box-filter label{
