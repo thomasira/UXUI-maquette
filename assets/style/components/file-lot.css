@@ -1,0 +1,169 @@
+
+.file-lot{
+    background-color: var(--colorComp);
+    border: var(--borderStd);
+    border-radius: .4em;
+    box-shadow: .075em .075em var(--colorDark);
+    max-width: 1400px;
+    min-width: 340px;
+    padding: var(--gaps);
+    position: relative;
+}
+.file-lot section{
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gaps);
+    justify-content: center;
+    row-gap: var(--gapxl);
+}
+
+/* icone mise */
+.file-lot span img{
+    width: 20px;
+}
+
+/* temps */
+.file-lot th{
+    font-family: var(--typeHead);
+    font-size: var(--fontxs);
+    line-height: .8em;
+}
+.file-lot td{
+    line-height: .8em;
+    padding: 0;
+    text-align: center;
+}
+
+/* header */
+.file-lot h3{
+    font-size: var(--fontl);
+    line-height: 1em;
+}
+.file-lot header strong{
+    display: block;
+    font-size: var(--fonts);
+    font-style: italic;
+    line-height: 1.2em;
+}
+
+/* image du timbre */
+.file-lot div>img{
+    aspect-ratio: 1/1;
+    border: 1px solid var(--colorDark);
+    border-radius: .3em;
+    box-shadow: .075em .075em var(--colorDark);
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    min-width: 160px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* divisions des premières sections flex*/
+.file-lot section:first-of-type>div:first-of-type{
+    flex: 1 0 300px;
+}
+.file-lot section:first-of-type>div:nth-of-type(2){
+    flex: 0 0 140px;
+}
+.file-lot section:first-of-type>div:nth-of-type(3){
+    flex: 1 1 150px;
+}
+
+/* condition et étampé */
+.file-lot section:first-of-type>div:nth-of-type(2) p{
+    font-style: italic;
+}
+.file-lot section:first-of-type>div span{
+    display: block;
+    font-family: var(--typeHead);
+    font-size: var(--fontxs);
+    font-weight: 400;
+}
+
+.file-lot section:last-of-type{
+    align-items: end;
+    gap: var(--gapxs);
+}
+.file-lot section:last-of-type>div{
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gapxs);
+}
+
+/* divisions des deuxièmes sections flex */
+.file-lot section:last-of-type>div:first-of-type>div{
+    display: flex;
+    flex-flow: row;
+    gap: var(--gaps);
+}
+.file-lot section:last-of-type>div:first-of-type{
+    flex: 4; 
+    row-gap: var(--gapl);
+}
+.file-lot section:last-of-type>div:last-of-type{
+    flex: 3;
+    justify-content: end;
+    text-align: end;
+}
+
+/* prix */
+.file-lot section:last-of-type>div:last-of-type strong{
+    background-color: var(--colorLight);
+    border: var(--borderStd);
+    box-shadow: inset .05em .05em var(--colorDark);
+    border-radius: .2em;
+    display: block;
+    font-family: var(--typeHead);
+    font-size: var(--fontm);
+    font-weight: 400;
+    padding: var(--gapxxs);
+}
+
+/* rythme */
+.file-lot>*+*{
+    margin-top: var(--gaps);
+}
+.file-lot section:first-of-type>div>*+*{
+    margin-top: var(--gapxs);
+}
+
+/* variants */
+.file-lot.tag{  
+    margin-top: var(--gapl);
+}
+.file-lot.tag>div{
+    background-color: var(--colorCompL);
+    border: var(--borderStd);
+    border-radius:.4em .4em 0 0;
+    bottom: 100%;
+    padding: var(--gapTHxxs) var(--gapxxs);
+    position: absolute;
+}
+.file-lot.tag>div p{
+    font-family: var(--typeHead);
+    font-weight: 600;
+}
+.file-lot.en-vedette>div{
+    background-color: var(--colorSecD);
+    color: var(--colorLight);
+}
+.file-lot.a-venir>div{
+    background-color: var(--colorMainD);
+    color: var(--colorLight);
+}
+
+/* états */
+.file-lot div>img:hover{
+    cursor: pointer;
+}
+
+/* queriess */
+@media screen and (min-width:620px){
+    .file-lot section:last-of-type>div:first-of-type>div{
+        order:2;
+    }
+}
