@@ -79,17 +79,14 @@
     justify-content: space-between;
     padding: var(--gaps) 0;
 }
-.file-lot section:last-of-type{
+.file-lot>section:last-of-type{
     display: block;
 }
-.file-lot>section:last-of-type{
-    background-color: var(--colorDark);
-    padding: var(--gaps);
-}
+
 .file-lot section:last-of-type ul{
     display: flex;
     gap: var(--gaps);
-    padding: var(--gapxs);
+    padding: var(--gapxs) 0;
 }
 .file-lot section:last-of-type li{
     margin: 0;
