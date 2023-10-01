@@ -6,7 +6,7 @@
     <meta name="author" content="Thomas Aucoin-Lo">
     <title>STAMPEE | maquette enchère</title>
     <link rel="stylesheet" href="assets/style/main.css">
-    <script type="module" src="./assets/script/main.js"></script>
+<!--     <script type="module" src="./assets/script/main.js"></script> -->
 </head>
 <body>
 
@@ -102,43 +102,67 @@
         </aside>
 
         <main>
-            <article class="file-lot">
+
+            <!-- nav enchère -->
+            <nav class="navigation-enchere">
                 <div>
-                    <p>En vedette</p>
+                    <button class="selected">En cours</button>
+                    <button>À venir</button>
+                    <button>Passé</button>
+                    <button>Tout</button>
                 </div>
+                <div>
+                    <button class="selected">En cours</button>
+                    <button>À venir</button>
+                    <button>Passé</button>
+                    <button>Tout</button>
+                </div>
+            </nav>
+
+            <article class="file-lot">
                 <section>
+                    <figure>
+                        <picture>
+                            <img src="./assets/img/stamps2.jpg" alt="stamp-whale" title="voir: stamp-whale" data-js-image>
+                        </picture>
+                        <div>
+                            <picture>
+                                <img src="./assets/img/stamp_polka.jpg" alt="stamp polka">
+                            </picture>
+                            <picture>
+                                <img src="./assets/img/stamp_polka.jpg" alt="stamp polka">
+                            </picture>
+                            <picture>
+                                <img src="./assets/img/stamp_polka.jpg" alt="stamp polka">
+                            </picture>
+                        </div>
+                    </figure>
+                    </div>
                     <div>
                         <header>
-                            <a href="enchere.html"><h3>Orcas</h3></a>
+                            <a href="enchere.html"><h2>Orcas</h2></a>
                             <strong>1990-CCCP</strong>
                         </header>
                         <main>
                             <p>lot de 3 timbres. Items rares de la série océan de l'union soviétique. Impression spéciale. Étampé en Yougoslavie.</p>
-                        </main>
-                    </div>
-                    <div>
-                        <p>condition: <strong>mint-2</strong></p>
-                        <p>étampé: <strong>oui</strong></p>
+                            <p>condition: <strong>mint-2</strong></p>
+                            <p>étampé: <strong>oui</strong></p>
+                            
                         <a class="button-text varNL" href="enchere.html">voir plus</a>
                         <button class="button-text varNL">vendeur</button>
                         <span>👁 345</span>
                         <span><img src="./assets/shapes/mise.svg" alt="mise"> 46</span>
+                        </main>
                     </div>
-                    <div>
-                        <img src="./assets/img/stamp_whale.jpg" alt="stamp-whale" title="voir: stamp-whale" data-js-image>
-                    </div>
-        
-                </section>
-                <section>
                     <div>
                         <div>
-                            <button class="button-icon bell light" aria-label="alert-button"><picture><img src="./assets/icons/bell.svg" alt=""></picture></button>
-                            <button class="button-icon heart light" aria-label="like-button"><picture><img src="./assets/icons/heart.svg" alt=""></picture></button>
-                            <button class="button-icon light" aria-label="star-button"><picture><img src="./assets/icons/star.svg" alt=""></picture></button>
+                            <p>mise courante</p>
+                            <strong>8,456<span>$</span></strong>
                         </div>
+                        <p>meilleure mise</p>
+                        <p>nbr de mises</p>
+                        <p>nbr de vues</p>
                         <button class="button-miser">miser</button>
-                    </div>
-                    <div>
                         <div>
                             <caption>temps restant</caption>
                             <table>
@@ -153,17 +177,26 @@
                                     <td>s</td>
                                 </tr>
                             </table>
+                            <div>
+                                <button class="button-icon bell light" aria-label="alert-button"><picture><img src="./assets/icons/bell.svg" alt=""></picture></button>
+                                <button class="button-icon heart light" aria-label="like-button"><picture><img src="./assets/icons/heart.svg" alt=""></picture></button>
+                                <button class="button-icon light" aria-label="star-button"><picture><img src="./assets/icons/star.svg" alt=""></picture></button>
+                            </div>
                         </div>
-                        <div>
-                            <p>mise courante</p>
-                            <strong>8,456<span>$</span></strong>
-                        </div>
+                        <p>vendeur, pays de livraision</p>
+                        <p>div avec optionsn d'achat ou lvirauison</p>
+
+                    </div>
+                </section>
+                <section>
+                    <div>
+                       liste de categories
+                        
                     </div>
                 </section>
             </article>
 
             <section>
-                - categories
                 - dans la même catégorie
                 - voir amazon
                 - survol images

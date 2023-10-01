@@ -29,38 +29,6 @@
     gap: var(--gapm);
     max-width: max-content;
 }
-.section-enchere nav>div{
-    display: flex;
-    flex-flow: row;
-    gap: var(--gapxs);
-}
-.section-enchere nav h4{
-    font-family: var(--typeText);
-    font-size: var(--fontText);
-    font-weight: 400;
-}
-.section-enchere nav>div:first-of-type{
-    background-color: var(--colorDark);
-}
-.section-enchere nav>div:first-of-type button{
-    color: var(--colorLight);
-    font-family: var(--typeHead);
-    font-size: var(--fontText);
-    padding: var(--gapTHxxs) var(--gapxs);
-}
-.section-enchere nav>div:first-of-type button.selected{
-    color: var(--colorMainL);
-}
-.section-enchere nav>div:last-of-type button{
-    font-family: var(--typeText);
-    font-size: var(--fontText);
-    padding: 0 var(--gapxxs);
-}
-
-/* rythme */
-.section-enchere nav>*+*{
-    margin-top: var(--gapxxs);
-}
 
 /* queries */
 @media screen and (min-width: 820px) {
