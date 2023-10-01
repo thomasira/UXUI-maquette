@@ -1,0 +1,28 @@
+
+.box-side{
+    background-color: var(--colorNeutralL);
+    border: var(--borderStd);
+    border-radius: .4em;
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gapxs);
+    padding: var(--gapxs);
+}
+.box-side>*{
+    flex: 1;
+}
+/* .box-side>*+*{
+    margin-top: var(--gaps);
+} */
+.box-side>div>*+*{
+    margin-top: var(--gapxs);
+}
+
+
+.box-side>div:nth-child(2)>div:first-of-type{
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: var(--gapxs);
+}

@@ -28,11 +28,12 @@
 
 @import url(./components/recherche.css);
 @import url(./components/box-filter.css);
+@import url(./components/box-side.css);
 @import url(./components/card-lot.css);
 @import url(./components/card-join.css);
 @import url(./components/file-lot.css);
 
-@import url(./components/atoms/price-tag.css);
+@import url(./components/atoms/prix-tag.css);
 
 
 @import url(./states/invisible.css);

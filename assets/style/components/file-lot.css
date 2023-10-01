@@ -2,8 +2,6 @@
 .file-lot{
     max-width: 1400px;
     min-width: 340px;
-    border: var(--borderStd);
-    padding: var(--gaps);
 }
 .file-lot>header{
     border-bottom: 1px solid var(--colorComp);
@@ -52,28 +50,24 @@
     font-size: var(--fontText);
 }
 .file-lot ul>*+*{
-    margin-top: var(--gaps);
+    margin-top: var(--gapxs);
 }
 
 .file-lot>section>figure{
     flex: 0 0 310px;
 }
 .file-lot>section>div:first-of-type{
-    flex: 1 0 300px;
+    flex: 2 0 300px;
 }
 .file-lot>section:first-of-type>div:last-of-type{
-    background-color: var(--colorComp);
-    border: var(--borderStd);
-    border-radius: .4em;
-    flex: 2;
-    padding: var(--gapxs);
+    flex: 1 0 200px;
 }
 .file-lot section main>*+*{
     margin-top: var(--gaps);
 }
 
 .file-lot header section{
-    align-items: start;
+    align-items: center;
     border-bottom: 1px solid var(--colorComp);
     border-top: 1px solid var(--colorComp);
     display: flex;
@@ -87,12 +81,21 @@
     font-weight: bold;
     color: var(--colorMainD);
 }
+.file-lot header section>div:last-of-type>*+*{
+    margin-top: var(--gaps);
+}
 
+.file-lot div>main>*+*{
+    margin-top: var(--gaps);
+}
 
+.file-lot>section>div:first-of-type>*+*{
+    margin-top: var(--gapm);
+}
 
-
-
-
+.file-lot img:hover{
+    cursor: pointer;
+}
 /* icone mise */
 .file-lot span img{
     width: 20px;
