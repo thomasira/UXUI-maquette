@@ -24,8 +24,6 @@
 @import url(./components/modal/modal-cover.css);
 @import url(./components/modal/modal-image.css);
 
-
-
 @import url(./components/recherche.css);
 @import url(./components/box-filter.css);
 @import url(./components/box-side.css);
@@ -34,7 +32,7 @@
 @import url(./components/file-lot.css);
 
 @import url(./components/atoms/prix-tag.css);
-@import url(./components/atoms/tag.css);
+@import url(./components/atoms/cat-tag.css);
 
 
 @import url(./states/invisible.css);
