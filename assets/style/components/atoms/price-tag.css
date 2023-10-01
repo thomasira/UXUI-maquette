@@ -1,0 +1,16 @@
+
+.prix-tag{
+    max-width: max-content;
+    background-color: var(--colorLight);
+    border: var(--borderStd);
+    box-shadow: inset .05em .05em var(--colorDark);
+    border-radius: .2em;
+    display: block;
+    font-family: var(--typeHead);
+    font-size: var(--fontm);
+    font-weight: 400;
+    padding: var(--gapxxs);
+}
+.prix-tag.depart{
+    background-color: var(--colorNeutral);
+}

@@ -5,7 +5,7 @@
     border: var(--borderStd);
     padding: var(--gaps);
 }
-.file-lot header{
+.file-lot>header{
     border-bottom: 1px solid var(--colorComp);
 }
 .file-lot>section{
@@ -35,24 +35,31 @@
     height: 50px;
     width: 50px;
 }
-.file-lot figure  img{
+.file-lot figure img{
     display: block;
     height: 100%;
     width: 100%;
 }
-
-
-
-
-
-
-
+.file-lot h3{
+    font-size: var(--fonts);
+    font-family: var(--typeText);
+    font-style: italic;
+}
+/* .file-lot main>section>*+*{
+    margin-top: var(--gaps);
+} */
+.file-lot ul{
+    font-size: var(--fontText);
+}
+.file-lot ul>*+*{
+    margin-top: var(--gaps);
+}
 
 .file-lot>section>figure{
-    flex: 1 0 300px;
+    flex: 0 0 310px;
 }
 .file-lot>section>div:first-of-type{
-    flex: 3;
+    flex: 1 0 300px;
 }
 .file-lot>section:first-of-type>div:last-of-type{
     background-color: var(--colorComp);
@@ -64,11 +71,22 @@
 .file-lot section main>*+*{
     margin-top: var(--gaps);
 }
-.file-lot section main section:first-of-type{
+
+.file-lot header section{
+    align-items: start;
+    border-bottom: 1px solid var(--colorComp);
+    border-top: 1px solid var(--colorComp);
     display: flex;
+    flex-flow: row wrap;
+    gap: var(--gapm);
+    justify-content: space-between;
+    padding: var(--gaps) 0;
 }
 
-
+.file-lot header a{
+    font-weight: bold;
+    color: var(--colorMainD);
+}
 
 
 

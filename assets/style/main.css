@@ -32,6 +32,8 @@
 @import url(./components/card-join.css);
 @import url(./components/file-lot.css);
 
+@import url(./components/atoms/price-tag.css);
+
 
 @import url(./states/invisible.css);
 @import url(./states/no-scroll.css);

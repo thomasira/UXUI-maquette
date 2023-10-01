@@ -110,19 +110,6 @@
     text-align: end;
 }
 
-/* prix */
-.card-lot section:last-of-type>div:last-of-type strong{
-    background-color: var(--colorLight);
-    border: var(--borderStd);
-    box-shadow: inset .05em .05em var(--colorDark);
-    border-radius: .2em;
-    display: block;
-    font-family: var(--typeHead);
-    font-size: var(--fontm);
-    font-weight: 400;
-    padding: var(--gapxxs);
-}
-
 /* rythme */
 .card-lot>*+*{
     margin-top: var(--gaps);
