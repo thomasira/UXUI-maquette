@@ -3,6 +3,9 @@
     max-width: 1400px;
     min-width: 340px;
 }
+.file-lot>*+*{
+    margin-top: var(--gapm);
+}
 .file-lot>header{
     border-bottom: 1px solid var(--colorComp);
 }
@@ -76,7 +79,21 @@
     justify-content: space-between;
     padding: var(--gaps) 0;
 }
-
+.file-lot section:last-of-type{
+    display: block;
+}
+.file-lot>section:last-of-type{
+    background-color: var(--colorDark);
+    padding: var(--gaps);
+}
+.file-lot section:last-of-type ul{
+    display: flex;
+    gap: var(--gaps);
+    padding: var(--gapxs);
+}
+.file-lot section:last-of-type li{
+    margin: 0;
+}
 .file-lot header a{
     font-weight: bold;
     color: var(--colorMainD);

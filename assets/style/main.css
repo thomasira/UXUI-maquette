@@ -34,6 +34,7 @@
 @import url(./components/file-lot.css);
 
 @import url(./components/atoms/prix-tag.css);
+@import url(./components/atoms/tag.css);
 
 
 @import url(./states/invisible.css);

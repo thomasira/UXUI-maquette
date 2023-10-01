@@ -1,0 +1,9 @@
+
+.tag{
+    background-color: var(--colorMainL);
+    border: var(--borderStd);
+    border-radius: .4em;
+    box-shadow: 2px 2px var(--colorDark);
+    line-height: .8em;
+    padding: var(--gapTHxxs) var(--gapxxs);
+}
