@@ -45,9 +45,9 @@
     font-family: var(--typeText);
     font-style: italic;
 }
-/* .file-lot main>section>*+*{
+.file-lot main>section>*+*{
     margin-top: var(--gaps);
-} */
+}
 .file-lot ul{
     font-size: var(--fontText);
 }

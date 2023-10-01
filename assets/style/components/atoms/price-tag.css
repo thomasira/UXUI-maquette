@@ -13,4 +13,5 @@
 }
 .prix-tag.depart{
     background-color: var(--colorNeutral);
+    font-size: var(--fontxs);
 }
