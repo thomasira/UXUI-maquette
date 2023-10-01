@@ -7,13 +7,11 @@
 }
 .file-lot header{
     border-bottom: 1px solid var(--colorComp);
-}.file-lot h2{
-    
 }
-.file-lot section{
+.file-lot>section{
     display: flex;
     flex-flow: row wrap;
-    gap: var(--gaps);
+    gap: var(--gapm);
     position: relative;
     row-gap: var(--gapxl);
 }
@@ -51,16 +49,24 @@
 
 
 .file-lot>section>figure{
-    flex: 0 0 300px;
+    flex: 1 0 300px;
 }
 .file-lot>section>div:first-of-type{
     flex: 3;
 }
-.file-lot>section>div:last-of-type{
+.file-lot>section:first-of-type>div:last-of-type{
+    background-color: var(--colorComp);
+    border: var(--borderStd);
+    border-radius: .4em;
     flex: 2;
+    padding: var(--gapxs);
 }
-
-
+.file-lot section main>*+*{
+    margin-top: var(--gaps);
+}
+.file-lot section main section:first-of-type{
+    display: flex;
+}
 
 
 
