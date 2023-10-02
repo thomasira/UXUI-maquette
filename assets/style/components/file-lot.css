@@ -80,8 +80,6 @@
     padding: var(--gaps) 0;
 }
 
-
-
 .file-lot>section:last-of-type{
     display: block;
 }
