@@ -33,6 +33,17 @@ body>main>div>section>article:last-of-type a{
     font-weight: 600;
     font-style: italic;
 }
+body>main>main>*+*{
+    margin-top: var(--gaps);
+}
+body>main>main>section>*+*{
+    margin-top: var(--gapm);
+}
+body>main>main hgroup{
+    background-color: var(--colorMainD);
+    color: var(--colorLight);
+    padding: var(--gapTHxxs) var(--gaps);
+}
 body>main>div>section>article:last-of-type h3+*{
     margin-top: var(--gapxxs);
 }

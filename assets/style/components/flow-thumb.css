@@ -1,0 +1,6 @@
+
+.flow-thumb{
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gapl);
+}

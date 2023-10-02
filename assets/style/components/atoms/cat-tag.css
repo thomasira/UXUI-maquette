@@ -4,6 +4,9 @@
     border: var(--borderStd);
     border-radius: .4em;
     box-shadow: 2px 2px var(--colorDark);
-    line-height: .8em;
+    line-height: 1em;
     padding: var(--gapTHxxs) var(--gapxxs);
+}
+.cat-tag:hover{
+    cursor: pointer;
 }

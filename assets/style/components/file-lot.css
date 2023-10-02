@@ -79,6 +79,9 @@
     justify-content: space-between;
     padding: var(--gaps) 0;
 }
+
+
+
 .file-lot>section:last-of-type{
     display: block;
 }
@@ -98,6 +101,11 @@
 .file-lot header section>div:last-of-type>*+*{
     margin-top: var(--gaps);
 }
+
+
+
+
+
 
 .file-lot div>main>*+*{
     margin-top: var(--gaps);
