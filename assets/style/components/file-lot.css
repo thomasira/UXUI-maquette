@@ -1,15 +1,13 @@
 
 .file-lot{
     max-width: 1400px;
-    min-width: 340px;
+    min-width: 330px;
 }
-.file-lot>*+*{
-    margin-top: var(--gapm);
-}
+
 .file-lot>header{
     border-bottom: 1px solid var(--colorComp);
 }
-.file-lot>section{
+.file-lot{
     display: flex;
     flex-flow: row wrap;
     gap: var(--gapm);
@@ -56,14 +54,14 @@
     margin-top: var(--gapxs);
 }
 
-.file-lot>section>figure{
-    flex: 0 0 310px;
+.file-lot>figure{
+    flex: 0 0 320px;
 }
-.file-lot>section>div:first-of-type{
-    flex: 2 0 300px;
+.file-lot>div:first-of-type{
+    flex: 3 0 300px;
 }
-.file-lot>section:first-of-type>div:last-of-type{
-    flex: 1 0 200px;
+.file-lot>div:last-of-type{
+    flex: 1 0 240px;
 }
 .file-lot section main>*+*{
     margin-top: var(--gaps);
@@ -80,9 +78,6 @@
     padding: var(--gaps) 0;
 }
 
-.file-lot>section:last-of-type{
-    display: block;
-}
 
 .file-lot section:last-of-type ul{
     display: flex;
@@ -99,9 +94,6 @@
 .file-lot header section>div:last-of-type>*+*{
     margin-top: var(--gaps);
 }
-
-
-
 
 
 

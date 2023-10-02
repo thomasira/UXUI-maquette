@@ -27,7 +27,7 @@ button{
 button:hover{
     cursor: pointer;
 }
-img, picture{
+picture{
     display: block;
     width: 100%;
 }

@@ -17,5 +17,9 @@
 }
 .prix-tag.small{
     font-size: var(--fontxs);
-
+}
+.prix-tag.large{
+    max-width: 100%;
+    text-align: center;
+    font-weight: 500;
 }
