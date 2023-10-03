@@ -32,6 +32,9 @@
 @import url(./components/file-lot.css);
 @import url(./components/thumb-lot.css);
 @import url(./components/flow-thumb.css);
+@import url(./components/flow-mention.css);
+@import url(./components/card-mention.css);
+
 
 
 @import url(./components/atoms/prix-tag.css);

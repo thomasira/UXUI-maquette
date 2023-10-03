@@ -1,0 +1,12 @@
+
+.card-mention{
+    background-color: var(--colorCompL);
+    border: var(--borderStd);
+    border-radius: .4em;
+    box-shadow: 1px 1px var(--colorDark);
+    max-width: max-content;
+    padding: var(--gapxs);
+}
+.card-mention cite{
+    color: var(--colorMainD);
+}

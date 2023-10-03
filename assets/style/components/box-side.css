@@ -1,6 +1,5 @@
 
 .box-side{
-    align-items: stretch;
     background-color: var(--colorNeutralL);
     border: var(--borderStd);
     border-radius: .4em;
@@ -13,10 +12,12 @@
 .box-side>div>*+*{
     margin-top: var(--gapxs);
 }
-.box-side>div:nth-child(2)>div:first-of-type{
+.box-side>div:nth-child(2)>div{
     align-items: center;
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
     gap: var(--gapxs);
+}
+.box-side>div:nth-child(2)>div:first-of-type{
+    justify-content: space-between;
 }

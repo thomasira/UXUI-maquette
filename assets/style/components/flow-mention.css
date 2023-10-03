@@ -1,7 +1,6 @@
 
-.flow-thumb{
+.flow-mention{
     display: flex;
     flex-flow: row wrap;
     gap: var(--gaps);
-    justify-content: space-around;
 }
