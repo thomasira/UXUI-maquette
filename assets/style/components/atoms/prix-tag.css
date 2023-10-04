@@ -11,6 +11,9 @@
     font-weight: 400;
     padding: var(--gapxxs);
 }
+.prix-tag span{
+    font-size: inherit;
+}
 .prix-tag.depart{
     background-color: var(--colorNeutral);
     font-size: var(--fontxs);

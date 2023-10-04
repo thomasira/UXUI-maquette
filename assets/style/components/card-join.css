@@ -31,3 +31,7 @@
 .card-join img{
     width: 100%;
 }
+
+.card-join.var-comp{
+    background-color: var(--colorComp);
+}
