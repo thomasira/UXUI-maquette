@@ -107,9 +107,9 @@
             <article class="file-lot">
 
                     <!-- images du timbre -->
-                    <figure>
-                        <picture data-js-box="image">
-                            <img src="./assets/img/stamp_whale.jpg" alt="stamp-whale" title="voir: stamp-whale" data-js-image>
+                    <div>
+                        <picture>
+                            <img data-js-box="image" src="./assets/img/stamp_whale.jpg" alt="stamp-whale" title="voir: stamp-whale" data-js-image>
                         </picture>
                         <div>
                             <picture>
@@ -128,22 +128,25 @@
                         <section>
                             <h4>Étiquettes</h4>
                             <ul>
-                                <li class="cat-tag">océan</li>
-                                <li class="cat-tag">paysage</li>
-                                <li class="cat-tag">faune</li>
-                                <li class="cat-tag">soviet</li>
+                                <li class="tag-cat">océan</li>
+                                <li class="tag-cat">paysage</li>
+                                <li class="tag-cat">faune</li>
+                                <li class="tag-cat">soviet</li>
                             </ul>
                         </section>
-                    </figure>
+                    </div>
 
                     <!-- section info timbre -->
-                    <div data-js-box="timbre">
+                    <div>
+                        <picture data-js-box="timbre" class="non-exist">
+                            <img src="" alt="">
+                        </picture>
                         <header>
                             <h2>Orcas</h2>
                             <h3>1990-CCCP</h3>
                             <section>
                                 <div>
-                                    <div class="prix-tag depart">300<span>$</span></div>
+                                    <div class="tag-prix depart">300<span>$</span></div>
                                     <p>mise de départ</p>
                                 </div>
                                 <div>
@@ -179,7 +182,7 @@
                     <div class="box-side">
                         <div>
                             <div>
-                                <div class="prix-tag large">8,456<span>$</span></div>
+                                <div class="tag-prix large">8,456<span>$</span></div>
                                 <p>mise courante</p>
                             </div>
                             <button class="button-miser">miser</button>
@@ -203,7 +206,7 @@
                             </div>
                             <div>
                                 <p>votre dernière mise</p>
-                                <div class="prix-tag small">6,843<span>$</span></div>
+                                <div class="tag-prix small">6,843<span>$</span></div>
                             </div>
                         </div>
 
@@ -263,7 +266,7 @@
                                 </div>
                                 <div>
                                     <p>mise courante</p>
-                                    <div class="prix-tag">3,201<span>$</span></div >
+                                    <div class="tag-prix">3,201<span>$</span></div >
                                 </div>
                             </div>
                         </div>
@@ -292,7 +295,7 @@
                                 </div>
                                 <div>
                                     <p>mise courante</p>
-                                    <div class="prix-tag">2,002<span>$</span></div >
+                                    <div class="tag-prix">2,002<span>$</span></div >
                                 </div>
                             </div>
                         </div>
@@ -321,7 +324,7 @@
                                 </div>
                                 <div>
                                     <p>mise courante</p>
-                                    <div class="prix-tag">4,002<span>$</span></div >
+                                    <div class="tag-prix">4,002<span>$</span></div >
                                 </div>
                             </div>
                         </div>
@@ -350,7 +353,7 @@
                                 </div>
                                 <div>
                                     <p>mise courante</p>
-                                    <div class="prix-tag">10,095<span>$</span></div >
+                                    <div class="tag-prix">10,095<span>$</span></div >
                                 </div>
                             </div>
                         </div>
@@ -365,16 +368,16 @@
                     <h3>Mentions</h3>
                 </hgroup>
                 <div class="flow-mention">
-                    <article class="card-mention">
+                    <article class="tag-mention">
                         <p><cite>@Jean</cite> La plus belle collection de timbres que j'ai vue.</p>
                     </article>
-                    <article class="card-mention">
+                    <article class="tag-mention">
                         <p><cite>@Timbretimbre</cite> Quelles baleines!!</p>
                     </article>
-                    <article class="card-mention">
+                    <article class="tag-mention">
                         <p><cite>@Paul</cite> Wow les soviets savaient faire de beaux timbres!</p>
                     </article>
-                    <article class="card-mention">
+                    <article class="tag-mention">
                         <p><cite>@Luc</cite> De très belles couleurs!</p>
                     </article>
                 </div>
@@ -388,7 +391,7 @@
                     <header>
                         <h2>Le plus de timbres!</h2>
                         <p>Stampee est le meilleur site où trouver vos timbres! </p>
-                        <a href="#" class="button-text varl">S'inscrire</a>
+                        <a href="#" class="button-text var-lrg">S'inscrire</a>
                     </header>
                     <picture>
                         <img src="./assets/shapes/postal-stamp.svg" alt="postal stamp">

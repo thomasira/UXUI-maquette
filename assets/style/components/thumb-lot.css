@@ -9,9 +9,9 @@
     position: relative;
 }
 .thumb-lot picture{
+    aspect-ratio: 1;
     border-radius: .4em;
     overflow: hidden;
-    aspect-ratio: 1/1;
 }
 .thumb-lot img{
     height: 100%;
@@ -34,9 +34,11 @@
 .thumb-lot>div:last-of-type p{
     text-align: right;
 }
-.thumb-lot>div:last-of-type>*+*{
+
+/* rythme */
+.thumb-lot>*+*{
     margin-top: var(--gapxs);
 }
-.thumb-lot>*+*{
+.thumb-lot>div:last-of-type>*+*{
     margin-top: var(--gapxs);
 }

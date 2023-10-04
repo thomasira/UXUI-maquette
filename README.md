@@ -1,19 +1,39 @@
 
-# Maquette Enchères Stampee
+# Maquettes Stampee | UX/UI
 
 Thomas Aucoin-lo  
 e2395387
 
-## liens  
+## index
 
-**webdev**:   
-https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette  
+* [Liens](#liens)
+* [Mises à jour](#mises-à-jour)
+* [HTML](#sur-la-structure-html)
+* [CSS](#sur-la-méthodologie-css)
+* [Fonctionnalitées](#sur-les-fonctionnalitées)
+* [Javascript](#sur-le-js)
 
-**figma**: 
+## Liens  
+
+**webdev**:  
+* **page accueil**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette
+* **page enchères**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette/enchères
+* **page enchère**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette/enchère
+
+**figma**:   
 https://www.figma.com/proto/TojHhJMTOzK8Yy7I9FIPIG/Analyse-de-projet?type=design&node-id=29-460&t=j48LX1jvYfjnqQ12-1&scaling=scale-down-width&page-id=0%3A1&mode=design  
 
 **github**:  
 https://github.com/thomasIRA/UXUI-maquette  
+
+## Mises à jour
+
+> #### maquette n2 - 04/10/2023
+> * ajouter la page [enchère](#pages-enchère) 
+> * changer les noms de classes variants
+> * rajouter des composants css atomes
+> * fixer bug sur séléction filtre
+> * rajouter fonctionnalitée sur image hover 
 
 ## Sur la structure HTML
 
@@ -21,7 +41,17 @@ https://github.com/thomasIRA/UXUI-maquette
 
 Le projet contient deux navigations, une entête, un main(section enchère), une section bas de page ainsi qu'un pied de page. Le contenu est limité à 1400px de large pour l'entièreté du projet.
 
-> ## Arborescence
+### Arborescence
+
+#### SITE
+* ACCUEIL
+    * *à venir*
+* ENCHÈRES
+    * page enchères
+* ENCHÈRE
+    * pages enchère
+
+> ### Pages enchères
 > * nav main  
 > * nav sec  
 >   * sous-nav *(seulement en écran large)*  
@@ -35,8 +65,24 @@ Le projet contient deux navigations, une entête, un main(section enchère), une
 >   * autres infos
 > * pied de page
 
-### commentaires
+> ### Pages enchère
+> * nav main  
+> * nav sec  
+>   * sous-nav *(seulement en écran large)*  
+> * fiche enchère 
+>   * images et catégories
+>   * info du timbre
+>   * miser et plus
+> * suggestions
+>   * 3-4 cartes d'enchère
+> * mentions
+>   * les tags mentions
+> * section bas de pages
+>   * promo, joindre, etc  
+>   * autres infos
+> * pied de page
 
+### commentaires
 * Une section promo ou vedette pourrait être rajouté au projet sous l'entête.  
 * Un fond d'écran texturé serait intéressant  
 
@@ -50,7 +96,7 @@ Les feuilles de styles sont organisées et préfixées selon leur type de module
 * les '*clamps*' sont parfois utilisées en taille verticale alors qu'elles s'adaptent à l'horizontale.  
 * les classes **states** et **modal** sont utilisées par les scripts.
 
-## Sur les fonctionnalités
+## Sur les fonctionnalitées
 
 **les fonctionnalités de la maquette courante sont superficielles et ne représentent pas nécessairement le produit final.* 
 

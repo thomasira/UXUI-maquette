@@ -1,0 +1,10 @@
+
+.construction h2{
+    color: var(--colorSec);
+}
+.construction a{
+    color: var(--colorMainD);
+    display: inline;
+    font-style: italic;
+    font-weight: 600;
+}

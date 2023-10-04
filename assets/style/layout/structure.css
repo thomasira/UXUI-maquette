@@ -6,6 +6,11 @@ body>main>main{
     margin: auto;
     max-width: 1400px;
 }
+body>main>main hgroup{
+    background-color: var(--colorMainD);
+    color: var(--colorLight);
+    padding: var(--gapTHxxs) var(--gaps);
+}
 body>main>div, body>main>main{
     padding: var(--gaps);
 }
@@ -33,28 +38,25 @@ body>main>div>section>article:last-of-type a{
     font-weight: 600;
     font-style: italic;
 }
+body>main>div>section>article:last-of-type>div:nth-last-of-type(2){
+    text-align: end;
+}
+body>main>div>section>article:last-of-type a:hover{
+    color: var(--colorLight);
+}
+
+/* rythme */
 body>main>main>*+*{
     margin-top: var(--gapm);
 }
 body>main>main>section>*+*{
     margin-top: var(--gapm);
 }
-body>main>main hgroup{
-    background-color: var(--colorMainD);
-    color: var(--colorLight);
-    padding: var(--gapTHxxs) var(--gaps);
-}
 body>main>div>section>article:last-of-type h3+*{
     margin-top: var(--gapxxs);
 }
 body>main>div>section>article:last-of-type>*+*{
     margin-top: var(--gapm);
-}
-body>main>div>section>article:last-of-type>div:nth-last-of-type(2){
-    text-align: end;
-}
-body>main>div>section>article:last-of-type a:hover{
-    color: var(--colorLight);
 }
 
 /* queries */

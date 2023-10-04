@@ -1,5 +1,5 @@
 
-.cat-tag{
+.tag-cat{
     background-color: var(--colorMainL);
     border: var(--borderStd);
     border-radius: .4em;
@@ -7,6 +7,8 @@
     line-height: 1em;
     padding: var(--gapTHxxs) var(--gapxxs);
 }
-.cat-tag:hover{
+
+/* états */
+.tag-cat:hover{
     cursor: pointer;
 }

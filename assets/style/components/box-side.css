@@ -7,17 +7,11 @@
     display: flex;
     flex-flow: row wrap;
     gap: var(--gapxs);
-    padding: var(--gapxs);
     justify-content: space-between;
+    padding: var(--gapxs);
 }
 .box-side span{
     font-size: var(--fontxs);
-}
-.box-side>div:nth-child(2)>div{
-    align-items: center;
-    display: flex;
-    flex-flow: row;
-    gap: var(--gapxs);
 }
 .box-side>div:nth-child(3){
     background-color: var(--colorNeutral);
@@ -26,9 +20,17 @@
     box-shadow: inset 1px 1px var(--colorDark);
     padding: var(--gapxxs);
 }
+.box-side>div:nth-child(2)>div{
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    gap: var(--gapxs);
+}
 .box-side>div:nth-child(2)>div:first-of-type{
     justify-content: space-between;
 }
+
+/* rythme */
 .box-side>div>*+*{
     margin-top: var(--gapxs);
 }

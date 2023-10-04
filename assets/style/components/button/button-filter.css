@@ -12,21 +12,17 @@
 }
 
 /* variants */
-.button-filter.varM{
+.button-filter.var-main{
     background-color: var(--colorMain);
 }
-.button-filter.varl{
+.button-filter.var-lrg{
     font-size: var(--fontl);
 }
-.button-filter.varTri{
+.button-filter.var-tri{
     font-family: var(--typeHead);
     font-weight: 400;
     font-style: normal;
     font-size: var(--fontSxxs);
-}
-.button-filter.varS{
-    font-size: var(--fontText);
-    font-weight: 400;
 }
 
 /* états */

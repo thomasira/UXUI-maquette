@@ -13,27 +13,20 @@
 }
 
 /* variants */
-.button-text.varl{
+.button-text.var-lrg{
     font-size: var(--fonts);
 }
-.button-text.varM{
+.button-text.var-main{
     background-color: var(--colorMainD);
 }
-.button-text.varN{
+.button-text.var-neutral{
     background-color: var(--colorNeutral);
 }
-.button-text.varNL{
+.button-text.var-neutralL{
     color: var(--colorDark);
     background-color: var(--colorNeutralL);
 }
-.button-text.varC{
-    background-color: var(--colorComp);
-    color: var(--colorDark);
-}
-.button-text.varD{
-    background-color: var(--colorLight);
-    color: var(--colorDark);
-}
+
 
 /* états */
 .button-text:hover{

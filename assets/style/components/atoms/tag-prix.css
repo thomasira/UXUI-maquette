@@ -1,6 +1,5 @@
 
-.prix-tag{
-    max-width: max-content;
+.tag-prix{
     background-color: var(--colorLight);
     border: var(--borderStd);
     box-shadow: inset .05em .05em var(--colorDark);
@@ -9,20 +8,23 @@
     font-family: var(--typeHead);
     font-size: var(--fontm);
     font-weight: 400;
+    max-width: max-content;
     padding: var(--gapxxs);
 }
-.prix-tag span{
+.tag-prix span{
     font-size: inherit;
 }
-.prix-tag.depart{
+
+/* variants */
+.tag-prix.depart{
     background-color: var(--colorNeutral);
     font-size: var(--fontxs);
 }
-.prix-tag.small{
+.tag-prix.small{
     font-size: var(--fontxs);
 }
-.prix-tag.large{
+.tag-prix.large{
+    font-weight: 500;
     max-width: 100%;
     text-align: center;
-    font-weight: 500;
 }
