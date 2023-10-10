@@ -6,12 +6,26 @@ e2395387
 
 ## index
 
+* [To-do](#to-do)
 * [Liens](#liens)
 * [Mises à jour](#mises-à-jour)
 * [HTML](#sur-la-structure-html)
 * [CSS](#sur-la-méthodologie-css)
 * [Fonctionnalitées](#sur-les-fonctionnalitées)
 * [Javascript](#sur-le-js)
+
+
+## To-do
+
+accueil->
+    header@ 70vh: animation du train left to right, révélant titre?
+        voir catalogue
+        connexion
+        voir actualités
+    section pop: 3-4 enchères populaires
+        same as section pour 'suggestion' mais en variant?
+
+
 
 ## Liens  
 
