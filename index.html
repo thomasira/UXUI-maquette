@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Thomas Aucoin-Lo">
+    <meta name="description" content="Des timbres en enchères de toutes les sortes.">
     <title>STAMPEE | maquette accueil</title>
     <link rel="stylesheet" href="assets/style/main.css">
+    <!-- Hotjar Tracking Code for https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette/enchères -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:3688845,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
     <script type="module" src="./assets/script/main.js"></script>
 </head>
 <body>
@@ -19,11 +31,11 @@
     <!-- les boîtes modales -->
     <div class="modal-cover non-exist" data-js-modal="cover">
         <div class="modal-image non-exist" data-js-modal="img">
-            <div><button class="button-icon exit"><img src="./assets/shapes/exit.svg" alt="bouton exit" data-js-trigger="exit"></button></div>
+            <div><button class="button-icon exit"><img src="./assets/shapes/exit.svg" alt="bouton exit" data-js-trigger="exit" loading="lazy"></button></div>
             <picture>
-                <img src="./assets/img/stamp_whale.jpg" alt="stamp-whale" data-js-img>
+                <img src="./assets/img/stamp_whale.jpg" alt="stamp-whale" data-js-img loading="lazy">
             </picture>
-            <div data-js-pagination><img src="./assets/shapes/pagination.svg" alt="pagination"></div>
+            <div data-js-pagination><img src="./assets/shapes/pagination.svg" alt="pagination" loading="lazy"></div>
         </div>
         <div class="recherche-filtre-modal">
 
@@ -46,12 +58,12 @@
                 <div>
                     <form class="recherche">
                         <label>
-                            <img src="./assets/icons/magnifier.svg" alt="loupe recherche" title="rechercher">
+                            <img src="./assets/icons/magnifier.svg" alt="loupe recherche" title="rechercher" loading="lazy">
                             <input type="text" name="recherche">
                             <span title="plus d'option">+</span>
                         </label>
                     </form>
-                    <img src="./assets/icons/profile.svg" alt="profile-icon" title="profil">
+                    <img src="./assets/icons/profile.svg" alt="profile-icon" title="profil" loading="lazy">
                 </div>
             </div>
         </nav>
@@ -100,10 +112,10 @@
                 <h2>STAMPEE</h2>
                 <div>
                     <p>Le portail où trouver les meilleurs timbres</p>
-                    <img src="./assets/shapes/edge.svg" alt="railway edge">
+                    <img src="./assets/shapes/edge.svg" alt="railway edge" loading="lazy">
                 </div>
             </div>
-            <aside><img src="./assets/shapes/train.svg" alt="train"></aside>
+            <aside><img src="./assets/shapes/train.svg" alt="train" loading="lazy"></aside>
         </header>
 
         <main class="construction">
@@ -113,9 +125,9 @@
         
         <!-- nav icon -->
         <aside class="navigation-icon">
-            <button><img src="./assets/shapes/nav-icon/magnifier.svg" alt="recherche"></button>
-            <button><img src="./assets/shapes/nav-icon/burger.svg" alt="menu"></button>
-            <button><img src="./assets/shapes/nav-icon/profileS.svg" alt="profil"></button>
+            <button><img src="./assets/shapes/nav-icon/magnifier.svg" alt="recherche" loading="lazy"></button>
+            <button><img src="./assets/shapes/nav-icon/burger.svg" alt="menu" loading="lazy"></button>
+            <button><img src="./assets/shapes/nav-icon/profileS.svg" alt="profil" loading="lazy"></button>
         </aside>
 
         <!-- footer -->
@@ -130,18 +142,18 @@
                     <section>
                         <h3>Suivez-nous</h3>
                         <div>
-                            <a href="#" target="_blank"><img src="./assets/icons/external/facebook.svg" alt="facebook-icon"></a>
-                            <a href="#" target="_blank"><img src="./assets/icons/external/x.svg" alt="x-icon"></a>
-                            <a href="#" target="_blank"><img src="./assets/icons/external/instagram.svg" alt="instagram-icon"></a>
-                            <a href="#" target="_blank"><img src="./assets/icons/external/threads.svg" alt="threads-icon"></a>
-                            <a href="#" target="_blank"><img src="./assets/icons/external/tiktok.svg" alt="tiktok-icon"></a>
-                            <a href="#" target="_blank"><img src="./assets/icons/external/courrier.svg" alt="courrier-icon"></a>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/facebook.svg" alt="facebook-icon" loading="lazy"></a>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/x.svg" alt="x-icon" loading="lazy"></a>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/instagram.svg" alt="instagram-icon" loading="lazy"></a>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/threads.svg" alt="threads-icon" loading="lazy"></a>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/tiktok.svg" alt="tiktok-icon" loading="lazy"></a>
+                            <a href="#" target="_blank"><img src="./assets/icons/external/courrier.svg" alt="courrier-icon" loading="lazy"></a>
                         </div>
                     </section>
                     <section>
                         <h3>Merci à</h3>
-                        <img src="./assets/icons/external/maisonneuve.svg" alt="maisonneuve-icon">
-                        <img src="./assets/icons/external/rquebec.svg" alt="rquebec-icon">
+                        <img src="./assets/icons/external/maisonneuve.svg" alt="maisonneuve-icon" loading="lazy">
+                        <img src="./assets/icons/external/rquebec.svg" alt="rquebec-icon" loading="lazy">
                     </section>
                 </div>
             </div>
