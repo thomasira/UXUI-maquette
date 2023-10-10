@@ -1,0 +1,13 @@
+
+.train{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    transition-property: top left;
+    transition-timing-function: ease-out;
+    transition-duration: 2s;
+}
+.train img{
+    width: 100%;
+}
