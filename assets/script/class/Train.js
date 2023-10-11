@@ -19,20 +19,21 @@ export class Train{
             let mirror = "";
             if(angle < -90 || angle > 90){
                 mirror = 'scaleX(-1)';
-                angle = angle - 180;
-            } 
+                angle += 180;
+            }
 
             let transform = `rotate(${angle}deg) ${mirror}`;
             this.#el.style.transform = transform;
 
-            console.log(angle)
-
-            setTimeout(() => {
+            if(e.clientX + (trainRect.width * 1.5) < containerRect.right && e.clientY + (trainRect.height * 1.5) < containerRect.bottom && e.clientY > containerRect.top) {
+                            setTimeout(() => {
                 let positionY = e.clientY - containerRect.y;
                 let positionX = e.clientX - containerRect.x;
                 this.#el.style.top = positionY + 'px';
                 this.#el.style.left = positionX + 'px';
             }, "500");
+            }
+
 
 
         });
