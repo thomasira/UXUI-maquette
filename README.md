@@ -49,6 +49,12 @@ https://github.com/thomasIRA/UXUI-maquette
 > * fixer bug sur séléction filtre
 > * rajouter fonctionnalitée sur image hover 
 
+> #### maquette n3 - 11/10/2023
+> * ajouter la page [accueil](#page-accueil)
+> * corriger la coquille 'contacteras'
+> * changer 'encheres.html' pour 'catalogue.html'
+> * ajouter fonctionnalitée 'petit train'
+
 ## Sur la structure HTML
 
 **ignorer le schoolWrapper*  
@@ -59,13 +65,21 @@ Le projet contient deux navigations, une entête, un main(section enchère), une
 
 #### SITE
 * ACCUEIL
-    * *à venir*
+    * page accueil*
 * ENCHÈRES
-    * page enchères
+    * page catalogue
 * ENCHÈRE
     * pages enchère
 
-> ### Pages enchères
+> ### page accueil
+> * nav main  
+> * nav sec  
+> * entête
+> * section lien vers catalogue
+> * section lien vers profil ou connexion
+> * fonctionnalitée 'petit train'
+
+> ### Pages catalogue
 > * nav main  
 > * nav sec  
 >   * sous-nav *(seulement en écran large)*  
@@ -127,6 +141,11 @@ Les feuilles de styles sont organisées et préfixées selon leur type de module
 
 > La boîte de filtre est toujours présente sur la page d'enchères. Elle est divisé en 2 sections, soit les filtres normaux, eux-mêmes contenant des sous-filtres et les filtres personnalisés. Les sous-filtres sont accessibles suivant un clic sur le filtre parent. En format écran large, elle suit le défilement de l'écran pour un accès facile. En format mobile, elle reste statique au haut de la page mais est accessible à partir des onglets de bas d'écran.  
 **Les filtres présents dans la version courante du projet sont à titre indicatif et ne représentent pas la version finale.*
+
+### petit train
+
+> Le petit train est actif dans le **main** de la page d'accueil. Il suit et fait face au curseur dans la zone délimitée. Pourrait être plus fluide. Consultez **[train.js](./assets/script/class/Train.js)**
+
 
 ## Sur le js
 
