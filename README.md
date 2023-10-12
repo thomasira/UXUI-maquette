@@ -18,8 +18,8 @@ e2395387
 
 **webdev**:  
 * **page accueil**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette
-* **page enchères**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette/enchères
-* **page enchère**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette/enchère
+* **page catalogue**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette/catalogue.html
+* **page enchère**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette/enchere.html
 
 **figma**:   
 https://www.figma.com/proto/TojHhJMTOzK8Yy7I9FIPIG/Analyse-de-projet?type=design&node-id=29-460&t=j48LX1jvYfjnqQ12-1&scaling=scale-down-width&page-id=0%3A1&mode=design  
