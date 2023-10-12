@@ -17,9 +17,8 @@ export class Train{
         this.#elContainer.addEventListener('mousemove', (e) => {
 
             let top = window.scrollY;
-            console.log(top);
             let trainRect = this.#el.getClientRects()[0];
-            let cursorXY = { x: e.clientX, y: e.clientY }
+            let cursorXY = { x: e.clientX, y: e.clientY + top }
             let angle = Calculatrice.getAngle(cursorXY, trainRect);
 
             let mirror = "";
@@ -32,12 +31,14 @@ export class Train{
             this.#el.style.transform = transform;
 
 
-            if(e.clientX + (trainRect.width * 1.5) < containerRect.right &&
-            e.clientY + (trainRect.height * 1.5) < containerRect.bottom &&
-            e.clientY > containerRect.top) {
+            if(cursorXY.x + (trainRect.width * 1.5) < containerRect.right &&
+            cursorXY.y + (trainRect.height * 1.5) < containerRect.bottom &&
+            cursorXY.y > containerRect.top) {
                 setTimeout(() => {
-                    let positionY = e.clientY - containerRect.y;
-                    let positionX = e.clientX - containerRect.x;
+                    let positionY = cursorXY.y - containerRect.y - trainRect.height/2;
+                    let positionX = cursorXY.x - containerRect.x - trainRect.width/2;
+            console.log(positionY)
+
                     this.#el.style.top = positionY + 'px';
                     this.#el.style.left = positionX + 'px';
                 }, "700");
