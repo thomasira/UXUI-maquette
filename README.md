@@ -38,7 +38,7 @@ https://github.com/thomasIRA/UXUI-maquette
 > * ajouter [notes](#notes)
 
 > #### maquette n2 - 04/10/2023
-> * ajouter la page [enchère](#pages-enchère) 
+> * ajouter la page [enchère](#pages-enchere) 
 > * changer les noms de classes variants
 > * rajouter des composants css atomes
 > * fixer bug sur séléction filtre
