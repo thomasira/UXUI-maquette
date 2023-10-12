@@ -8,6 +8,7 @@ e2395387
 
 * [Mises à jour](#mises-à-jour)
 * [Liens](#liens)
+* [Notes](#notes)
 * [HTML](#sur-la-structure-html)
 * [CSS](#sur-la-méthodologie-css)
 * [Fonctionnalitées](#sur-les-fonctionnalitées)
@@ -34,6 +35,7 @@ https://github.com/thomasIRA/UXUI-maquette
 > * changer le flex des enfants 1 et 3 de [box-side](./assets/style/components/box-side.css) 
 > * changer 'encheres.html' pour 'catalogue.html'
 > * ajouter fonctionnalitée [petit train](#petit-train)
+> * ajouter [notes](#notes)
 
 > #### maquette n2 - 04/10/2023
 > * ajouter la page [enchère](#pages-enchère) 
@@ -42,6 +44,16 @@ https://github.com/thomasIRA/UXUI-maquette
 > * fixer bug sur séléction filtre
 > * rajouter fonctionnalitée sur image hover 
 
+## Notes
+
+> ### approche générale et psyschologie
+> L'esthétique du site et inspiré principalement par l'*Americana postal* et les illustrations *cartoons* du début du 20eme siècle, il rappel aussi le jeu de table et ceci sert à influencer l'approche usagère.  
+> Afin d'inciter les gens à miser et interagir avec les différentes fonctionnalitées, le site est parsemé de couleurs vives qui attirent l'oeil et invitent à l'action. Le design UX/UI est axé autour d'une **psychologie de lotterie** où l'usager est influencé à voir ses mises comme un jeu et reçoit réellement sa récompense(dopamine) lors de la mise et de l'attente d'un résultat plutôt que le résultat en soi. Pensez aux billets de lotterie ou aux machines à sous.
+
+> ### accueil
+> L'accueil est très minimal, il comporte un entête et une section contenant 2 cartes à liens.
+> En gardant l'accueil le plus simple possible, l'usager est invité à faire une action, soit s'inscrire ou voir le catalogue d'enchères.  
+> L'interactivité du petit train permet de transformer un espace monotone en terrain de jeu. L'usager aura même un rappel du dit train si il accède à la page catalogue. Ce processus mets la table pour la psychologie de lotterie vu plus haut.
 
 
 ## Sur la structure HTML
@@ -66,7 +78,7 @@ Le projet contient deux navigations, une entête, un main(section enchère), une
 > * entête
 > * section lien vers catalogue
 > * section lien vers profil ou connexion
-> * fonctionnalitée 'petit train'
+> * fonctionnalitée **petit train**
 
 > ### Pages catalogue
 > * nav main  
