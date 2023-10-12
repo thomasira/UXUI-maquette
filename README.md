@@ -8,6 +8,7 @@ e2395387
 
 * [Mises à jour](#mises-à-jour)
 * [Liens](#liens)
+* [Notes](#notes)
 * [HTML](#sur-la-structure-html)
 * [CSS](#sur-la-méthodologie-css)
 * [Fonctionnalitées](#sur-les-fonctionnalitées)
@@ -34,6 +35,7 @@ https://github.com/thomasIRA/UXUI-maquette
 > * changer le flex des enfants 1 et 3 de [box-side](./assets/style/components/box-side.css) 
 > * changer 'encheres.html' pour 'catalogue.html'
 > * ajouter fonctionnalitée [petit train](#petit-train)
+> * ajouter [notes](#notes)
 
 > #### maquette n2 - 04/10/2023
 > * ajouter la page [enchère](#pages-enchère) 
@@ -42,6 +44,30 @@ https://github.com/thomasIRA/UXUI-maquette
 > * fixer bug sur séléction filtre
 > * rajouter fonctionnalitée sur image hover 
 
+## Notes
+
+### Approche générale et psyschologie
+
+Afin d'inciter les gens à miser et interagir avec les différentes fonctionnalitées, le site est parsemé de couleurs vives qui attirent l'oeil et invitent à l'action. Le design UX/UI est axé autour d'une **psychologie de lotterie** où l'usager est influencé à voir ses mises comme un jeu et reçoit réellement sa récompense(dopamine) lors de la mise et de l'attente d'un résultat plutôt que le résultat en soi. Pensez aux billets de lotterie ou aux machines à sous.
+
+### Choix graphiques 
+
+L'esthétique du site et inspiré principalement par l'*Americana postal* et les illustrations *cartoons* du début du 20eme siècle, il rappel aussi le jeu de table et ceci sert à influencer l'approche usagère.  
+Le projet rends une allure dynamique mais vieux jeu de par les fontes et couleurs employées ainsi que les bordures et ombrages aplatis.
+
+> * #### couleurs
+>   * les tons neutres (blanc, noir, gris) sont teintées de jaune pour donner une allure rétro
+>   * les couleurs(bleu, rouge, jaune) sont vives mais légèrment effacées 
+
+> * #### fontes
+>   * une police *monospace* est employée dans le but de récomforter l'usager plus agé en participant au style **americana postal** 
+>   * une police plus lisible, neutre mais douce et tout de même retro sert au blocs texte
+
+
+### Accueil
+L'accueil est très minimal, il comporte un entête et une section contenant 2 cartes à liens.
+En gardant l'accueil le plus simple possible, l'usager est invité à faire une action, soit s'inscrire ou voir le catalogue d'enchères.  
+L'interactivité du petit train permet de transformer un espace monotone en terrain de jeu. L'usager aura même un rappel du dit train si il accède à la page catalogue. Ce processus mets la table pour la psychologie de lotterie vu plus haut.
 
 
 ## Sur la structure HTML
@@ -66,7 +92,7 @@ Le projet contient deux navigations, une entête, un main(section enchère), une
 > * entête
 > * section lien vers catalogue
 > * section lien vers profil ou connexion
-> * fonctionnalitée 'petit train'
+> * fonctionnalitée **petit train**
 
 > ### Pages catalogue
 > * nav main  
@@ -133,7 +159,8 @@ Les feuilles de styles sont organisées et préfixées selon leur type de module
 
 ### petit train
 
-> Le petit train est actif dans le **main** de la page d'accueil. Il suit et fait face au curseur dans la zone délimitée. Pourrait être plus fluide. Consultez **[train.js](./assets/script/class/Train.js)**
+> Le petit train est actif dans le **main** de la page d'accueil. Il suit et fait face au curseur dans la zone délimitée. Pourrait être plus fluide. Consultez **[train.js](./assets/script/class/Train.js)**.  
+> *Présentement le train est adapté au *défilement* et au chargement de page *défilée* mais pas au *redimmensionnement* (français!) de la page.
 
 
 ## Sur le js
