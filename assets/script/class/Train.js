@@ -11,10 +11,13 @@ export class Train{
     }
 
     #init() {
+
         let containerRect = this.#elContainer.getClientRects()[0];
         
         this.#elContainer.addEventListener('mousemove', (e) => {
 
+            let top = window.scrollY;
+            console.log(top);
             let trainRect = this.#el.getClientRects()[0];
             let cursorXY = { x: e.clientX, y: e.clientY }
             let angle = Calculatrice.getAngle(cursorXY, trainRect);

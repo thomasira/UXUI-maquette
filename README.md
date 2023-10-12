@@ -6,26 +6,12 @@ e2395387
 
 ## index
 
-* [To-do](#to-do)
-* [Liens](#liens)
 * [Mises à jour](#mises-à-jour)
+* [Liens](#liens)
 * [HTML](#sur-la-structure-html)
 * [CSS](#sur-la-méthodologie-css)
 * [Fonctionnalitées](#sur-les-fonctionnalitées)
 * [Javascript](#sur-le-js)
-
-
-## To-do
-
-accueil->
-    header@ 70vh: animation du train left to right, révélant titre?
-        voir catalogue
-        connexion
-        voir actualités
-    section pop: 3-4 enchères populaires
-        same as section pour 'suggestion' mais en variant?
-
-
 
 ## Liens  
 
@@ -42,6 +28,13 @@ https://github.com/thomasIRA/UXUI-maquette
 
 ## Mises à jour
 
+> #### maquette n3 - 11/10/2023
+> * ajouter la page [accueil](#page-accueil)
+> * corriger la coquille 'contacteras'
+> * changer le flex des enfants 1 et 3 de [box-side](./assets/style/components/box-side.css) 
+> * changer 'encheres.html' pour 'catalogue.html'
+> * ajouter fonctionnalitée [petit train](#petit-train)
+
 > #### maquette n2 - 04/10/2023
 > * ajouter la page [enchère](#pages-enchère) 
 > * changer les noms de classes variants
@@ -49,11 +42,7 @@ https://github.com/thomasIRA/UXUI-maquette
 > * fixer bug sur séléction filtre
 > * rajouter fonctionnalitée sur image hover 
 
-> #### maquette n3 - 11/10/2023
-> * ajouter la page [accueil](#page-accueil)
-> * corriger la coquille 'contacteras'
-> * changer 'encheres.html' pour 'catalogue.html'
-> * ajouter fonctionnalitée 'petit train'
+
 
 ## Sur la structure HTML
 
@@ -153,4 +142,6 @@ Un script minimal est présent pour activer les fonctionnalités demo.
 
 * boîte filtre  
     * les targets ne sont pas au point, voir checkbox
-* image étampe
+* module image étampe(catalogue)
+* module image étampe(enchère)
+* petit train

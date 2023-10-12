@@ -5,11 +5,16 @@
     width: 100%;
     min-height: 40vh;
     text-align: center;
-}
-.accueil *:not(picture){
+} 
+.accueil *{
     position: relative;
     z-index: 1;
 }
+.accueil>picture:first-of-type{
+    position: absolute;
+    z-index: 0;
+}
+
 .accueil h2{
     font-size: var(--fontHuge);
     line-height: 1em;
@@ -21,14 +26,15 @@
 .accueil p{
     text-align: left;
 }
-.accueil header>img{
-    z-index: 0;
-}
-.accueil main{
+
+.accueil main>div{
+    max-width: 800px;
+    margin: auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     gap: var(--gapl);
+    row-gap: var(--gapxl);
 }
 .accueil h3{
     font-size: var(--fontm);
@@ -43,8 +49,9 @@
     border-radius: .4em;
     box-shadow: 2px 2px var(--colorDark);
     padding: var(--gaps);
-    flex:0 0 320px;
+    flex: 0 0 320px;
 }
+
 .accueil section a{
     margin: auto;
 }
@@ -52,5 +59,5 @@
     margin-top: var(--gapl);
 }
 .accueil>*+*{
-    margin-top: var(--gapxl);
+    margin-top: var(--gapxxl);
 }

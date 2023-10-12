@@ -13,11 +13,15 @@
 .box-side span{
     font-size: var(--fontxs);
 }
+.box-side div:first-of-type{
+    flex: 1;
+}
 .box-side>div:nth-child(3){
     background-color: var(--colorNeutral);
     border: var(--borderStd);
     border-radius: .4em;
     box-shadow: inset 1px 1px var(--colorDark);
+    flex:1 1 300px;
     padding: var(--gapxxs);
 }
 .box-side>div:nth-child(2)>div{

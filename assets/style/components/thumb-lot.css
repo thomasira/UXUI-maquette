@@ -34,7 +34,9 @@
 .thumb-lot>div:last-of-type p{
     text-align: right;
 }
-
+.thumb-lot.var-small{
+    flex: 0 0 220px;
+}
 /* rythme */
 .thumb-lot>*+*{
     margin-top: var(--gapxs);
