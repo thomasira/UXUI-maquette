@@ -10,13 +10,16 @@
     position: relative;
     z-index: 1;
 }
+.accueil>img:first-of-type{
+    z-index: 0;
+}
 .accueil>picture:first-of-type{
     position: absolute;
-    z-index: 0;
+    z-index: 1;
 }
 
 .accueil h2{
-    font-size: var(--fontHuge);
+    font-size: var(--fontHuger);
     line-height: 1em;
 }
 .accueil header p{

@@ -11,15 +11,19 @@ export class Train{
     }
 
     #init() {
+        let scroll = false;
+        if(window.scrollY) scroll = window.scrollY;
 
         let containerRect = this.#elContainer.getClientRects()[0];
         
         this.#elContainer.addEventListener('mousemove', (e) => {
 
-            let top = window.scrollY;
             let trainRect = this.#el.getClientRects()[0];
-            let cursorXY = { x: e.clientX, y: e.clientY + top }
-            let angle = Calculatrice.getAngle(cursorXY, trainRect);
+            let pageCursor = { x: e.pageX, y: e.pageY };
+            let windowCursor = { x: e.clientX, y: e.clientY };
+            let angle = Calculatrice.getAngle(windowCursor, trainRect);
+
+            if(scroll) pageCursor.y -= scroll;
 
             let mirror = "";
             if(angle < -90 || angle > 90) {
@@ -27,22 +31,15 @@ export class Train{
                 angle += 180;
             }
 
-            let transform = `rotate(${angle}deg) scaleX(${mirror}1)`;
-            this.#el.style.transform = transform;
+            this.#el.style.transform = `rotate(${angle}deg) scaleX(${mirror}1)`;
 
-
-            if(cursorXY.x + (trainRect.width * 1.5) < containerRect.right &&
-            cursorXY.y + (trainRect.height * 1.5) < containerRect.bottom &&
-            cursorXY.y > containerRect.top) {
-                setTimeout(() => {
-                    let positionY = cursorXY.y - containerRect.y - trainRect.height/2;
-                    let positionX = cursorXY.x - containerRect.x - trainRect.width/2;
-            console.log(positionY)
-
-                    this.#el.style.top = positionY + 'px';
-                    this.#el.style.left = positionX + 'px';
-                }, "700");
-            }
+            setTimeout(() => {
+                let positionY = pageCursor.y - containerRect.y - trainRect.height/2;
+                let positionX = pageCursor.x - containerRect.x - trainRect.width/2;
+                this.#el.style.top = positionY + 'px';
+                this.#el.style.left = positionX + 'px';
+            }, "300");
+            
         });
     }
 
