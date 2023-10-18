@@ -1,5 +1,6 @@
 
 .accueil{
+    padding: 0;
     flex: 1;
     overflow: hidden;
     width: 100%;
@@ -61,6 +62,6 @@
 .accueil header>*+img{
     margin-top: var(--gapl);
 }
-.accueil>*+*{
+.accueil>*:not(:first-child)+*{
     margin-top: var(--gapxxl);
 }

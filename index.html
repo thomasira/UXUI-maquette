@@ -7,7 +7,13 @@
     <meta name="description" content="Des timbres en enchères de toutes les sortes.">
     <title>STAMPEE | maquette accueil</title>
     <link rel="stylesheet" href="assets/style/main.css">
+
     <script type="module" src="./assets/script/main.js"></script>
+    
+    <script src="./assets/script/bootstrap.bundle.min.js" defer></script>
+    <link href="./assets/style/carousel/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/style/carousel/carousel.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -103,16 +109,62 @@
         </aside>
 
 
+
         <main class="accueil"> 
+
+          <!-- train -->
             <picture data-js-train class="train">
                 <img src="./assets/shapes/train-tr.svg" alt="train" loading="lazy">
             </picture>
-            <!-- header -->
-            <header>
-                <p>Bienvenue sur</p>
-                <h2>STAMPEE</h2>
-                <p><small>Le portail où trouver vos timbres</small></p>
-            </header>
+
+            <!-- header + carousel -->
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://i.pinimg.com/736x/1e/eb/36/1eeb367f3b7b83e83d717aec61171cea.jpg" alt="">
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>Bienvenue sur STAMPEE</h1>
+                    <p class="opacity-75">Le portail où trouver tous vos timbres!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.pinimg.com/736x/f0/55/10/f05510ce53532eed0052d4128983eae4.jpg" alt="">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>Some representative placeholder content for the second slide of the carousel.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>One more for good measure.</h1>
+                    <p>Some representative placeholder content for the third slide of this carousel.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
             <img src="./assets/shapes/edge.svg" alt="railway edge" loading="lazy">
 
             <main>
