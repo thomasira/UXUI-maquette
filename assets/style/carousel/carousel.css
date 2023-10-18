@@ -12,6 +12,9 @@
 /* .carousel-item.active>*{
   flex: 1;
 } */
+/* .carousel button{
+  background-color: var(--colorDark);
+} */
 
 .carousel-caption {
   position: relative;
