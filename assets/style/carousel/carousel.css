@@ -7,18 +7,17 @@
 .carousel-item.active{
    display: flex;
    align-items: center;
+   /* transition: display 0s; */
 }
 /* .carousel-item.active>*{
   flex: 1;
 } */
-/* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
   position: relative;
-  bottom: 3rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
 .carousel-item{
   padding: var(--gapxl);
   background:linear-gradient(to left, #fffae900, var(--colorComp), rgba(255, 250, 233, 0));
@@ -37,36 +36,6 @@
   box-shadow: 2px 2px var(--colorDark);
 }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-/* rtl:end:ignore */
-
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-/* rtl:begin:remove */
-.featurette-heading {
-  letter-spacing: -.05rem;
-}
-
-/* rtl:end:remove */
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -79,13 +48,4 @@
     line-height: 1.4;
   }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
 }
