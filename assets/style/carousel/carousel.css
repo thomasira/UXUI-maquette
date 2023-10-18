@@ -1,9 +1,19 @@
 
 .carousel{
   margin: 0;
+  border-bottom: var(--borderStd);
 }
+
+.carousel-item.active{
+   display: flex;
+   align-items: center;
+}
+/* .carousel-item.active>*{
+  flex: 1;
+} */
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
+  position: relative;
   bottom: 3rem;
   z-index: 10;
 }
@@ -24,6 +34,7 @@
   width: 50%;
   object-fit: cover;
   border: var(--borderStd);
+  box-shadow: 2px 2px var(--colorDark);
 }
 
 /* MARKETING CONTENT
