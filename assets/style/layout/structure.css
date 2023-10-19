@@ -47,10 +47,10 @@ body>main>div>section>article:last-of-type a:hover{
 }
 
 /* rythme */
-body>main>main>*+*{
+body>main>section>*+*{
     margin-top: var(--gapm);
 }
-body>main>main>section>*+*{
+body>main>section>section>*+*{
     margin-top: var(--gapm);
 }
 body>main>div>section>article:last-of-type h3+*{
