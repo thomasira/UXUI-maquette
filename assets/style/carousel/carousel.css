@@ -1,45 +1,53 @@
 
 .carousel{
+  margin-top: 0;
   margin: 0;
   border-bottom: var(--borderStd);
 }
-
-.carousel-item.active{
-   display: flex;
-   align-items: center;
-   /* transition: display 0s; */
+.carousel p{
+  color: var(--colorDark);
 }
-/* .carousel-item.active>*{
-  flex: 1;
-} */
-/* .carousel button{
-  background-color: var(--colorDark);
-} */
-
 .carousel-caption {
   position: relative;
   z-index: 10;
 }
 
 .carousel-item{
+  flex-flow: row wrap;
   padding: var(--gapxl);
-  background:linear-gradient(to left, #fffae900, var(--colorComp), rgba(255, 250, 233, 0));
-  height: 32rem;
+  background: linear-gradient(to left, #fffae900 , var(--colorComp), rgba(255, 250, 233, 0));
 }
-.carousel h1{
-  font-size: var(--fontxxl);
+.carousel-item>div{
+  flex: 2;
+}
+.carousel-control-next, .carousel-control-prev{
+  width: 5%;
+}
+
+.carousel h2{
+  font-size: var(--fontxl);
   color: var(--colorDark);
 }
 .carousel img{
-  opacity: .7;
-  height: 50%;
-  width: 50%;
+  flex: 1;
+  opacity: .9;
+  height: 100%;
+  width: 100%;
+  max-height: 400px;
   object-fit: cover;
   border: var(--borderStd);
   box-shadow: 2px 2px var(--colorDark);
 }
-
-
+.carousel-caption {
+  padding: var(--gapxl);
+  right: auto;
+  left: auto;
+  top: auto;
+  bottom: auto;
+}
+.carousel-caption>*+*{
+  margin-top: var(--gapxs);
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

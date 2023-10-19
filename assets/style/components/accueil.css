@@ -62,6 +62,9 @@
 .accueil header>*+img{
     margin-top: var(--gapl);
 }
-.accueil>*:not(:first-child)+*{
+.accueil>*:is(:not(picture)){
     margin-top: var(--gapxxl);
+}
+.accueil>img{
+    margin-top: var(--gapxl);
 }
