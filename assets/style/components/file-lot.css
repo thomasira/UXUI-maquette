@@ -85,9 +85,7 @@
     object-fit: cover;
 }
 .file-lot>div:first-of-type img{
-    display: block;
     height: 100%;
-    width: 100%;
 }
 .file-lot section:last-of-type ul{
     display: flex;
