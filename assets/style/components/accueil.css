@@ -31,7 +31,7 @@
     text-align: left;
 }
 
-.accueil main>div{
+.accueil section>div{
     max-width: 800px;
     margin: auto;
     display: flex;
@@ -43,7 +43,7 @@
 .accueil h3{
     font-size: var(--fontm);
 }
-.accueil section{
+.accueil div>section{
     display: flex;
     flex-flow: column;
     gap: var(--gaps);

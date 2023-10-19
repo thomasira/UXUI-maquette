@@ -109,10 +109,11 @@
 .file-lot header section>div:last-of-type>*+*{
     margin-top: var(--gaps);
 }
-.file-lot main>section>*+*{
+
+.file-lot>div:nth-of-type(2)>div>section>*+*{
     margin-top: var(--gaps);
 }
-.file-lot div>main>*+*{
+.file-lot>div:nth-of-type(2)>div>*+*{
     margin-top: var(--gaps);
 }
 .file-lot>section>div:first-of-type>*+*{
@@ -123,3 +124,4 @@
 .file-lot img:hover{
     cursor: pointer;
 }
+.file-lot>div:nth-of-type(2) {
