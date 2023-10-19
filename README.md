@@ -30,8 +30,10 @@ https://github.com/thomasIRA/UXUI-maquette
 ## Mises à jour
 
 > #### maquette finale - 19/10/2023ç
-> * changer classes bootstrap pour reboot body et a
-> * modifier classe carousel
+> * implementer **carousel** bootstrap
+> * ajouter carrousel page accueil
+> * 
+> * 
 
 
 

@@ -5,7 +5,7 @@ export class Train{
     #elContainer;
     constructor(el) {
         this.#el = el;
-        this.#elContainer = this.#el.closest('main');
+        this.#elContainer = this.#el.closest('section');
 
         this.#init();
     }

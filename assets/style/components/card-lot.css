@@ -23,7 +23,7 @@
 }
 
 /* temps */
-.card-lot th{
+.card-lot thead td{
     font-family: var(--typeHead);
     font-size: var(--fontxs);
     line-height: .8em;

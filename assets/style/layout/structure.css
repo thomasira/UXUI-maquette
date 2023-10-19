@@ -2,17 +2,17 @@ body>main{
     display: flex;
     flex-flow: column;
 }
-body>main>main{
+body>main>section{
     position: relative;
     margin: auto;
     max-width: 1400px;
 }
-body>main>main hgroup{
+body>main>section hgroup{
     background-color: var(--colorMainD);
     color: var(--colorLight);
     padding: var(--gapTHxxs) var(--gaps);
 }
-body>main>div, body>main>main{
+body>main>div, body>main>section{
     padding: var(--gaps);
 }
 body>main>div{
@@ -63,7 +63,7 @@ body>main>div>section>article:last-of-type>*+*{
 /* queries */
 @media screen and (min-width: 500px) {
 
-    body>main>div, body>main>main{
+    body>main>div, body>main>section{
         padding: var(--gapl);
     }
 }
