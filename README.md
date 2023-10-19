@@ -14,29 +14,14 @@ e2395387
 * [Fonctionnalitées](#sur-les-fonctionnalitées)
 * [Javascript](#sur-le-js)
 
-## Liens  
-
-**webdev**:  
-* **page accueil**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette
-* **page catalogue**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette/catalogue.html
-* **page enchère**: https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette/enchere.html
-
-**figma**:   
-https://www.figma.com/proto/TojHhJMTOzK8Yy7I9FIPIG/Analyse-de-projet?type=design&node-id=29-460&t=j48LX1jvYfjnqQ12-1&scaling=scale-down-width&page-id=0%3A1&mode=design  
-
-**github**:  
-https://github.com/thomasIRA/UXUI-maquette  
-
 ## Mises à jour
 
-> #### maquette finale - 19/10/2023ç
+> #### maquette finale - 19/10/2023
 > * implementer **carousel** bootstrap
 > * ajouter carrousel page accueil
-> * 
-> * 
-
-
-
+> * valider *(voir [validation](./validation/validation.md))*
+> * changer **main** interne pour **section**
+> * ajouter [texte de présentation](./presentation.pdf)
 
 > #### maquette n3 - 11/10/2023
 > * ajouter la page [accueil](#page-accueil)
@@ -53,11 +38,24 @@ https://github.com/thomasIRA/UXUI-maquette
 > * fixer bug sur séléction filtre
 > * rajouter fonctionnalitée sur image hover 
 
+## Liens  
+
+**webdev**:  
+* **[page accueil](https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette)**
+* **[page catalogue](https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette/catalogue.html)**
+* **[page enchère](https://e2395387.webdev.cmaisonneuve.qc.ca/UXUI-maquette/enchere.html)**
+
+**figma**: **[Analyse et presentation](https://www.figma.com/proto/TojHhJMTOzK8Yy7I9FIPIG/Analyse-de-projet?type=design&node-id=29-460&t=j48LX1jvYfjnqQ12-1&scaling=scale-down-width&page-id=0%3A1&mode=design)**
+
+
+**github**: **[UXUI-maquette](https://github.com/thomasIRA/UXUI-maquette)**
+
+
 ## Notes
 
 ### Approche générale et psychologie
 
-Afin d'inciter les gens à miser et interagir avec les différentes fonctionnalitées, le site est parsemé de couleurs vives qui attirent l'oeil et invitent à l'action. Le design UX/UI est axé autour d'une **psychologie de lotterie** où l'usager est influencé à voir ses mises comme un jeu et reçoit réellement sa récompense(dopamine) lors de la mise et de l'attente d'un résultat plutôt que le résultat en soi. Pensez aux billets de lotterie ou aux machines à sous.
+Afin d'inciter les gens à miser et interagir avec les différentes fonctionnalitées, le site est parsemé de couleurs vives qui attirent l'oeil et invitent à l'action. Le design UX/UI est axé autour d'une **psychologie de lotterie** où l'usager est influencé à voir ses mises comme un jeu et reçoit réellement sa récompense lors de la mise et de l'attente d'un résultat plutôt que le résultat en soi. Pensez aux billets de lotterie ou aux machines à sous.
 
 ### Choix graphiques 
 

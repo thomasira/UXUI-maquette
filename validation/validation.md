@@ -20,3 +20,7 @@ La performance tourne autour de 90 points où les scripts de bootstrap et l'impr
 #### `Wave`
 
 Les analyses de **Wave** ne contiennent pas d'erreurs. Les avertissements sont les mêmes que **W3C**
+
+#### `Network`
+
+Aucunes erreurs
