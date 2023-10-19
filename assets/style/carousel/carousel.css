@@ -14,14 +14,34 @@
 
 .carousel-item{
   flex-flow: row wrap;
+  gap: var(--gapl);
   padding: var(--gapxl);
   background: linear-gradient(to left, #fffae900 , var(--colorComp), rgba(255, 250, 233, 0));
 }
+.carousel-item:first-of-type>div>div{
+  text-align: right;
+  align-items: end;
+}
+.carousel-item:nth-of-type(2)>div>div{
+  text-align: center;
+  align-items: center;
+}
+.carousel-item:last-of-type{
+  text-align: left;
+  align-items: start;
+}
+.carousel-caption p{
+  text-align: inherit;
+}
 .carousel-item>div{
-  flex: 2;
+  flex: 1 1 400px;
+}
+.carousel-item>div>div{
+  display: flex;
+  flex-flow: column;
 }
 .carousel-control-next, .carousel-control-prev{
-  width: 5%;
+  width: 15%;
 }
 
 .carousel h2{
@@ -29,7 +49,7 @@
   color: var(--colorDark);
 }
 .carousel img{
-  flex: 1;
+  flex: 1 0 300px;
   opacity: .9;
   height: 100%;
   width: 100%;
